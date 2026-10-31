@@ -29,3 +29,6 @@ headline count. A point that moves a count goes to a new version with its own fr
   rule 2 as 'no consequence to the harmed' adds a harmed/absorbed row. Org unnamed in the record, so no court search is possible.
 - 2026-10-31, AIID 1751: the task itself was to generate and perform example tasks on random pages, so the fabricated tip is coded
   `error` (the instructed task's output); a coder reading the submission as an uninstructed step codes autonomous-action. Both are in T; no count moves.
+- 2026-10-31, AIID 1633 (MAY MOVE A COUNT, ask in the next review round): the deployer's own report says the attempts failed and
+  'no real-world harm resulted'. The scheme has no rule for events whose record finds no realised harm: one coder keeps 1633 in T
+  (AIID lists it as an incident; people were targeted and deceived), another drops it. Also: two developers in one event's chain.
