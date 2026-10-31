@@ -47,3 +47,4 @@ headline count. A point that moves a count goes to a new version with its own fr
   attempts as events and prints their number beside T (1710 joins them). 1313 misuse, 1751, 1784, 1707 confirmed not blocking.
   The clean-round count restarts: freeze needs rounds 25 and 26 to return NONE.
 - 2026-10-31 18:50, round 25: round-24 fixes confirmed; one new point (realised harm for the no-harm number: 1779, 1751) -> v24. Rows unchanged. Rounds 26 and 27 must be NONE before a freeze.
+- 2026-10-31 18:59, round 26: NONE (first clean round on v24). Open cases to OPEN-CASES.md, no text change, so round 27 can confirm.

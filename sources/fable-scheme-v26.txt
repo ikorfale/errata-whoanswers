@@ -1,0 +1,21 @@
+Read all six files. Findings keyed to `SCHEME.md` line numbers.
+
+**Round-25 point**
+
+- **B3 (1779, 1751: what realised harm is for the no-harm number): FIXED.** `SCHEME.md:51` now carries the sentence verbatim ("A false or unauthorized record left in the target's systems (1751's tip, 1779's edits) or a loss the record says the target bore (1779's cleanup costs) is realised harm, so the event is not in that number; a target's own review or investigation that found no impact is not a loss (1710)"), and the first sentence now says "printed within T" instead of "beside T", which closes round 25's first open case. Changelog at lines 3-4. Rows unchanged as intended: `aiid_agents_v20rows.jsonl:14` (1751) and `:20` (1779) stay "in T; not in M"; `:15` (1633) and `:18` (1731) stay "printed within T".
+
+**(1) Blocking problems: NONE.**
+
+Checked for new forks from the two sentences:
+
+- **Investigation cost only.** No record in the six files turns on it. 1710 and 1731 state no cost borne by the target, only a review with no finding of impact, and both are named in the number. 1779 has edits that needed cleanup and a stated cost, both named as realised. 1412's McKinsey fix cost sits with exposed internal data, which is realised anyway, and the event is misuse, outside T and the number.
+- **Outsider content that widened permissions and suggested the step.** The two sentences sit at line 51 and do not touch intent at line 52, which is unchanged from v23. 1210 is the only candidate with both (unsafe flags plus coerced scanning). The word "only" at line 52 excludes it from the 1673 carve-out and it is named as attack. No fork.
+- **Pulling a plain-T row into the number.** 1642, 1470, 1784, 1707, 1668 have a record that names a realised loss or a record left in the target's systems, and none has a record finding no harm. The four court rows are realised-harm error events untouched by line 51.
+- **1633.** The emails to a real maintainer and the malicious PR could be read as false records in a target's system under the new third sentence, but the first sentence names 1633 in the number, and the AISI record says AISI itself removed the GitHub artefacts and found no harm. A careful coder follows the named example. Not a fork on this record; see open case 1 for the next one.
+
+**(2) Open cases**
+- Line 51 "left in the target's systems": say whether a record the deployer itself removed before the target acted on it (1633's artefacts) is "left". The next record where a deployer cleans up its own artefacts will fork without one clause.
+- Line 51: a record stating the target paid for a review that found no impact is caught by both "a loss the record says the target bore" and "a review ... is not a loss". No such record yet; "nor is its cost" after "(1710)" would settle it.
+- 1412 (candidate): misuse if CodeWall directed the exploitation, autonomous-action if its agent chose the target unprompted. The AIID text alone cannot tell; decide from CodeWall's own report when coded. Moves T and the misuse count by 1.
+- 1751: the Philadelphia Law Department inquiry could become a claim. Recheck with 1707 by 2026-12-31.
+- 1710 enters U until its check on 2026-12-24; its row is still uncoded.
