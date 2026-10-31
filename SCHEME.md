@@ -1,4 +1,4 @@
-# Who Answers — coding scheme v9 (2026-10-31, not frozen)
+# Who Answers — coding scheme v10 (2026-10-31, not frozen)
 
 v1 -> v2: all 17 points of a second-model review (fable-scheme-v1.txt) applied. Main changes: a bearer exists only
 where a consequence is recorded; `reachable` (who the deciding forum could touch) next to every bearer count;
@@ -18,12 +18,12 @@ person can appear in many events (`person_id`, within source). Headline counts a
 | `harm` | misinformation-to-court, financial, physical, psychological, privacy, discrimination, property/data, other | as the record names it |
 | `harmed` | court/public, client, user, third party, operator-self | `operator-self`: agent harmed its own operator (deleted DB) |
 | `n_harmed` | 1, 2-10, 11-1000, >1000, unknown | |
-| `chain` | ordered list: developer (foundation model maker) -> vendor(s) (wrappers, resellers) -> deployer -> user | CoCounsel = vendor, its base model = developer |
+| `chain` | ordered list: developer (foundation model maker) -> vendor(s) (wrappers, resellers) -> deployer -> user | CoCounsel = vendor, its base model = developer; the party that itself serves the product to the user or outsider holds the deployer role too, even when it is also the developer (OpenAI serving ChatGPT) |
 | `autonomy` | advisory, acted-with-approval, acted-without-approval | Air Canada chatbot = advisory |
 | `operator` | user-chosen, deployer-integrated | |
 | `tool_named` | yes, disputed, no | Thomson Reuters rows = disputed |
 | `vendor_voice` | n/a (no tool named), none, denial, acknowledgment, fix-announced | |
-| `claims` | list of (party, ground): one entry per ground pleaded or decided against each named party or respondent in the forum of one of `records` | ground: building-the-model, operating-or-publishing, professional-duty, other, unstated |
+| `claims` | list of (party, ground): one entry per ground pleaded or decided against each named party or respondent in the forum of one of `records` | ground: building-the-model, operating-or-publishing, professional-duty, other, unstated (= the record names no ground; a record not yet read is not coded at all) |
 | `reachable` | derived per bucket from `claims` (see Headline), never coded by hand | |
 | `last_checked` | date | |
 
@@ -36,7 +36,7 @@ person can appear in many events (`person_id`, within source). Headline counts a
 | `kind` | warning, admonishment, fine-to-court, costs-or-damages-to-party, professional sanction, referral (pending, not a sanction), dismissal-as-sanction, striking, injunction/order, settlement, refund/credit, correction/withdrawal, product change, system withdrawn, apology |
 | `amount`, `currency`, `payee` | as recorded; payee: court, opposing party, harmed, fund, unknown |
 | `status` | final, pending (incl. appealed) — per consequence, not per event |
-| `claim` | the (party, ground) entry of `claims` this consequence answers; a settlement with no stated ground answers every claim against that party |
+| `claim` | the (party, ground) entry of `claims` this consequence answers; one row per bearing party; `(party, *)` answers every claim against that party (a settlement with no stated ground) |
 
 No consequence recorded -> **no row**, and the event is `outcome=unknown`. Never infer a bearer.
 
@@ -53,8 +53,8 @@ No consequence recorded -> **no row**, and the event is `outcome=unknown`. Never
 
 ## Headline (the only cross-party comparison published)
 
-Review history: v1 -> v9 through eight blocking-only reviews by a second model (fable-scheme-v1..v8.txt; 17, 6, 6, 5,
-4, 4, 2, 2 points, all applied) plus one board point (zenith-claude, #109766: code the ground of liability, not only
+Review history: v1 -> v10 through nine blocking-only reviews by a second model (fable-scheme-v1..v9.txt; 17, 6, 6, 5,
+4, 4, 2, 2, 3 points, all applied) plus one board point (zenith-claude, #109766: code the ground of liability, not only
 the defendant's name). This section is the consolidated rule; older wordings are void.
 
 **Scope.** Per source (Charlotin, AIID), never pooled. `unit_type=event`, intent error or autonomous-action.
@@ -84,10 +84,14 @@ ground). In Charlotin the filer (lawyer or pro se) is always reachable.
    responses, never as `settled`). Employer discipline of a staff member makes that person reachable in the operator
    bucket: the employer is the forum.
 1. `imposed-final` — a final imposed consequence in the bucket (answering one of the bucket's claims). Referral, order to show cause, hearing set, or any step inviting a
-   later decision is never final.
+   later decision is never final. Interim or preliminary relief (TRO, preliminary injunction, einstweilige
+   Verfügung) is `pending` until the record shows a final judgment, a closing declaration, or that the challenge
+   period lapsed unchallenged.
 2. `pending` — a claim in the bucket still live and nothing imposed-final. Beside the share print how many N events
    still have another live claim in the bucket.
-3. `settled` — claim ended with the party bearing a settlement, refund, or a fix it links to the event.
+3. `settled` — claim ended with the party bearing a settlement, refund, or a fix it links to the event. A settlement
+   is `settled` only when the record shows the claim ended (dismissal entered or settlement approved); an announced
+   settlement or one in principle is `pending`.
 4. `dropped` / `not-reached` — plaintiff-initiated or without-prejudice dismissal with no reason; dismissal for
    jurisdiction, standing, arbitration, mootness; any stipulated dismissal with prejudice (never `cleared`).
 5. `cleared` — the record states a merits or sanctions ruling with nothing imposed. In Charlotin only when the
