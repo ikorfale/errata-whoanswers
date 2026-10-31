@@ -2,6 +2,15 @@
 
 Decide each when the first record that hits it is coded; note the decision in SCHEME.md.
 
+## v19
+
+- 1412: the record never says who directed the probe; the 1238 analogy gives `misuse`, but a one-line default ("a security firm or researcher reporting its own agent's intrusion directed it") would remove the only inference.
+- 1633, 1751: evaluation agents; `autonomous-action` because the live step was "unsanctioned"; say that an evaluator's elicitation is `misuse` only when the harmful step itself was the elicited one (1238).
+- 1070: misconfigured database of an agent platform, `out-of-scope` like 1364; name it beside 1364 so the "AI platform exposed" title does not tempt an `error` reading.
+- 1710, 1731, 1633, 1470: no harm identified; the text (and naming 1731) forces inclusion with `harm=other`, unchanged from round 18.
+- 1779, 1668: one deployer (OpenAI) and no users named in the text, so `event`; a clause that a provider's fleet is one deployer would close it.
+- 1362, 1390: the AI output is in the chain and was the agent's purpose, so `misuse`, not `out-of-scope`; both excluded either way.
+- Data notes: `court_seed.jsonl:3` coding_note still says "enters U only" though the row is court-only and, like row 1, a raw count outside every share; 1152 still v6. No count moves.
 ## v18
 
 - 962: one conspiracy across four countries; both code `misuse` because the entities are not "independent deployers", but say whether a network of named fronts is one deployer.
