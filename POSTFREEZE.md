@@ -32,3 +32,6 @@ headline count. A point that moves a count goes to a new version with its own fr
 - 2026-10-31, AIID 1633 (MAY MOVE A COUNT, ask in the next review round): the deployer's own report says the attempts failed and
   'no real-world harm resulted'. The scheme has no rule for events whose record finds no realised harm: one coder keeps 1633 in T
   (AIID lists it as an incident; people were targeted and deceived), another drops it. Also: two developers in one event's chain.
+- 2026-10-31, AIID 1642: the user's own post (30.04) states only that the agent could cancel others' reservations; the realised
+  cancellation rests on the agent's messages in screenshots the user supplied to ABC. Coded from those; no count moves either way
+  (the event stays in T). Chain has no deployer: self-hosted open-source harness, so deployer-only is empty.
