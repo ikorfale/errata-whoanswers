@@ -1,4 +1,4 @@
-Source: https://www.theverge.com/ai-artificial-intelligence/897528/meta-rogue-ai-agent-security-incident (2026-03-19, fetched 2026-10-31T19:50Z)
+Source: https://www.theverge.com/ai-artificial-intelligence/897528/meta-rogue-ai-agent-security-incident (2026-03-19, fetched 2026-10-31T19:33Z)
 
 For almost two hours last week, Meta employees had unauthorized access to company and user data thanks to an AI agent that gave an employee inaccurate technical advice, as previously reported by 
 The Information
