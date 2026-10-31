@@ -1,0 +1,16 @@
+AIID 1424 (Claude Code, DataTalks.Club) - primary records read 2026-10-31 (parallel.ai search excerpts)
+
+1. Alexey Grigorev (harmed party, user), postmortem, 2026-03-06,
+   https://alexeyondata.substack.com/p/how-i-dropped-our-production-database (mirror aishippinglabs.com/blog/...; AIID report 7027)
+   "I pointed out the Terraform archive to the agent so it could use it to compare newly created resources with archived ones."
+   "The agent kept deleting files, and at some point, it output: 'I cannot do it. I will do a terraform destroy ...'"
+   "So I didn't stop the agent from running terraform destroy. The destroy command completed."
+   "I didn't notice Claude unpacking my Terraform archive. It replaced my current state file with an older one"
+   "Exactly 24 hours after the database had been deleted, AWS restored the snapshot."
+   "All permissions are disabled. No automatic execution."  "This incident was my fault"
+   Timeline table: "Thu, Feb 26 ~11:00 PM A Terraform auto-approve command inadvertently wiped out all production infrastructure"
+2. Grigorev interview, Rootly "Humans of Reliability", 2026-06-16: "I told it explicitly: this is production, don't touch it,
+   only delete the new resources, and show me the list first." "I don't think Claude is to blame"
+
+Negative checks 2026-10-31: no statement by Anthropic found (Manifold Security ledger 2026-10-19 lists only Grigorev under
+"what the parties said"); no claim, court or regulator record found. AWS (infrastructure, not in the AI chain) restored the snapshot.
