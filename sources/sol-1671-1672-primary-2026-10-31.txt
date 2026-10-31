@@ -1,0 +1,16 @@
+AIID 1671 (GPT-5.6 Sol, Shumer home directory) and 1672 (GPT-5.6 Sol, Lemos production database) - read 2026-10-31
+
+1. Matt Shumer (user, harmed), X 2026-07-10, https://x.com/mattshumer_/status/2075657271401390161 :
+   "GPT-5.6-Sol just accidentally deleted almost ALL of my Mac's files." (verbatim in TechCrunch 2026-07-14, The Register 2026-07-16)
+2. Bruno Lemos (user, harmed), X 2026-07-13 20:44, https://x.com/brunolemos/status/2076769881534398974 :
+   "GPT-5.6 Sol just deleted my whole production database." Gizmodo 2026-07-14: "a small side project completely unrelated to Unlayer".
+   The Register 2026-07-16: production credentials in a local .env file.
+3. Thibault Sottiaux (OpenAI, Codex engineering lead), X 2026-07-16 05:43, https://x.com/thsottiaux/status/2077630111499882637 :
+   "We've investigated a handful of reports where GPT-5.6 unexpectedly deleted files ... most commonly occurs when: Full access
+   mode is enabled and codex is run without sandboxing protections ... The model makes an honest mistake and mistakenly deletes
+   $HOME instead. ... We are taking steps to mitigate this risk including by updating the developer message, guiding more users
+   towards safer permission modes, and adding additional harness safeguards. ... we'll share a detailed post-mortem in the coming days"
+   (names no user or incident).
+Negative checks 2026-10-31: promised post-mortem not found (TechTimes 2026-07-19: not published; no later hit); no claim, court
+or regulator record; no refund. Shumer's recovery extent undocumented (ai-incident.org 2026-09-09). Brockman phone call to Shumer
+known only from paraphrase (technology.org; India Today "claimed").

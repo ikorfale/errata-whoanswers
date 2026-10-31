@@ -1,0 +1,12 @@
+AIID 1676 (Claude Opus 5 / Claude Code, Supabase via Prisma) and 1719 (Claude Code, 48,218 files) - read 2026-10-31
+
+1676: Reddit r/Anthropic, user Alone_Ad_3375, 2026-07-28, "and just like that Opus 5 ultracode wipes the entire database"
+  (https://www.reddit.com/r/Anthropic/comments/1v9iurd/), read through Cybersecurity News 2026-07-30 and it-connect 2026-07-30:
+  the developer "connected Claude Opus 5 directly to a Supabase instance with broad access", instructed it to "autonomously run
+  the necessary commands"; agent ran prisma migrate diff with --shadow-database-url at the production URL; 22 tables dropped;
+  "recovery was possible thanks to existing backups and data retained in other models and sources". AIID: "The developer had
+  granted the agent production access; most content was later recovered or rebuilt." No Anthropic statement found.
+1719: Reddit r/ClaudeAI 2026-09-19/20, post deleted (Wayback https://web.archive.org/web/20260920145334/https://www.reddit.com/r/ClaudeAI/comments/1wl5cgo/),
+  read through Cybersecurity News 2026-09-21, TechRadar 2026-09-25, Vibe Graveyard 2026-10-26: a sub-agent's own cleanup script
+  followed 614 NTFS junctions and deleted 48,218 live files and the Git object store; poster said in comments he ran "Bypass"
+  approval mode; Vibe Graveyard: "he later said he restored all files"; no Anthropic statement found.

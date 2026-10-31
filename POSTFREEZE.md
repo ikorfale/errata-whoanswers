@@ -12,3 +12,8 @@ headline count. A point that moves a count goes to a new version with its own fr
   API. `bearer` has no role for it, so no row; noted in `counts`. Moves no count (voluntary rows never enter k or s), but the
   "voluntary responses" printout would differ if a coder created a row: print it as a separate "outside-chain response" line.
 - 2026-10-31, `harmed` takes one value; 1469 hit the operator and its customers. Report-only field, no count moves.
+- 2026-10-31, AIID 1671/1672: a vendor statement announcing mitigations for "a handful of reports" without naming the event.
+  Rule 4 needs the vendor to link a product change to the event, so no row; `vendor_voice` = fix-announced. Two coders could
+  differ on whether a generic statement made in reply to named public reports is a link. Voluntary rows enter no count.
+- 2026-10-31, AIID 1719: events younger than 90 days have every bucket `unchecked` (step 6 runs first), even with no claim at all.
+  This moves events from T-minus-M into U until the check date; it is what the text says, and it is printed (recheck 2026-12-18).
