@@ -1,4 +1,4 @@
-# Who Answers — coding scheme v20 (FROZEN 2026-10-31 14:17Z, commit 3fba976)
+# Who Answers — coding scheme v21 (DRAFT; v20 was frozen 2026-10-31 14:17Z, commit 3fba976, and reopened by round 21)
 
 v1 -> v2: all 17 points of a second-model review (fable-scheme-v1.txt) applied. Main changes: a bearer exists only
 where a consequence is recorded; `reachable` (who the deciding forum could touch) next to every bearer count;
@@ -26,6 +26,8 @@ v18 -> v19 (fable-scheme-v18.txt, narrow test, two points): agent-run intrusions
 them; a suit where the AI output is only evidence gives no claims entry. Open non-blocking cases: OPEN-CASES.md.
 v19 -> v20 (fable-scheme-v19.txt, narrow test, one point): a wave of outputs about one news event is one event;
 fronts of one operation are one deployer.
+v20 -> v21 (fable-scheme-v21.txt, confirmation round after the v20 freeze, one point): an unreachable bucket is
+`no-claim` only after the 90-day check; before it, `unchecked` (moves U by 4 AIID events: 1675, 1710, 1719, 1776).
 
 Unit: one **event** = one harmful episode attributed (in part) to an AI system. Sources give *records* (a court
 decision, an incident page, a filing); several records can belong to one event (`event_id`, cross-source) and one
@@ -37,7 +39,7 @@ person can appear in many events (`person_id`, within source). Headline counts a
 |---|---|---|
 | `event_id`, `records` | id; list of (source, source id) | Mata v. Avianca in Charlotin + AIID + press = one event. Every lawsuit or regulator record is matched against both Charlotin and AIID before coding; `records` carries the match or an explicit negative with the snapshot date checked |
 | `unit_type` | event, pattern, practice, out-of-scope | discrimination suits, GDPR fines, FTC orders are pattern/practice; reported apart. An AIID incident is one `event` whatever its victim count; it is `pattern` only when its text names no single dated episode and aggregates independent deployers or users (AIID 1734, 1774). The dated episode may be the occasion the outputs answer to, so a wave of independent users' outputs about one news event is one `event` (1358, like 1334); named fronts of one operation are one deployer (962 is `event`). `out-of-scope`: no AI system's output or action is in the causal chain (a leaked database of an AI company, AIID 1364, 1070); counted beside T |
-| `intent` | error, autonomous-action, misuse, attack | **headline uses error + autonomous-action only**; misuse and attack are reported apart, each with its own count. `misuse`: the harmful step was the purpose of the operator or user who directed the system (deepfake fraud, jailbreak tests such as AIID 1238). `attack`: an outsider caused the harmful step through the system (prompt injection, malware coercing an agent: AIID 1003, 1210). `autonomous-action`: the system took a step nobody instructed. `error`: an instructed task produced a wrong output or decision (AIID 1334: users asked for an identification, the fabricated face and name were not their purpose). An intrusion run by an agent takes the intent of whoever directed it: `attack` when a party outside the system's chain hijacked it (1003, 1210), `misuse` when its own operator directed it (1661, 1766, 1781), `autonomous-action` when nobody instructed it (1731, 1707, 1642). Attribution of the AI step by the source suffices for scope (1130, 1563) Precedence when several apply: out-of-scope, then pattern/practice, then attack, then misuse |
+| `intent` | error, autonomous-action, misuse, attack | **headline uses error + autonomous-action only**; misuse and attack are reported apart, each with its own count. `misuse`: the harmful step was the purpose of the operator or user who directed the system (deepfake fraud, jailbreak tests such as AIID 1238). `attack`: an outsider caused the harmful step through the system (prompt injection, malware coercing an agent: AIID 1003, 1210). `autonomous-action`: the system took a step nobody instructed. `error`: an instructed task produced a wrong output or decision (AIID 1334: users asked for an identification, the fabricated face and name were not their purpose). An intrusion run by an agent takes the intent of whoever directed it: `attack` when a party outside the system's chain hijacked it (1003, 1210), `misuse` when its own operator directed it (1661, 1766, 1781), `autonomous-action` when nobody instructed it (1731, 1707, 1642). Attribution of the AI step by the source suffices for scope (1130, 1563). Precedence when several apply: out-of-scope, then pattern/practice, then attack, then misuse |
 | `harm` | misinformation-to-court, misinformation-about-person, financial, physical, psychological, privacy, discrimination, property/data, other | as the record names it |
 | `harmed` | court/public, client, user, third party, operator-self | `operator-self`: agent harmed its own operator (deleted DB) |
 | `n_harmed` | 1, 2-10, 11-1000, >1000, unknown | |
@@ -111,7 +113,8 @@ hallucination is the forum raising the filer's own duty; so the filer is reachab
 anything else leaves the bucket `unchecked`. A `read: no` claim or `status: unchecked` consequence leaves the bucket
 `unchecked` only when no forum record deciding or ending a claim in that bucket was read; otherwise it is ignored for
 steps 0 to 5 and its count is printed beside R and N.
-0. `no-claim` — the bucket is not in `reachable`. Outside N, P, R and U; counted only in T minus M. A voluntary
+0. `no-claim` — the bucket is not in `reachable` and a dated check >= 90 days after the event found no claim; an unreachable
+   bucket not yet checked that late is `unchecked` (step 6) until it is. Outside N, P, R and U; counted only in T minus M. A voluntary
    refund, apology or fix with no claim brought stays `no-claim` (it is printed as a separate count of voluntary
    responses, never as `settled`). Employer discipline of a staff member makes that person reachable in the operator
    bucket: the employer is the forum.

@@ -1,0 +1,26 @@
+Read all four files. One finding under the narrow test this round, and it is one that round 20 missed.
+
+**(1) Blocking problems**
+
+1. **Fresh events with no claim: `unchecked` (U) or `no-claim`.** The resolution preamble at `SCHEME.md:109-111` says both step-6 tests run first, including "a dated check >= 90 days after the event", and step 6 at `SCHEME.md:143` makes a missing 90-day check `unchecked`. Step 0 at `SCHEME.md:114` makes an unreachable bucket `no-claim`, outside U. Nothing says which wins for a bucket with no claim and an event too young for the check. Four T candidates are younger than 90 days on 2026-10-31:
+
+| incident_id | date | age at coding | claims |
+|---|---|---|---|
+| 1675 | 2026-08-21 | 71 days | none |
+| 1719 | 2026-09-19 | 42 days | none |
+| 1710 | 2026-09-25 | 36 days | none |
+| 1776 | 2026-09-26 | 35 days | none |
+
+   Coder A follows "run first" and codes all three buckets `unchecked`. The AIID source then prints U = 4 in the model-maker, operator and deployer-only buckets. Coder B derives `reachable` as empty, stops at step 0, codes `no-claim`, and prints U = 0. T and M are the same either way. My round-20 review took reading B for all 28 T events without applying the 90-day test, so the table there is itself the evidence that a careful reader lands on B while the literal text gives A.
+
+   Minimal fix, recommended direction, at step 0: "`no-claim` — the bucket is not in `reachable` and a dated check >= 90 days after the event found no claim; an unreachable bucket checked earlier is `unchecked` (step 6)." If the opposite is intended, add instead at `SCHEME.md:110`: "The 90-day test applies only to buckets in `reachable` and to `absorbed` rows; an unreachable bucket is `no-claim` at any age."
+
+Everything else holds as in round 20. Moffatt is deployer-only imposed-final and enters k. Garcia is settled in model-maker and deployer-only and enters s and M. Walters and Campact stay court-only raw counts. The 51 candidates still split 28 T, 17 misuse, 2 attack, 2 pattern, 2 out-of-scope, with no coder-dependent crossing between those counts.
+
+**(2) Open cases**
+
+- 1412 misuse versus autonomous-action rests on the 1238 analogy, and 1373 and 1710 on the 1731 analogy; a one-line default for a record silent on who directed the agent would close all three.
+- 1751, 1633: evaluation agents stay autonomous-action because the harmful step was not what the evaluator elicited; still not stated in the text.
+- 1675: the AI summary is taken as the episode; a coder who treats the email retention itself as the harm has no out-of-scope basis, so T either way.
+- 1710, 1731, 1633, 1470: no harm identified, kept with `harm=other` because the scheme has no exit value.
+- Data notes unchanged: 1152 still v6 with an `absorbed` row beside a recorded fix, Campact note still says "enters U only", missing full stop before "Precedence" at `SCHEME.md:40`.
