@@ -1,4 +1,4 @@
-# Who Answers — coding scheme v16 (2026-10-31, not frozen)
+# Who Answers — coding scheme v17 (2026-10-31, not frozen)
 
 v1 -> v2: all 17 points of a second-model review (fable-scheme-v1.txt) applied. Main changes: a bearer exists only
 where a consequence is recorded; `reachable` (who the deciding forum could touch) next to every bearer count;
@@ -17,6 +17,8 @@ deciding that bucket was read; finality is read in the forum's docket or registe
 amend clears only through a closing judgment; an employer's responsibility for its staff's filing is professional-duty.
 v15 -> v16 (fable-scheme-v15.txt, one blocking point): employer discipline is final when the employer's statement
 records the measure as taken.
+v16 -> v17 (fable-scheme-v16.txt, three points): any step-6 record can show discipline taken; a `read: no` claim
+takes the summary's ground; a verbatim attributed employer statement in press counts.
 
 Unit: one **event** = one harmful episode attributed (in part) to an AI system. Sources give *records* (a court
 decision, an incident page, a filing); several records can belong to one event (`event_id`, cross-source) and one
@@ -38,7 +40,7 @@ person can appear in many events (`person_id`, within source). Headline counts a
 | `permission_source` | user-task-grant, operator-standing-config, vendor-default, unknown | autonomous-action events only: who granted the permission the agent used for the harmful step (slate-compass, #109799). Report-only: never enters k, s or N; cross-tabbed with bearer to show whether users pay for defaults a vendor chose |
 | `tool_named` | yes, disputed, no | Thomson Reuters rows = disputed |
 | `vendor_voice` | n/a (no tool named), none, denial, acknowledgment, fix-announced | |
-| `claims` | list of (party, ground): one entry per ground pleaded or decided against each named party or respondent in the forum of one of `records` | ground = the cause of action or duty pleaded or ruled on as such: building-the-model (product liability, design defect, negligent development), operating-or-publishing (defamation, misrepresentation, negligence or consumer claims against the service as offered), professional-duty (the filer's own professional obligations, and an employer's responsibility for its staff member's filing), other, unstated (the record names none). Facts a court weighs inside another ground's element (design care as evidence of a publisher's fault) do not create a ground. Each entry carries `read`: yes (the forum record or Charlotin's fields were read) or no. A claim known only from press, trackers or summaries is coded with `read: no`; it makes the bucket reachable, resolves `unchecked`, and the number of such entries is printed beside M |
+| `claims` | list of (party, ground): one entry per ground pleaded or decided against each named party or respondent in the forum of one of `records` | ground = the cause of action or duty pleaded or ruled on as such: building-the-model (product liability, design defect, negligent development), operating-or-publishing (defamation, misrepresentation, negligence or consumer claims against the service as offered), professional-duty (the filer's own professional obligations, and an employer's responsibility for its staff member's filing), other, unstated (the record names none). Facts a court weighs inside another ground's element (design care as evidence of a publisher's fault) do not create a ground. Each entry carries `read`: yes (the forum record or Charlotin's fields were read) or no. A claim known only from press, trackers or summaries is coded with `read: no`; it makes the bucket reachable, resolves `unchecked`, and the number of such entries is printed beside M. A `read: no` entry takes the ground the summary names, or `unstated` if it names none |
 | `reachable` | derived per bucket from `claims` (see Headline), never coded by hand | |
 | `last_checked` | date the forum's own docket or decision was last read (not a tracker or press summary); a `pending` resolution is published only with such a check within the publication window; `imposed-final` and `cleared` need a docket read after the appeal period (step 1, step 5). Tracker appeal checks are not accepted | |
 
@@ -109,7 +111,8 @@ steps 0 to 5 and its count is printed beside R and N.
 1. `imposed-final` — a final imposed consequence in the bucket (answering one of the bucket's claims). Final only when
    the docket or register of the forum, or of the court to which an appeal or review would lie, read after the appeal
    period, shows no appeal or review, or the record states the ruling is unappealable, or a finality certificate is in
-   the record; employer discipline is final when the employer's statement (step 6) records the measure as taken;
+   the record; employer discipline is final when a step-6 record of the discipline (the employer's statement, or the
+   court or bar record noting it) records the measure as taken;
    a measure announced as proposed, under review or reversed is `pending`;
    docket showing an appeal -> `pending`; docket not read for appeal -> `unchecked`. Charlotin rows: Charlotin's fields
    decide finality (the printed Charlotin bias). Referral, order to show cause, hearing set, or any step inviting a
@@ -132,8 +135,9 @@ steps 0 to 5 and its count is printed beside R and N.
    Outcome records that the court considered sanctions and declined; a hallucination merely noted is `not-reached`.
 6. `unchecked` — no dated check >= 90 days after the event, or a claim or consequence known only from press, trackers
    or law-firm summaries (the forum's own record not read). Unchecked buckets enter U and nothing else. For employer
-   discipline the forum record is the employer's own published statement, or a court or bar record noting the
-   discipline; a press paraphrase alone is not.
+   discipline the forum record is the employer's own statement, on its channels or quoted verbatim and attributed to
+   it in press (a paraphrase alone is not), or a court or bar record noting the
+   discipline.
 
 **N** = events with resolution imposed-final, settled or cleared, per bucket. P, R and U are per bucket too, printed
 beside that bucket's N; an event with claims in two buckets can be in N of one and P of the other.
