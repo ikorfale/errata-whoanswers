@@ -1,4 +1,4 @@
-# Who Answers — coding scheme v14 (2026-10-31, not frozen)
+# Who Answers — coding scheme v15 (2026-10-31, not frozen)
 
 v1 -> v2: all 17 points of a second-model review (fable-scheme-v1.txt) applied. Main changes: a bearer exists only
 where a consequence is recorded; `reachable` (who the deciding forum could touch) next to every bearer count;
@@ -12,6 +12,9 @@ test runs before step 0; `other` maps like `unstated`; employer discipline needs
 v13 -> v14 (fable-scheme-v13.txt, four blocking points): press-only claims are coded with `read: no`; final and
 cleared need the forum docket read after the appeal period; P, R, U are per bucket; both tests of step 6 run first;
 consequence rows name `party` and carry a single-role bearer.
+v14 -> v15 (fable-scheme-v14.txt, four blocking points): an unread claim or row poisons a bucket only when nothing
+deciding that bucket was read; finality is read in the forum's docket or register or the reviewing court's; leave to
+amend clears only through a closing judgment; an employer's responsibility for its staff's filing is professional-duty.
 
 Unit: one **event** = one harmful episode attributed (in part) to an AI system. Sources give *records* (a court
 decision, an incident page, a filing); several records can belong to one event (`event_id`, cross-source) and one
@@ -24,7 +27,7 @@ person can appear in many events (`person_id`, within source). Headline counts a
 | `event_id`, `records` | id; list of (source, source id) | Mata v. Avianca in Charlotin + AIID + press = one event. Every lawsuit or regulator record is matched against both Charlotin and AIID before coding; `records` carries the match or an explicit negative with the snapshot date checked |
 | `unit_type` | event, pattern, practice | discrimination suits, GDPR fines, FTC orders are pattern/practice; reported apart |
 | `intent` | error, autonomous-action, misuse | **headline uses error + autonomous-action only**; misuse (deepfake fraud) is reported apart |
-| `harm` | misinformation-to-court, financial, physical, psychological, privacy, discrimination, property/data, other | as the record names it |
+| `harm` | misinformation-to-court, misinformation-about-person, financial, physical, psychological, privacy, discrimination, property/data, other | as the record names it |
 | `harmed` | court/public, client, user, third party, operator-self | `operator-self`: agent harmed its own operator (deleted DB) |
 | `n_harmed` | 1, 2-10, 11-1000, >1000, unknown | |
 | `chain` | ordered list: developer (foundation model maker) -> vendor(s) (wrappers, resellers) -> deployer -> user | CoCounsel = vendor, its base model = developer; the party that itself serves the product to the user or outsider holds the deployer role too, even when it is also the developer (OpenAI serving ChatGPT) |
@@ -33,7 +36,7 @@ person can appear in many events (`person_id`, within source). Headline counts a
 | `permission_source` | user-task-grant, operator-standing-config, vendor-default, unknown | autonomous-action events only: who granted the permission the agent used for the harmful step (slate-compass, #109799). Report-only: never enters k, s or N; cross-tabbed with bearer to show whether users pay for defaults a vendor chose |
 | `tool_named` | yes, disputed, no | Thomson Reuters rows = disputed |
 | `vendor_voice` | n/a (no tool named), none, denial, acknowledgment, fix-announced | |
-| `claims` | list of (party, ground): one entry per ground pleaded or decided against each named party or respondent in the forum of one of `records` | ground = the cause of action or duty pleaded or ruled on as such: building-the-model (product liability, design defect, negligent development), operating-or-publishing (defamation, misrepresentation, negligence or consumer claims against the service as offered), professional-duty (the filer's own professional obligations), other, unstated (the record names none). Facts a court weighs inside another ground's element (design care as evidence of a publisher's fault) do not create a ground. Each entry carries `read`: yes (the forum record or Charlotin's fields were read) or no. A claim known only from press, trackers or summaries is coded with `read: no`; it makes the bucket reachable, resolves `unchecked`, and the number of such entries is printed beside M |
+| `claims` | list of (party, ground): one entry per ground pleaded or decided against each named party or respondent in the forum of one of `records` | ground = the cause of action or duty pleaded or ruled on as such: building-the-model (product liability, design defect, negligent development), operating-or-publishing (defamation, misrepresentation, negligence or consumer claims against the service as offered), professional-duty (the filer's own professional obligations, and an employer's responsibility for its staff member's filing), other, unstated (the record names none). Facts a court weighs inside another ground's element (design care as evidence of a publisher's fault) do not create a ground. Each entry carries `read`: yes (the forum record or Charlotin's fields were read) or no. A claim known only from press, trackers or summaries is coded with `read: no`; it makes the bucket reachable, resolves `unchecked`, and the number of such entries is printed beside M |
 | `reachable` | derived per bucket from `claims` (see Headline), never coded by hand | |
 | `last_checked` | date the forum's own docket or decision was last read (not a tracker or press summary); a `pending` resolution is published only with such a check within the publication window; `imposed-final` and `cleared` need a docket read after the appeal period (step 1, step 5). Tracker appeal checks are not accepted | |
 
@@ -46,7 +49,7 @@ person can appear in many events (`person_id`, within source). Headline counts a
 | `mode` | imposed (court, regulator, employer discipline), voluntary (refund, apology, fix by the party itself), absorbed (loss left where it fell) |
 | `kind` | warning, admonishment, fine-to-court, costs-or-damages-to-party, professional sanction, referral (pending, not a sanction), dismissal-as-sanction, striking, injunction/order, settlement, refund/credit, correction/withdrawal, product change, system withdrawn, apology |
 | `amount`, `currency`, `payee` | as recorded; payee: court, opposing party, harmed, fund, unknown |
-| `status` | final (forum docket read after the appeal period, step 1), pending (incl. appealed), unchecked (known only from press or summaries, or finality not read) — per consequence, not per event |
+| `status` | final (step 1 finality test; for a voluntary settlement, the record shows the claim ended), pending (incl. appealed), unchecked (known only from press or summaries, or finality not read) — per consequence, not per event |
 | `claim` | the (party, ground) entry of `claims` this consequence answers; one row per bearing party and role (a party holding two roles gets two rows); `(party, *)` answers every claim against that party (a settlement with no stated ground) |
 
 No consequence recorded -> **no row**; resolution follows the Headline steps (cleared, not-reached, no-claim or unchecked). Never infer a bearer.
@@ -94,13 +97,17 @@ hallucination is the forum raising the filer's own duty; so the filer is reachab
 
 **resolution**, per event and bucket, by precedence across all forums and parties in the bucket. Both tests of step 6
 (forum record, and a dated check >= 90 days after the event) run first: steps 0 to 5 use only claims and consequences read in the forum's own record (or Charlotin's fields);
-anything else leaves the bucket `unchecked`.
+anything else leaves the bucket `unchecked`. A `read: no` claim or `status: unchecked` consequence leaves the bucket
+`unchecked` only when no forum record deciding or ending a claim in that bucket was read; otherwise it is ignored for
+steps 0 to 5 and its count is printed beside R and N.
 0. `no-claim` — the bucket is not in `reachable`. Outside N, P, R and U; counted only in T minus M. A voluntary
    refund, apology or fix with no claim brought stays `no-claim` (it is printed as a separate count of voluntary
    responses, never as `settled`). Employer discipline of a staff member makes that person reachable in the operator
    bucket: the employer is the forum.
 1. `imposed-final` — a final imposed consequence in the bucket (answering one of the bucket's claims). Final only when
-   the forum docket, read after the appeal period, shows no appeal, or the record states the ruling is unappealable;
+   the docket or register of the forum, or of the court to which an appeal or review would lie, read after the appeal
+   period, shows no appeal or review, or the record states the ruling is unappealable, or a finality certificate is in
+   the record;
    docket showing an appeal -> `pending`; docket not read for appeal -> `unchecked`. Charlotin rows: Charlotin's fields
    decide finality (the printed Charlotin bias). Referral, order to show cause, hearing set, or any step inviting a
    later decision is never final. Interim or preliminary relief (TRO, preliminary injunction, einstweilige
@@ -117,10 +124,11 @@ anything else leaves the bucket `unchecked`.
    matter of law or fact on its pleaded ground (failure to state a claim, immunity such as Section 230, privilege,
    First Amendment, anti-SLAPP) is `cleared` when it ends the claim; the same finality test as step 1 applies (no
    appeal on the forum docket read after the appeal period, else `pending` or `unchecked`); a dismissal with leave to amend is `pending` until
-   the amendment deadline lapses unused, then `cleared`. In Charlotin only when the
+   the amendment deadline lapses unused, then `cleared` once a closing judgment passes the step 1 finality test; until
+   then `pending`. In Charlotin only when the
    Outcome records that the court considered sanctions and declined; a hallucination merely noted is `not-reached`.
 6. `unchecked` — no dated check >= 90 days after the event, or a claim or consequence known only from press, trackers
-   or law-firm summaries (the forum's own record not read). Unchecked events enter U and nothing else. For employer
+   or law-firm summaries (the forum's own record not read). Unchecked buckets enter U and nothing else. For employer
    discipline the forum record is the employer's own published statement, or a court or bar record noting the
    discipline; a press paraphrase alone is not.
 
