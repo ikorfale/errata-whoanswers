@@ -56,3 +56,7 @@ headline count. A point that moves a count goes to a new version with its own fr
 - 2026-10-31 19:37, AIID 1675 (Instinct, MAY MOVE A COUNT): the harm is a stated vendor data practice (retain and use indexed
   mail after disconnect, ToS) that surfaced through one user's dated episode. Coded `event` (the text names one dated episode,
   line 51); a coder who reads a standing practice applied to every user as `practice` moves 1675 out of T. Ask in the next round.
+- 2026-10-31 19:41, AIID 1412: closed from CodeWall's own report: its agent proposed the target from a list it was prompted to
+  build, and CodeWall "decided to point" the offensive agent at it, so the operator directed the intrusion: `misuse` (the v27
+  open case named this fork). Not in T. A security firm's disclosed red-team run lands in the misuse count beside fraud; the
+  printout should say so.

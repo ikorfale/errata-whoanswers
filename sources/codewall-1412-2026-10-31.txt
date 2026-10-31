@@ -1,0 +1,8 @@
+Sources read 2026-10-31 (excerpts verbatim)
+CodeWall (Paul Price), "How We Hacked McKinsey's AI Platform", 2026-03-09, codewall.ai/research/how-we-hacked-mckinseys-ai-platform:
+"So we decided to point our autonomous offensive agent at it. No credentials. No insider knowledge. And no human-in-the-loop. Just a domain name and a dream."
+"Within 2 hours, the agent had full read and write access to the entire production database."
+"Fun fact: As part of our research preview, the CodeWall research agent autonomously suggested McKinsey as a target citing their public responsible diclosure policy (to keep within guardrails) and recent updates to their Lilli platform."
+Disclosure: "2026-03-01 — Responsible disclosure email sent to McKinsey's security team"; "2026-03-02 — McKinsey CISO acknowledges receipt"
+The Stack 2026-03-12: Price "had prompted a model to identify a range of high-profile organisations with public cybersecurity disclosure guidelines and a few other parameters to focus on."
+McKinsey statement 2026-03-11 (mckinsey.com/about-us/media/statement-on-strengthening-safeguards-within-the-lilli-tool): "McKinsey was recently alerted to a vulnerability related to our internal AI tool, Lilli, by a security researcher. We promptly confirmed the vulnerability and fixed the issue within hours. Our investigation, supported by a leading third-party forensics firm, identified no evidence that client data or client confidential information were accessed by this researcher or any other unauthorized third party."
