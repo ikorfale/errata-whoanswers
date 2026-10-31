@@ -1,0 +1,323 @@
+Source: GitHub monarch-initiative/dismech issues #1800 and #1808 via gh api, fetched 2026-10-31; workflow .github/workflows/curation-scanner.yml at 90f33017 (before 28.04) and HEAD
+## #1800 Curate dyslexia state=CLOSED closed=2026-06-14T05:58:42Z
+Curate dyslexia (MONDO:0005489)
+-- github-actions 2026-04-27T17:17:16Z
+## Dyslexia (MONDO:0005489) — Curation Research Summary
+
+This comment summarizes key pathophysiology, genetics, neuroimaging, and treatment evidence to inform the curation of this entry.
+
+---
+
+### Overview
+
+**Dyslexia** (developmental dyslexia) is a specific learning disability characterized by difficulty with accurate and/or fluent word recognition and poor spelling/decoding abilities, occurring despite normal intelligence and adequate educational opportunity. Prevalence ~7% of the general population, with strong heritability (SNP-based h² ~20–25%).
+
+**Monarch / ontology handles:**
+- MONDO:0005489 — dyslexia
+- HP:0010522 — Dyslexia
+- Orphanet: 377796
+
+---
+
+### Pathophysiology Theories
+
+Three major (non-exclusive) hypotheses are in the literature:
+
+| Theory | Core Claim | Key Brain Region |
+|---|---|---|
+| **Phonological deficit** | Impaired mapping of written symbols → phonemes; core in most patients | Left temporoparietal (Wernicke), left IFG |
+| **Magnocellular / dorsal stream** | Reduced sensitivity of large visual neurons → impaired rapid visual processing | V5/MT, parieto-occipital |
+| **Cerebellar** | Automaticity deficit from cerebellar dysfunction → poor reading fluency | Right cerebellum (lobule VI) |
+| **Temporal processing** | Impaired rapid auditory segmentation → poor phoneme discrimination | Superior temporal gyrus |
+
+---
+
+### Neuroimaging (Structural & Functional)
+
+- **Hypoactivation of left occipito-temporal cortex** (visual word form area / "letterbox") — most replicated finding; meta-analysis of 2,360 peaks (PMID:[25426043](https://pubmed.ncbi.nlm.nih.gov/25426043/))
+- Left hemisphere reading network dysfunction including inferior frontal, inferior parietal, and occipito-temporal regions (PMID:[22557962](https://pubmed.ncbi.nlm.nih.gov/22557962/))
+- Altered activations in left temporoparietal regions and bilaterally in frontal/occipital areas during reading
+- Structural: reduced grey matter in right cerebellum (lobule VI); decreased L–R planum temporale asymmetry; neuronal ectopias in left perisylvian cortex
+
+**Cognitive subtypes with distinct grey matter signatures** (PMID:[23775490](https://pubmed.ncbi.nlm.nih.gov/23775490/)):
+1. Phonological
+2. Rapid automatized naming (RAN)
+3. Magnocellular/dorsal
+4. Auditory attention
+
+---
+
+### Genetics
+
+#### Landmark GWAS
+- **42 genome-wide significant loci** identified in 51,800 dyslexia cases (PMID:[36266505](https://pubmed.ncbi.nlm.nih.gov/36266505/), 2022); 27 potentially dyslexia-specific
+- Polygenic scores explain up to ~6% of variance in reading traits
+- Genome-wide significant associations at 20p13 (*LOC388780*) and 3q25 (*VEPH1*, implicated in brain development) — PMID:[33057169](https://pubmed.ncbi.nlm.nih.gov/33057169/)
+- Rapid automatized naming GWAS: significant hit at 18q12.2 within *MIR924HG* (PMID:[30741946](https://pubmed.ncbi.nlm.nih.gov/30741946/))
+
+#### Candidate susceptibility genes (pre-GWAS era, still mechanistically informative)
+
+| Gene | Locus | Mechanism | Key PMID |
+|---|---|---|---|
+| **DCDC2** | 6p22 | Neuronal migration; ciliary signaling | [28074887](https://pubmed.ncbi.nlm.nih.gov/28074887/) |
+| **KIAA0319** | 6p22 | Neuronal migration; 2 SNPs associated with rapid naming | [28074887](https://pubmed.ncbi.nlm.nih.gov/28074887/) |
+| **ROBO1** | 3p12 | Axon guidance; affects reading via multisensory temporal processing | [33339203](https://pubmed.ncbi.nlm.nih.gov/33339203/) |
+| **DYX1C1** (*DNAAF4*) | 15q21 | Neuronal migration; upregulated in Wernicke's region | [34539327](https://pubmed.ncbi.nlm.nih.gov/34539327/) |
+| **FOXP2** | 7q31 | Transcription factor regulating speech/language genes; upregulated in Wernicke's region | [34539327](https://pubmed.ncbi.nlm.nih.gov/34539327/) |
+| **ATP2C2** | 16q24 | Ca²⁺ transporter; upregulated in Broca's region | [34539327](https://pubmed.ncbi.nlm.nih.gov/34539327/) |
+| **DIP2A** | 21q22 | Risk in Chinese populations; function unclear | [26452339](https://pubmed.ncbi.nlm.nih.gov/26452339/) |
+
+*Note: DYX1C1 / DNAAF4 and DCDC2 were originally identified via positional cloning at the DYX1 (15q21) and DYX2 (6p22) linkage loci.*
+
+#### Genetic overlap with other conditions
+- Shared polygenic architecture with **ADHD** (OR~1.23), **bipolar disorder** (OR~1.53), **schizophrenia** (OR~1.36)
+- Negative genetic correlation with educational attainment and intelligence
+
+---
+
+### Phenotypes to consider
+
+**Core:**
+- HP:0010522 — Dyslexia
+- HP:0001328 — Specific learning disability
+- HP:0002353 — Phonological processing difficulty (if available)
+
+**Associated / comorbid:**
+- HP:0007018 — Attention deficit hyperactivity disorder (ADHD)
+- HP:0001256 — Intellectual disability (mild; in severe cases)
+- HP:0000750 — Delayed speech and language development (early life)
+
+---
+
+### Pathophysiology Nodes (suggested)
+
+1. **Phonological Processing Deficit** — impaired segmentation of speech sounds → difficulty mapping graphemes to phonemes; key cell type: pyramidal neurons of left superior temporal gyrus
+2. **Visual Word Form Area Hypoactivation** — reduced activation of left fusiform/occipito-temporal cortex → impaired orthographic pattern recognition
+3. **Impaired Neuronal Migration (Developmental)** — DCDC2/KIAA0319/DYX1C1 mutations → neuronal ectopias in left perisylvian cortex → disrupted cortical lamination
+4. **Magnocellular Pathway Dysfunction** — reduced sensitivity in dorsal visual stream → impaired temporal visual resolution → letter position/motion confusion
+5. **Cerebellar Automaticity Deficit** — reduced grey matter lobule VI → poor procedural learning of reading sequences
+
+---
+
+### Treatments
+
+- Phonological awareness training (evidence-based, especially when started before age 8)
+- Orton-Gillingham and structured literacy approaches
+- Assistive technology (text-to-speech)
+
+---
+
+### Suggested evidence PMIDs
+
+| PMID | Description |
+|---|---|
+| [36266505](https://pubmed.ncbi.nlm.nih.gov/36266505/) | Largest GWAS: 42 loci in 51,800 cases (2022) |
+| [33057169](https://pubmed.ncbi.nlm.nih.gov/33057169/) | GWAS: SNP heritability, VEPH1, psychiatric comorbidity (2021) |
+| [34539327](https://pubmed.ncbi.nlm.nih.gov/34539327/) | FOXP2/ATP2C2/DNAAF4 in Broca's/Wernicke's regions (2021) |
+| [33339203](https://pubmed.ncbi.nlm.nih.gov/33339203/) | ROBO1 mediates reading via multisensory temporal processing (2021) |
+| [30741946](https://pubmed.ncbi.nlm.nih.gov/30741946/) | GWAS for RAN identifies MIR924HG locus (2019) |
+| [29107746](https://pubmed.ncbi.nlm.nih.gov/29107746/) | fMRI comorbidity: left occipito-temporal hypoactivation (2018) |
+| [28074887](https://pubmed.ncbi.nlm.nih.gov/28074887/) | DCDC2/ROBO1/KIAA0319 longitudinal Dutch cohort (2017) |
+| [25426043](https://pubmed.ncbi.nlm.nih.gov/25426043/) | Meta-analysis of PET/fMRI: left OTC deficit (2015) |
+| [23775490](https://pubmed.ncbi.nlm.nih.gov/23775490/) | Cognitive subtypes × grey matter volume (2014) |
+| [22557962](https://pubmed.ncbi.nlm.nih.gov/22557962/) | Left hemisphere reading network review (2012) |
+
+---
+
+*Summary auto-generated by dismech summarization assistant. All PMIDs should be validated with `just fetch-reference` before use as evidence.*
+
+@dragon-ai-agent please curate a dismech entry for Dyslexia (MONDO:0005489) using the research summary above as a starting point. Key priorities: (1) pathophysiology nodes for phonological processing deficit, visual word form area hypoactivation, impaired neuronal migration (DCDC2/KIAA0319/DYX1C1), and magnocellular pathway dysfunction; (2) genetic susceptibility loci from the 2022 GWAS (PMID:36266505); (3) neuroimaging phenotypes with HP terms; (4) treatment annotations with MAXO terms for phonological awareness training and supportive care.
+
+-- dragon-ai-agent 2026-04-27T21:01:58Z
+## Curation scanner assessment
+
+**Disease area:** Dyslexia / developmental dyslexia (MONDO:0005489) — a
+heritable, polygenic neurodevelopmental learning disability with prevalence
+~7%, characterised by impaired word recognition, decoding, and spelling
+despite typical intelligence and adequate schooling.
+
+**Selection rationale:** Picked from this run's unassigned `curation` queue.
+This is a fresh issue (filed today by @sagehrke) with a thorough
+auto-generated research summary, no prior scanner triage, and a direct
+"@dragon-ai-agent please curate" ask in the issue body. The other unassigned
+`curation`-labeled PRs (#1797 ATC mappings, #1429 Auto-Brewery, #1370 Dental
+Caries) are either already mergeable and waiting on AI review (#1797) or
+blocked on contributor action / fork-PR security constraints (#1429, #1370),
+so a fresh-issue first step is the most useful action this run.
+
+## Scope and risk
+
+A complete dyslexia entry on the level of the new `Attention_Deficit-
+Hyperactivity_Disorder.yaml` (multi-node pathophysiology graph, GWAS-anchored
+genetics, prevalence with cohort-level evidence, treatments, neuroimaging
+phenotypes, comorbidity links) is **non-trivial** — each PMID in the issue
+summary needs to be fetched with `just fetch-reference` and validated as an
+exact-quote snippet before being added inline. That is too much to do safely
+in one scanner run.
+
+## Action this run
+
+Opened a draft PR with an intentionally conservative skeleton entry — see
+**#1803**. It includes only high-confidence structural content:
+
+- `disease_term` → MONDO:0005489
+- `mappings` → MONDO + NCIT:C96410 (`skos:exactMatch`)
+- Two ontology-anchored phenotypes (HP:0010522 Dyslexia, HP:0001328 Specific
+  learning disability)
+- Description, synonyms, `parents`, `tracked_issues` link back to this issue
+
+No inline PMID evidence is added. The PR description lists six follow-up
+topics for subsequent PRs (pathophysiology nodes, susceptibility genes / GWAS
+evidence, prevalence, treatments / MAXO, neuroimaging phenotypes, ADHD
+comorbidity link).
+
+`just validate` passes (schema + terms + references). `pytest` (803 tests)
+passes.
+
+Flagging here for human review of the chosen scope before deeper curation
+proceeds.
+-- cmungall 2026-04-28T02:27:36Z
+@sagehrke — Apologies on Chris's behalf! The curation-scanner agent eagerly picked this up and created PR #1803 before you had a chance to work on it yourself. That wasn't the intent — this was meant to be yours to tackle as a first dismech entry, and the agent deprived you of that learning opportunity.
+
+The good news: PR #1803 is a starting point you can build on locally with Claude Code (as Harry suggested). You don't need to start from scratch — you can iterate on what the agent produced, address the review comments, and make it your own.
+
+We've created issue #1808 to establish clear rules for when the automated scanner should NOT pick up issues — including respecting "good first issue" style tickets and giving new contributors a grace period. Your feedback on those rules would be very welcome: https://github.com/monarch-initiative/dismech/issues/1808
+
+Again, sorry for the overeager bot! 🤖
+-- smcgregor 2026-04-28T02:41:22Z
+It is funny you tagged me accidentally rather than @sagehrke (you have since corrected it). I index AI incidents at [incidentdatabase.ai](incidentdatabase.ai) and an agent depriving someone of a learning opportunity is borderline an incident by the criteria we apply.
+-- sagehrke 2026-06-04T22:47:59Z
+An agent can take this on. I don't have time to learn the steps right now (sadly). 
+-- dragon-ai-agent 2026-06-05T00:06:32Z
+## Automated curation scanner — selected this run
+
+**Selection rationale (high_effort run, 2026-06-05).** Scanned the unassigned `curation` queue with no lower-effort label. Most high-effort items are parked or externally gated per prior scanner triage: **#1112 / #1321 / #1448** carry no-re-touch closure locks; **#3680** was just resolved across 4 merged PRs (closure-ready); **#3691 / #3544 / #3310 / #3324** are gated on upstream MONDO NTRs an agent cannot file; **#3253 / #3549** are multi-draft treadmills; **#2503** is on a maintainer design call. 
+
+**This issue is the standout actionable item.** The most recent comment (2026-06-04, @sagehrke): *"An agent can take this on."* — an explicit, fresh green-light reversing the earlier "leave it for a human learner" hold. There is no dyslexia entry on `main`, no open PR, and the prior skeleton PR **#1803 was closed** (DIRTY/conflicting, CHANGES_REQUESTED for being a near-empty skeleton with "zero pathophysiology/genetics/treatments/evidence").
+
+## Disease area & scope
+
+**Dyslexia / developmental dyslexia** (`MONDO:0005489`) — heritable, polygenic neurodevelopmental learning disability (~7% prevalence, SNP-h² ~20–25%). Mechanistically a *circuit-level* disorder: left occipito-temporal / temporoparietal reading-network dysfunction with several non-exclusive causal hypotheses (phonological deficit, visual word-form-area hypoactivation, neuronal-migration/ciliary genes DCDC2/KIAA0319/DYX1C1, magnocellular dorsal-stream, cerebellar automaticity).
+
+**Scope/risk: high_effort, moderate risk.** The lesson from #1803 is that a thin skeleton is not acceptable — a substantive entry on the level of the existing `Attention_Deficit-Hyperactivity_Disorder.yaml` is required: multi-node pathophysiology graph, GWAS-anchored genetics (PMID:36266505), HP-anchored phenotypes, MAXO/NCIT treatments, and **per-PMID validated exact-quote evidence**. Every PMID from the research summary will be fetched with `just fetch-reference` and snippet-validated before inclusion (the summary explicitly warns all PMIDs need validation).
+
+## Action this run
+
+Building a substantive draft entry on branch `curate-dyslexia` (worktree, pushed to `origin`), modeled on the ADHD entry, with validated evidence. Will open a **draft PR** for human/AI review rather than marking ready, given the circuit-level modeling nuances flagged in #1448.
+
+-- dragon-ai-agent 2026-06-05T00:31:38Z
+## Draft PR opened: #3864
+
+Following @sagehrke's go-ahead, I built a **substantive** dyslexia entry (`kb/disorders/Dyslexia.yaml`) rather than another skeleton — addressing why the prior PR #1803 was closed.
+
+**Contents:** 4 causal pathophysiology nodes (phonological deficit → left-hemisphere reading-network dysfunction; developmental neuronal-migration; polygenic liability), 4 HP-anchored phenotypes, polygenic + candidate-gene genetics (KIAA0319/DCDC2/DNAAF4/FOXP2), and educational-intervention + speech-therapy treatments.
+
+**Evidence integrity:** every snippet is an exact-quote from one of six abstracts fetched via `just fetch-reference`, and I negative-control-tested the validator to confirm it genuinely substring-matches the cached abstracts. Schema/terms/references/graph validation and the data test suite all pass for this file.
+
+**Deliberately deferred (noted in the PR + `notes`):** treatment-efficacy evidence snippets (didn't want to guess PMIDs — two guesses resolved to unrelated papers and were discarded) and the magnocellular/cerebellar hypotheses as separate evidenced nodes.
+
+Opened as a **draft** for human + automated review.
+
+— automated curation scanner (claude[bot])
+
+## #1808 Policy: rules for automated agent pickup of curation issues state=OPEN closed=None
+## Context
+
+The curation-scanner workflow (`.github/workflows/curation-scanner.yml`) runs every 2 hours and picks up unassigned issues/PRs with the `curation` label. This is great for keeping the queue moving, but we need clear rules about when an agent should NOT pick something up.
+
+**Motivating incident:** Issue #1800 was filed by @sagehrke as a "good first issue" for her to tackle manually with Claude Code. The scanner agent picked it up within hours and created PR #1803, before Sarah had a chance to work on it herself. The agent was being helpful but effectively took a learning opportunity away from a new contributor.
+
+## Proposed rules
+
+### 1. No stealing — respect assignments
+
+If an issue or PR is assigned to anyone (human or bot), the scanner must skip it entirely. This is the basic "no stealing" rule.
+
+### 2. Respect "good first issue" and similar labels
+
+Issues labeled `good first issue`, `help wanted`, or `newcomer` should be skipped by the scanner — these are intentionally left for human contributors.
+
+### 3. Prefer oldest unaddressed items
+
+The scanner should strongly prefer the oldest unassigned curation item. Only override for items explicitly labeled `high-priority`. Items updated within the last 24 hours should generally be skipped unless they're the only candidates.
+
+### 4. Self-assign before working
+
+When the scanner selects an item, it should assign itself (or the bot identity) to the issue FIRST, before doing any work. This prevents concurrent scanner runs from double-picking.
+
+### 5. Grace period for new issues
+
+Issues created within the last 48 hours should be deprioritized to give human contributors time to claim them.
+
+## Open questions
+
+- Should there be an explicit "do not auto-curate" label that protects issues from the scanner?
+- Should the scanner post a comment like "I'm planning to pick this up in 48 hours unless someone claims it first"?
+- Are there other scenarios where the scanner should back off?
+
+## Feedback welcome
+
+@sagehrke @caufieldjh @cmungall — please weigh in on what rules make sense. This affects how we balance agent throughput with human contributor experience.
+
+Relates to: #1800, PR #1803
+-- github-actions 2026-04-28T02:28:48Z
+## Summary
+
+This issue proposes governance rules for the curation-scanner workflow to prevent automated agents from preempting human contributors.
+
+---
+
+### Triggering incident
+
+**Issue #1800** ("Curate dyslexia / MONDO:0005489") was filed by @sagehrke as a learning exercise for a new contributor. Within ~4 hours of filing:
+
+1. The summarization bot posted a detailed dyslexia research summary to #1800 and ended with `@dragon-ai-agent please curate…`
+2. The dragon-ai-agent's curation-scanner picked it up in the same run and opened draft **PR #1803** — a conservative skeleton entry with schema-valid YAML, MONDO/NCIT mappings, and two HP phenotypes (HP:0010522, HP:0001328)
+3. @cmungall apologized to @sagehrke in a comment on #1800 and opened this policy issue
+
+**Root cause:** The curation-scanner has no concept of "this issue is reserved for a human." The summarization bot's `@dragon-ai-agent please` call, combined with the scanner's 2-hour polling cadence, made the takeover nearly instant.
+
+---
+
+### Proposed rules (status: proposed, no implementation yet)
+
+| # | Rule | Mechanism |
+|---|------|-----------|
+| 1 | **No stealing** | Skip any issue/PR already assigned to anyone |
+| 2 | **Respect `good first issue` / `help wanted` / `newcomer` labels** | Skip — these are reserved for humans |
+| 3 | **Prefer oldest unaddressed items** | FIFO ordering; skip items updated in last 24 h unless only candidate; `high-priority` label overrides |
+| 4 | **Self-assign before working** | Assign bot identity to issue *before* doing any work, preventing concurrent scanner runs from double-picking |
+| 5 | **Grace period for new issues** | Deprioritize issues < 48 h old |
+
+---
+
+### Open questions (unanswered as of filing)
+
+- **Explicit opt-out label?** A `do-not-auto-curate` label would give contributors a deterministic escape hatch without relying on the `good first issue` label semantics.
+- **Advance-notice comment?** Having the scanner post "I plan to pick this up in 48 hours unless someone claims it first" would make the bot's intent visible and give humans time to respond.
+- **Summarization bot triggering dragon-ai-agent?** A secondary root cause here is that the summarization workflow ends its comment with `@dragon-ai-agent please curate…` — this is effectively an automatic delegation that bypasses any human check. Consider making that invocation conditional (e.g., skip if `good first issue` is set, or require a minimum age).
+
+---
+
+### Status of related items
+
+| Item | State | Notes |
+|------|-------|-------|
+| #1800 Curate dyslexia | Open, unassigned | Filed by @sagehrke; agent already created a skeleton in #1803 |
+| PR #1803 Dyslexia skeleton | Open draft | Conservative scaffold (no PMID evidence); 6 follow-up topics listed in PR description |
+| This issue #1808 | Open, no comments | No implementation yet; feedback requested from @smcgregor @caufieldjh @cmungall |
+
+---
+
+### Suggested next steps
+
+1. **Add `do-not-auto-curate` label** as an explicit escape hatch — simpler and more robust than relying on `good first issue` label semantics.
+2. **Gate the summarization bot's `@dragon-ai-agent please` call** on the absence of `good first issue` and the issue being > 48 h old.
+3. **Implement rules 1 and 4 first** (assignment check + self-assign-before-work) — these are high-value, low-ambiguity, and prevent double-picking as a bonus.
+4. **Decide on PR #1803**: @sagehrke could adopt the draft and build on it (paths to phonological processing pathophysiology nodes, GWAS genetics, neuroimaging phenotypes, ADHD comorbidity are all outlined in the PR description), or close it and start fresh.
+
+*Summary auto-generated by dismech summarization assistant.*
+-- cmungall 2026-04-28T02:35:01Z
+> 4. Self-assign before working
+
+This could get confusing. the scanner is using the `@dragon-ai-agent` token, and there is a separate action that will trigger a job if something is assigned to this agent

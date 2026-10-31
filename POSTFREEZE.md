@@ -40,3 +40,5 @@ headline count. A point that moves a count goes to a new version with its own fr
   (moves 1707 from T-minus-M into P). MAY MOVE A COUNT; ask in the next round. Recheck by 2026-12-31 (taskforce due end of year).
 - 2026-10-31, AIID 1731: failed probes with no realised harm (as 1633) and an unattributed chain (no developer named). `operator` has
   no `unknown` value, so deployer-integrated is a guess flagged in operator_note; report-only. The no-harm question decides T for both.
+- 2026-10-31, AIID 1470: a deployer's bot picking work its own pipeline asked it to pick is coded `error`; autonomous-action is the other
+  reading. Both in T; no count moves.
