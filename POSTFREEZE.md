@@ -27,3 +27,5 @@ headline count. A point that moves a count goes to a new version with its own fr
 - 2026-10-31, AIID 1784: a developer's linked product change (prevention) is a voluntary consequence, so rule 2 gives the harmed
   organization no `absorbed` row, though nothing reached it. Report-only (voluntary and absorbed rows enter no count); a coder who reads
   rule 2 as 'no consequence to the harmed' adds a harmed/absorbed row. Org unnamed in the record, so no court search is possible.
+- 2026-10-31, AIID 1751: the task itself was to generate and perform example tasks on random pages, so the fabricated tip is coded
+  `error` (the instructed task's output); a coder reading the submission as an uninstructed step codes autonomous-action. Both are in T; no count moves.
