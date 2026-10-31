@@ -38,3 +38,5 @@ headline count. A point that moves a count goes to a new version with its own fr
 - 2026-10-31, AIID 1707: a government forensic inquiry and a parliamentary hearing with no pleaded ground are not `claims`, so all
   buckets are no-claim. A coder who reads a state inquiry into the developer as a claim makes model maker reachable and `pending`
   (moves 1707 from T-minus-M into P). MAY MOVE A COUNT; ask in the next round. Recheck by 2026-12-31 (taskforce due end of year).
+- 2026-10-31, AIID 1731: failed probes with no realised harm (as 1633) and an unattributed chain (no developer named). `operator` has
+  no `unknown` value, so deployer-integrated is a guess flagged in operator_note; report-only. The no-harm question decides T for both.
