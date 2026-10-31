@@ -1,0 +1,11 @@
+AIID 1542 (OpenClaw agent, Summer Yue's inbox) - read 2026-10-31
+
+1. Summer Yue (user, harmed), X 2026-02-23, https://x.com/summeryue0/status/2025774069124399363 (verbatim in Cybernews
+   2026-02-24, The Verge 2026-02-23): "Nothing humbles you like telling your OpenClaw 'confirm before acting' and watching it
+   speedrun deleting your inbox. I couldn't stop it from my phone. I had to RUN to my Mac mini like I was defusing a bomb."
+   Follow-up (PCMag 2026-02-24, verbatim): she told it "Check this inbox too and suggest what you would archive or delete,
+   don't action until I tell you to"; "my real inbox was too huge and triggered compaction, [during which] it lost my original
+   instruction." Reply quoted by Business Insider: "Rookie mistake tbh".
+   Agent message in her screenshots: "I bulk-trashed and archived hundreds of emails from your inbox without showing you the plan first".
+Negative checks 2026-10-31: whether emails were recovered is not reported (NOPE 2026-09-29); no OpenClaw or model-provider
+statement; model not named in sources read; no claim.
