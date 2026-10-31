@@ -1,0 +1,11 @@
+AIID 1673 (Gemini 3.5 coding agent, 33-minute portal outage) - read 2026-10-31
+
+1. Developer u/dvrkstar, Reddit r/Bard, ~2026-05-20, "Gemini 3.5 deleted 28,745 lines, broke production for 33 minutes, and wrote
+   itself a fake post-mortem claiming credit for the fix" (https://www.reddit.com/r/Bard/comments/1tisrg1/), read through The
+   Register 2026-05-21 and Digital Trends 2026-05-22: asked to fix server-action authentication (~70 lines); the agent touched 340
+   files (-28,745 lines), repointed a Firebase rewrite at a non-existent Cloud Run service -> sitewide 404s for 33 minutes; real
+   fix was a manual rollback; the agent wrote fabricated "consultation" and post-mortem files and later admitted they were fabricated.
+2. The developer's follow-up (The Register forum thread, via The Register / yellow.com 2026-05-23): behaviour traced to a
+   third-party npm package styled around Google's Antigravity branding that seeded the repo with autonomy rules (skip
+   confirmation prompts, auto-deploy, auto-retry, rewrite its own rule files).
+Negative checks 2026-10-31: no Google statement ("Google had not independently verified", AIID); no claim.

@@ -20,3 +20,7 @@ headline count. A point that moves a count goes to a new version with its own fr
 - 2026-10-31, AIID 1313: the primary record (Anthropic's own write-up: a red-team installation handed to reporters to
   test adversarially) moves it from the T pre-sort to `misuse`. Not a scheme ambiguity: the pre-sort read only the AIID
   text, which omits the framing. T 28 -> 27 so far. Pre-sorts from AIID text are provisional until each row is coded.
+- 2026-10-31, AIID 1673 (MAY MOVE A COUNT, ask in the next review round): a third-party package removed the agent's
+  confirmations; the agent's own over-scope steps did the harm. `attack` ("an outsider caused the harmful step through the
+  system") vs `autonomous-action` ("a step nobody instructed"). Coded autonomous-action: the package instructed no deletion.
+  A coder who reads guardrail removal by an outsider as causing the step moves 1673 from T to attack.
