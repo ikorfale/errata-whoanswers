@@ -1,4 +1,4 @@
-# Who Answers — coding scheme v12 (2026-10-31, not frozen)
+# Who Answers — coding scheme v13 (2026-10-31, not frozen)
 
 v1 -> v2: all 17 points of a second-model review (fable-scheme-v1.txt) applied. Main changes: a bearer exists only
 where a consequence is recorded; `reachable` (who the deciding forum could touch) next to every bearer count;
@@ -7,6 +7,8 @@ consequence split by mode (imposed / voluntary / absorbed); the harmed party can
 v11 -> v12 (fable-scheme-v11.txt, three blocking points): Charlotin rows carry a derived `(filer, professional-duty)`
 claim; dismissals on the law (failure to state a claim, immunity, anti-SLAPP) are `cleared` when they end the claim,
 leave to amend is `pending`; a claim known only from press or summaries is `unchecked` (U only).
+v12 -> v13 (fable-scheme-v12.txt, four blocking points): Charlotin fields are the record for Charlotin; the forum-record
+test runs before step 0; `other` maps like `unstated`; employer discipline needs the employer's own statement.
 
 Unit: one **event** = one harmful episode attributed (in part) to an AI system. Sources give *records* (a court
 decision, an incident page, a filing); several records can belong to one event (`event_id`, cross-source) and one
@@ -40,7 +42,7 @@ person can appear in many events (`person_id`, within source). Headline counts a
 | `mode` | imposed (court, regulator, employer discipline), voluntary (refund, apology, fix by the party itself), absorbed (loss left where it fell) |
 | `kind` | warning, admonishment, fine-to-court, costs-or-damages-to-party, professional sanction, referral (pending, not a sanction), dismissal-as-sanction, striking, injunction/order, settlement, refund/credit, correction/withdrawal, product change, system withdrawn, apology |
 | `amount`, `currency`, `payee` | as recorded; payee: court, opposing party, harmed, fund, unknown |
-| `status` | final, pending (incl. appealed) — per consequence, not per event |
+| `status` | final, pending (incl. appealed), unchecked (known only from press or summaries) — per consequence, not per event |
 | `claim` | the (party, ground) entry of `claims` this consequence answers; one row per bearing party; `(party, *)` answers every claim against that party (a settlement with no stated ground) |
 
 No consequence recorded -> **no row**; resolution follows the Headline steps (cleared, not-reached, no-claim or unchecked). Never infer a bearer.
@@ -53,7 +55,8 @@ No consequence recorded -> **no row**; resolution follows the Headline steps (cl
 4. A product change counts for vendor/developer only if they link it to the event.
 5. Charlotin: Party -> person role; a bearer row only when Outcome, Monetary Penalty or Professional Sanction is
    non-empty; bar referrals coded `referral`, not `professional sanction`. Pro se rows (user = client = harmed) are
-   reported apart from lawyers.
+   reported apart from lawyers. Charlotin's fields are the record for Charlotin rows: step 6's tracker clause applies
+   to AIID and court records only (printed as a known bias: Charlotin's own reading of each decision is trusted).
 6. Same-party agentic incidents (agent harmed its own operator) default to `absorbed` unless a refund/fix is recorded.
 
 ## Headline (the only cross-party comparison published)
@@ -74,7 +77,8 @@ vendor role; *operator* = user + employer, **pro se excluded** (their count and 
 **Ground decides the bucket, through the claim.** Each `claims` entry maps to one bucket: building-the-model ->
 model maker; operating-or-publishing -> deployer-only (operator, if the party is a user or employer);
 professional-duty -> operator (pro se apart). `unstated` maps to every bucket the party holds a chain role in, and
-the number of such entries is printed beside each share. A party with several roles (xAI running the Grok account)
+the number of such entries is printed beside each share. `other` maps like `unstated` and is counted in the same
+printed number. A party with several roles (xAI running the Grok account)
 is reachable in a bucket only through a claim whose ground maps there. Resolution steps 1-5 run per bucket on that
 bucket's claims and the consequence rows answering them only. A record that imposes on one ground and rejects another
 on the merits gives `imposed-final` in one bucket and `cleared` in the other; one that imposes on one ground and is
@@ -84,7 +88,9 @@ silent on another gives `not-reached` in the silent bucket.
 ground). In Charlotin every row carries a `(filer, professional-duty)` claims entry, because the court's notice of the
 hallucination is the forum raising the filer's own duty; so the filer is reachable by derivation, not by hand.
 
-**resolution**, per event and bucket, by precedence across all forums and parties in the bucket:
+**resolution**, per event and bucket, by precedence across all forums and parties in the bucket. Step 6's forum-record
+test runs first: steps 0 to 5 use only claims and consequences read in the forum's own record (or Charlotin's fields);
+anything else leaves the bucket `unchecked`.
 0. `no-claim` — the bucket is not in `reachable`. Outside N, P, R and U; counted only in T minus M. A voluntary
    refund, apology or fix with no claim brought stays `no-claim` (it is printed as a separate count of voluntary
    responses, never as `settled`). Employer discipline of a staff member makes that person reachable in the operator
@@ -106,7 +112,9 @@ hallucination is the forum raising the filer's own duty; so the filer is reachab
    the amendment deadline lapses unused, then `cleared`. In Charlotin only when the
    Outcome records that the court considered sanctions and declined; a hallucination merely noted is `not-reached`.
 6. `unchecked` — no dated check >= 90 days after the event, or a claim or consequence known only from press, trackers
-   or law-firm summaries (the forum's own record not read). Unchecked events enter U and nothing else.
+   or law-firm summaries (the forum's own record not read). Unchecked events enter U and nothing else. For employer
+   discipline the forum record is the employer's own published statement, or a court or bar record noting the
+   discipline; a press paraphrase alone is not.
 
 **N** = events with resolution imposed-final, settled or cleared. Pending, dropped/not-reached and unchecked counts are
 printed beside every share.
