@@ -1,4 +1,4 @@
-# Who Answers — coding scheme v8 (2026-10-31, not frozen)
+# Who Answers — coding scheme v9 (2026-10-31, not frozen)
 
 v1 -> v2: all 17 points of a second-model review (fable-scheme-v1.txt) applied. Main changes: a bearer exists only
 where a consequence is recorded; `reachable` (who the deciding forum could touch) next to every bearer count;
@@ -23,7 +23,8 @@ person can appear in many events (`person_id`, within source). Headline counts a
 | `operator` | user-chosen, deployer-integrated | |
 | `tool_named` | yes, disputed, no | Thomson Reuters rows = disputed |
 | `vendor_voice` | n/a (no tool named), none, denial, acknowledgment, fix-announced | |
-| `reachable` | multi: user, employer, deployer, vendor, developer | named as a party or respondent in the forum of one of `records` (a claim was actually brought); see Headline |
+| `claims` | list of (party, ground): one entry per ground pleaded or decided against each named party or respondent in the forum of one of `records` | ground: building-the-model, operating-or-publishing, professional-duty, other, unstated |
+| `reachable` | derived per bucket from `claims` (see Headline), never coded by hand | |
 | `last_checked` | date | |
 
 ## Consequence rows (zero or more per event)
@@ -35,7 +36,7 @@ person can appear in many events (`person_id`, within source). Headline counts a
 | `kind` | warning, admonishment, fine-to-court, costs-or-damages-to-party, professional sanction, referral (pending, not a sanction), dismissal-as-sanction, striking, injunction/order, settlement, refund/credit, correction/withdrawal, product change, system withdrawn, apology |
 | `amount`, `currency`, `payee` | as recorded; payee: court, opposing party, harmed, fund, unknown |
 | `status` | final, pending (incl. appealed) — per consequence, not per event |
-| `ground` | building-the-model, operating-or-publishing, professional-duty, other, unstated — the basis of liability as the deciding record states it |
+| `claim` | the (party, ground) entry of `claims` this consequence answers; a settlement with no stated ground answers every claim against that party |
 
 No consequence recorded -> **no row**, and the event is `outcome=unknown`. Never infer a bearer.
 
@@ -52,8 +53,8 @@ No consequence recorded -> **no row**, and the event is `outcome=unknown`. Never
 
 ## Headline (the only cross-party comparison published)
 
-Review history: v1 -> v8 through seven blocking-only reviews by a second model (fable-scheme-v1..v7.txt; 17, 6, 6, 5,
-4, 4, 2 points, all applied) plus one board point (zenith-claude, #109766: code the ground of liability, not only
+Review history: v1 -> v9 through eight blocking-only reviews by a second model (fable-scheme-v1..v8.txt; 17, 6, 6, 5,
+4, 4, 2, 2 points, all applied) plus one board point (zenith-claude, #109766: code the ground of liability, not only
 the defendant's name). This section is the consolidated rule; older wordings are void.
 
 **Scope.** Per source (Charlotin, AIID), never pooled. `unit_type=event`, intent error or autonomous-action.
@@ -65,21 +66,24 @@ with their collection rule, never as a share.
 vendor role; *operator* = user + employer, **pro se excluded** (their count and own k/N printed beside it);
 *deployer-only*.
 
-**Ground decides the bucket for a party with several roles.** A consequence row lands in the bucket that matches its
-`ground`: building-the-model -> model maker; operating-or-publishing -> deployer-only (or operator, if the party is
-the user/employer); professional-duty -> operator. A party that is both developer and deployer (xAI running the Grok
-account) is counted as model maker only when the record rests on building the model. `ground=unstated` -> the row
-counts in every bucket the party holds, and the number of such rows is printed beside each share.
+**Ground decides the bucket, through the claim.** Each `claims` entry maps to one bucket: building-the-model ->
+model maker; operating-or-publishing -> deployer-only (operator, if the party is a user or employer);
+professional-duty -> operator (pro se apart). `unstated` maps to every bucket the party holds a chain role in, and
+the number of such entries is printed beside each share. A party with several roles (xAI running the Grok account)
+is reachable in a bucket only through a claim whose ground maps there. Resolution steps 1-5 run per bucket on that
+bucket's claims and the consequence rows answering them only. A record that imposes on one ground and rejects another
+on the merits gives `imposed-final` in one bucket and `cleared` in the other; one that imposes on one ground and is
+silent on another gives `not-reached` in the silent bucket.
 
-**reachable** = named as a party or respondent in the forum of one of the event's records (a claim was actually
-brought). In Charlotin the filer (lawyer or pro se) is always reachable.
+**reachable** (per bucket) = at least one `claims` entry maps to the bucket (a claim was actually brought on that
+ground). In Charlotin the filer (lawyer or pro se) is always reachable.
 
 **resolution**, per event and bucket, by precedence across all forums and parties in the bucket:
 0. `no-claim` — the bucket is not in `reachable`. Outside N, P, R and U; counted only in T minus M. A voluntary
    refund, apology or fix with no claim brought stays `no-claim` (it is printed as a separate count of voluntary
    responses, never as `settled`). Employer discipline of a staff member makes that person reachable in the operator
    bucket: the employer is the forum.
-1. `imposed-final` — a final imposed consequence. Referral, order to show cause, hearing set, or any step inviting a
+1. `imposed-final` — a final imposed consequence in the bucket (answering one of the bucket's claims). Referral, order to show cause, hearing set, or any step inviting a
    later decision is never final.
 2. `pending` — a claim in the bucket still live and nothing imposed-final. Beside the share print how many N events
    still have another live claim in the bucket.
@@ -100,7 +104,7 @@ with `mode=imposed` and `status=final` (whatever its `kind`). **s** counts settl
 suspension, disqualification, ordered training, client-notification order), injunction/order, dismissal-as-sanction,
 ordered refund/credit, ordered product change, ordered system withdrawal;
 *warning-level* = warning, admonishment, striking, ordered correction/withdrawal (incl. an order to refile), ordered
-apology. Referral is never final. Settlement is agreed, not imposed: it goes to s. Rows with `mode=voluntary` never
+apology. Referral is never final. Settlement is agreed, not imposed: code it `mode=voluntary`, it goes to s. Rows with `mode=voluntary` never
 enter k, whatever their kind.
 
 **Clustering.** Beside every CI: distinct parties D in the bucket (`org_id`, `person_id`); no CI when D < 5.
