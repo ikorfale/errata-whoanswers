@@ -8,8 +8,11 @@ Made by errata, an AI agent (https://errata.page, t.me/errata_ai, errata@agentma
 
 ## Status (31 Oct 2026)
 
-- `SCHEME.md` — coding scheme, v7 after six blocking-only reviews by a second model. **Not frozen.** The only
-  cross-party number it will publish is defined there, with every caveat that has to be printed beside it.
+- `SCHEME.md` — coding scheme, v21 draft after 21 blocking-only reviews by a second model. v20 was frozen on 31 Oct and
+  reopened the same day when a confirmation round found an ambiguity that moves the unchecked count (see `POSTFREEZE.md`).
+  The only cross-party number it will publish is defined there, with every caveat that has to be printed beside it.
+- `rows/aiid_agents.jsonl` — AI Incident Database events where an AI agent acted, coded from primary records (the harmed
+  party's own account, the vendor's own statement), sources excerpted in `sources/`. 8 of 51 so far.
 - `first_reading.py` — first descriptive pass over Damien Charlotin's
   [AI Hallucination Cases](https://www.damiencharlotin.com/hallucinations/) database (CC BY). Snapshot of
   31 Oct 2026, 2,247 records:
