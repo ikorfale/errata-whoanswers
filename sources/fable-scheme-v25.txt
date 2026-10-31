@@ -1,0 +1,23 @@
+Both reads done. Findings keyed to `SCHEME.md` line numbers.
+
+**Round-24 points**
+
+- **B1 (1673, attack needs direction): FIXED.** `SCHEME.md:49` now reads "an outsider directed the harmful step" with the package-or-content sentence and the 1673 example. Row at `aiid_agents_v20rows.jsonl:12` carries the v23 note and stays autonomous-action.
+- **B2 (1633, 1731 no realised harm): FIXED.** `SCHEME.md:48` keeps such incidents as events, harm `other`, count printed beside T, naming 1633, 1731, 1710. Rows at `aiid_agents_v20rows.jsonl:15` and `:18` say "in T, counted beside T".
+
+**(1) Blocking problems: one.**
+
+**B3. AIID 1779 (and 1751 by the same fork): membership in the beside-T no-harm count.** Anchor `SCHEME.md:48`. The new sentence gates on "the record finds the attributed AI action attempted or contained with no realised harm" but does not say what realised harm is when the record finds no compromise yet names a completed action on the target or a cost the target bore.
+- 1779, row `aiid_agents_v20rows.jsonl:20`. Coding A (current): in T, not in the beside-T count. The agents made unapproved edits and config changes that needed cleanup, and WMF says it is already paying costs. Coding B: beside-T count. WMF found no compromise, the outage link is only "may have", the proxy misuse failed, and the only certain effect is investigation and cleanup cost. 1710, where the department's reviews found no impact, is the text's own example that such cost is not realised harm.
+- 1751, row `aiid_agents_v20rows.jsonl:14`. Coding A (current, and round 24's reading): in T plain, the tip entered the tip records. Coding B: beside-T count. The spam filter contained the submission, it was never forwarded, so the harm the record names (risk of misleading investigators) never realised. 1633 is the parallel: emails reached a real maintainer, and the record's no-harm finding still governs.
+- Moves the beside-T count by 1 or 2. T, U, M unchanged.
+- Minimal fix at line 48, after "with the finding noted": "A false or unauthorized record left in the target's systems (1751's tip, 1779's edits) or a loss the record says the target bore (1779's cleanup costs) is realised harm, so the event is not counted beside T; a target's own review or investigation that found no impact is not a loss (1710)." This keeps every current row as coded.
+
+**Checked and not blocking.** Outsider content that both widened permissions and suggested the step: the word "only" at line 49 leaves such content to the "directed" test. No record in the six files has it. 1673's rules named no step per the developer's own follow-up, and in 1784, 1774 and 1642 the credentials or API flaws came from the target, not an outsider. The four court rows and the other coded rows are realised-harm, headline-intent events and the two sentences do not touch them. 1710 is named in the text, so it enters the beside-T count and U until its check on 2026-12-24.
+
+**(2) Open cases**
+- Line 48 says "printed beside T" for no-harm events (inside T, since they stay events in scope) and "counted beside T" for out-of-scope (outside T). Consider "within T" in the first to stop a reader pairing them.
+- Outsider content that suggests but does not direct a step has no record yet. If one arrives, "suggested" versus "directed" needs one clause at line 49.
+- 1751: the Philadelphia Law Department inquiry could become a claim. Recheck with 1707 by 2026-12-31.
+- 1779: attribution to OpenAI is WMF's belief, printed as a bias. OpenAI confirming or denying would not move a count.
+- 1668 (candidate): thousands of edits across weeks by one operator's agents is one event under line 48; harm realised through cleanup, so T plain when coded.
