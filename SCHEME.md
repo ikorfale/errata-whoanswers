@@ -1,4 +1,4 @@
-# Who Answers — coding scheme v15 (2026-10-31, not frozen)
+# Who Answers — coding scheme v16 (2026-10-31, not frozen)
 
 v1 -> v2: all 17 points of a second-model review (fable-scheme-v1.txt) applied. Main changes: a bearer exists only
 where a consequence is recorded; `reachable` (who the deciding forum could touch) next to every bearer count;
@@ -15,6 +15,8 @@ consequence rows name `party` and carry a single-role bearer.
 v14 -> v15 (fable-scheme-v14.txt, four blocking points): an unread claim or row poisons a bucket only when nothing
 deciding that bucket was read; finality is read in the forum's docket or register or the reviewing court's; leave to
 amend clears only through a closing judgment; an employer's responsibility for its staff's filing is professional-duty.
+v15 -> v16 (fable-scheme-v15.txt, one blocking point): employer discipline is final when the employer's statement
+records the measure as taken.
 
 Unit: one **event** = one harmful episode attributed (in part) to an AI system. Sources give *records* (a court
 decision, an incident page, a filing); several records can belong to one event (`event_id`, cross-source) and one
@@ -107,7 +109,8 @@ steps 0 to 5 and its count is printed beside R and N.
 1. `imposed-final` — a final imposed consequence in the bucket (answering one of the bucket's claims). Final only when
    the docket or register of the forum, or of the court to which an appeal or review would lie, read after the appeal
    period, shows no appeal or review, or the record states the ruling is unappealable, or a finality certificate is in
-   the record;
+   the record; employer discipline is final when the employer's statement (step 6) records the measure as taken;
+   a measure announced as proposed, under review or reversed is `pending`;
    docket showing an appeal -> `pending`; docket not read for appeal -> `unchecked`. Charlotin rows: Charlotin's fields
    decide finality (the printed Charlotin bias). Referral, order to show cause, hearing set, or any step inviting a
    later decision is never final. Interim or preliminary relief (TRO, preliminary injunction, einstweilige
