@@ -1,0 +1,17 @@
+Nothing in the five v10 points is still open. Three new issues would move printed numbers.
+
+**(1) v10 points**
+
+1. FIXED. `SCHEME.md:27` defines grounds and excludes facts weighed inside another ground's element. Walters (`court_seed.jsonl:1`) now carries one claim, operating-or-publishing, and model maker is `no-claim`.
+2. FIXED. `SCHEME.md:121-122` defines M as events where the model maker bucket is in `reachable`, with the any-ground party count printed beside it. The sentence at line 120 matches.
+3. FIXED. `SCHEME.md:15` requires a match against both sources or a dated negative. All four seed rows carry AIID ids or dated negatives. One data caveat: the v10 review said Walters has an AIID entry, and line 1 now records an explicit negative. I cannot check that from the files, so verify the snapshot before publication.
+4. FIXED. `SCHEME.md:29` ties `last_checked` to the forum's own docket. Garcia (`court_seed.jsonl:4`) cites docket entry 278 and is coded `settled`. Campact (`court_seed.jsonl:3`) honestly reports no forum check.
+5. FIXED. `SCHEME.md:42` replaces `outcome=unknown` with the Headline steps.
+
+**(2) New blocking problems**
+
+1. **Charlotin "always reachable" cannot be derived from `claims`** (`SCHEME.md:28`, `SCHEME.md:79-80`, `SCHEME.md:99`). Line 28 says `reachable` is derived from `claims` and never hand-coded. Line 80 says the Charlotin filer is always reachable. For a row where the court merely notes the hallucination, line 27 gives no claims entry, since nothing was pleaded or ruled on as such. Coder A follows line 80 and codes `not-reached`, so R gains one. Coder B follows lines 27 to 28 and codes `no-claim`, so T minus M gains one instead. Minimal fix at line 27 or 80: in Charlotin, every row gets a `(filer, professional-duty)` claims entry, because the court's notice of the hallucination is the forum raising the filer's duty. Then line 80 follows from line 79.
+
+2. **Step 5 does not say which dismissals are merits rulings** (`SCHEME.md:96-99`). Step 4 lists jurisdiction, standing, arbitration and mootness. Step 5 says "merits ruling". A dismissal for failure to state a claim, or on Section 230, First Amendment or anti-SLAPP grounds, is in neither list. Coder A codes `cleared` and the event enters N. Coder B codes `not-reached` and it goes to R. A dismissal with leave to amend is a third case, since the claim is still live. These dispositions are the most common way suits against developers end, so N1 depends on this. Minimal fix at step 5: a ruling that the claim fails as a matter of law or fact on its pleaded ground, including failure to state a claim, immunity, privilege and anti-SLAPP, is `cleared` when it ends the claim; a dismissal with leave to amend is `pending` until the amendment deadline lapses, then `cleared`.
+
+3. **A live claim known only from non-forum sources has no resolution** (`SCHEME.md:29`, `SCHEME.md:91`, `SCHEME.md:100`; `court_seed.jsonl:3`). Step 2 gives Campact `pending`, since the claim is live per the law-firm summary. Line 29 forbids publishing `pending` without a forum check, but says nothing about what to code instead. Coder A holds the event out of every count. Coder B drops to step 6 and prints it under U. Coder C prints it under P anyway. P, U and T all differ. Minimal fix at step 6: a claim or consequence known only from press or summaries is `unchecked` until the forum record is read, so it enters U and nothing else. Then recode Campact `unchecked` until the Hamburg order is read.

@@ -1,8 +1,12 @@
-# Who Answers — coding scheme v11 (2026-10-31, not frozen)
+# Who Answers — coding scheme v12 (2026-10-31, not frozen)
 
 v1 -> v2: all 17 points of a second-model review (fable-scheme-v1.txt) applied. Main changes: a bearer exists only
 where a consequence is recorded; `reachable` (who the deciding forum could touch) next to every bearer count;
 consequence split by mode (imposed / voluntary / absorbed); the harmed party can be the bearer; dedup by event.
+
+v11 -> v12 (fable-scheme-v11.txt, three blocking points): Charlotin rows carry a derived `(filer, professional-duty)`
+claim; dismissals on the law (failure to state a claim, immunity, anti-SLAPP) are `cleared` when they end the claim,
+leave to amend is `pending`; a claim known only from press or summaries is `unchecked` (U only).
 
 Unit: one **event** = one harmful episode attributed (in part) to an AI system. Sources give *records* (a court
 decision, an incident page, a filing); several records can belong to one event (`event_id`, cross-source) and one
@@ -77,7 +81,8 @@ on the merits gives `imposed-final` in one bucket and `cleared` in the other; on
 silent on another gives `not-reached` in the silent bucket.
 
 **reachable** (per bucket) = at least one `claims` entry maps to the bucket (a claim was actually brought on that
-ground). In Charlotin the filer (lawyer or pro se) is always reachable.
+ground). In Charlotin every row carries a `(filer, professional-duty)` claims entry, because the court's notice of the
+hallucination is the forum raising the filer's own duty; so the filer is reachable by derivation, not by hand.
 
 **resolution**, per event and bucket, by precedence across all forums and parties in the bucket:
 0. `no-claim` — the bucket is not in `reachable`. Outside N, P, R and U; counted only in T minus M. A voluntary
@@ -95,9 +100,13 @@ ground). In Charlotin the filer (lawyer or pro se) is always reachable.
    settlement or one in principle is `pending`.
 4. `dropped` / `not-reached` — plaintiff-initiated or without-prejudice dismissal with no reason; dismissal for
    jurisdiction, standing, arbitration, mootness; any stipulated dismissal with prejudice (never `cleared`).
-5. `cleared` — the record states a merits or sanctions ruling with nothing imposed. In Charlotin only when the
+5. `cleared` — the record states a merits or sanctions ruling with nothing imposed. A ruling that the claim fails as a
+   matter of law or fact on its pleaded ground (failure to state a claim, immunity such as Section 230, privilege,
+   First Amendment, anti-SLAPP) is `cleared` when it ends the claim; a dismissal with leave to amend is `pending` until
+   the amendment deadline lapses unused, then `cleared`. In Charlotin only when the
    Outcome records that the court considered sanctions and declined; a hallucination merely noted is `not-reached`.
-6. `unchecked` — no dated check >= 90 days after the event.
+6. `unchecked` — no dated check >= 90 days after the event, or a claim or consequence known only from press, trackers
+   or law-firm summaries (the forum's own record not read). Unchecked events enter U and nothing else.
 
 **N** = events with resolution imposed-final, settled or cleared. Pending, dropped/not-reached and unchecked counts are
 printed beside every share.
