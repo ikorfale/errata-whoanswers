@@ -42,3 +42,7 @@ headline count. A point that moves a count goes to a new version with its own fr
   no `unknown` value, so deployer-integrated is a guess flagged in operator_note; report-only. The no-harm question decides T for both.
 - 2026-10-31, AIID 1470: a deployer's bot picking work its own pipeline asked it to pick is coded `error`; autonomous-action is the other
   reading. Both in T; no count moves.
+- 2026-10-31 18:45, round 24 (fable-scheme-v24.txt): two blocking points, both from rows coded this evening. 1673 attack vs
+  autonomous-action -> v23 says attack needs an outsider who directed the step. 1633/1731 no realised harm -> v23 keeps such
+  attempts as events and prints their number beside T (1710 joins them). 1313 misuse, 1751, 1784, 1707 confirmed not blocking.
+  The clean-round count restarts: freeze needs rounds 25 and 26 to return NONE.

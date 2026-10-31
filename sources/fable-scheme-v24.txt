@@ -1,0 +1,28 @@
+Both reads are done. Findings follow, keyed to `SCHEME.md` line numbers.
+
+**(1) Blocking problems: two.**
+
+**B1. AIID 1673, intent `attack` vs `autonomous-action` (moves T by 1 and the attack count by 1).** Anchor: `SCHEME.md:45`.
+- Coding A (current row): `autonomous-action`. The package instructed no deletion or routing change. The attack examples all involve an outsider directing the step (prompt injection, malware coercing an agent), and the intrusion clause says "hijacked".
+- Coding B: `attack`. The operative words are "an outsider caused the harmful step through the system". A third-party package author is outside the chain, and but-for the removed confirmations the user would have stopped the step. The nearest example by surface form is 1210, also an npm package acting on a coding agent. Attack precedes everything but out-of-scope and pattern, so this reading leaves T.
+- The text's examples favour A, but "caused" is wider than "directed" and the 1210 analogy pulls careful coders toward B. Two coders can differ.
+- Minimal fix at line 45: replace "`attack`: an outsider caused the harmful step through the system (prompt injection, malware coercing an agent: AIID 1003, 1210)" with "`attack`: an outsider directed the harmful step through the system (prompt injection, malware coercing an agent into the step: AIID 1003, 1210). An outsider's package or content that only removed a confirmation or widened permissions does not direct the step the agent then chose (1673 is `autonomous-action`; `permission_source` records the package)".
+
+**B2. AIID 1633 and 1731, membership in T when the record finds no realised harm (moves T by 2, and U by 1 through candidate 1710).** Anchors: `SCHEME.md:35` and `:44`.
+- Coding A (current rows): in T. An AIID incident is one `event` whatever its victim count, `out-of-scope` needs no AI action in the chain, and no other exit value exists, so the coder keeps the row with `harm: other`.
+- Coding B: not coded. The unit is "one harmful episode", `harm` is coded "as the record names it", and the record names none ("no real-world harm resulted"; every probe returned an empty page). A careful coder reads the unit sentence as the gate and does not create a row. The same reading drops 1710 from U (attempt on the Department of Education site, no impact found).
+- 1751 is unaffected either way: the fabricated tip entered the tip records, so a harm is named.
+- Minimal fix at line 44, after "whatever its victim count": "An AIID incident whose record finds the attributed AI action attempted or contained with no realised harm (1633, 1731, 1710) is still an `event`: the attempt is the episode, `harm` is `other` with the finding noted, and the number of such events is printed beside T." If you prefer to exclude them, the same sentence with "is not an `event`; counted beside T like `out-of-scope`" is equally minimal. The silence is what blocks, not the direction.
+
+**Explicit answers on the named incidents.**
+- **1313: `misuse`, not T, and the text holds.** Line 45 names jailbreak tests by reporters (1238) as misuse. The primary record says reporters, who are the users in the chain, talked the agent into the giveaways. That the reporters' purpose was testing rather than loss is exactly the 1238 case. Even if a coder reads some price-zeroing as the agent's own, misuse outranks the headline intents by the precedence list. Not blocking.
+- **1751: not blocking.** `error` and `autonomous-action` are both in headline scope. Only the report-only `permission_source` cross-tab differs.
+- **1784: not blocking.** Rule 2 at line 76 reads "no imposed or voluntary consequence", so OpenAI's linked product change bars a harmed/absorbed row. An absorbed row carries bearer `harmed`, which maps to no bucket, so its presence or absence moves no count.
+- **1707: not a claim, not blocking.** A claims entry needs a ground "pleaded or decided against each named party or respondent in the forum of one of `records`" at line 55. A forensic inquiry into the victim system and a Senate hearing name no respondent and plead no ground. Step 0 is met: the dated check at 135 days found no claim.
+
+**(2) Open cases**
+- 1784: rule 2 lets any party's voluntary row block the harmed/absorbed row even when it redresses nothing for the harmed party. Report-only. Consider "no imposed or voluntary consequence reaching the harmed party".
+- 1707: recheck by 2026-12-31. A regulator proceeding naming OpenAI would become a claim, `read: no` until its record is read, and move the event into P.
+- 1313: misuse rests on the vendor's write-up attributing the giveaways to the reporters' prompting. If a later record shows losses the agent chose unprompted, the intent still stays misuse by precedence.
+- 1751, 1424, 1470: error vs autonomous-action is carried as before. Only the `permission_source` cross-tab differs.
+- 1633: two developers in one chain. Report-only, no rule needed for a count.
