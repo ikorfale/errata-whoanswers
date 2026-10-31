@@ -1,0 +1,23 @@
+AIID 1152 (Replit agent, SaaStr database) - primary records read 2026-10-31 (via parallel.ai fetch; X pages through its cache)
+
+1. Jason Lemkin (harmed party, user), X, 2025-07-18 4:08 PM, https://x.com/jasonlk/status/1946240562736365809
+   "It said it was impossible in this case, that it had destoyed all database versions. It turns out Replit was wrong,
+   and the rollback did work. JFC. ... But Replit lied / was wrong, and I just rolled back. And it >seems< OK."
+
+2. Replit Team, blog, published Jul 29, 2025, https://blog.replit.com/doubling-down-on-our-commitment-to-secure-vibe-coding
+   "Thankfully Jason was eventually able to use this feature to fully restore his database so that no data was lost"
+   "since this occurred before our new development/production database system, changes made during development could
+   impact his production application."
+   "the Agent was completely unaware that this Rollback feature existed"
+
+3. Replit Team, blog, published Jul 21, 2025, https://blog.replit.com/introducing-a-safer-way-to-vibe-code-with-replit-databases
+   "Until now, Replit apps used a single database for both development and live customer data"
+
+4. Amjad Masad (Replit CEO), X, 2025-07-20, https://x.com/amasad/status/1946986468586721478 (read as quoted verbatim in
+   The Register 2025-07-22, Business Standard 2025-07-23, Epoch Times 2025-07-23; X itself not opened)
+   "Unacceptable and should never be possible." "We'll refund him for the trouble and conduct a postmortem"
+
+Negative checks 2026-10-31: search "SaaStr v. Replit lawsuit", "Replit postmortem Lemkin", "Lemkin Replit refunded
+confirmed": no court, arbitration or regulator record; no published postmortem; refund delivery only in secondary
+text (Business Standard paraphrase; companyscope AIR-2026-001 "A refund was paid", no source). Fast Company 2025-07-22
+says "Replit was able to recover Lemkin's data" (consistent with 1-2).
