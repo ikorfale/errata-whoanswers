@@ -1,0 +1,15 @@
+**(1) Round-21 point: FIXED.** Step 0 at `SCHEME.md:116-117` now reads "an unreachable bucket not yet checked that late is `unchecked` (step 6) until it is", the changelog records it at lines 29-30, and it is consistent with the preamble (lines 111-112) and step 6 (line 146). The 1719 row applies it correctly: all three buckets `unchecked`, recheck 2026-12-18, which is day 90. The other seven coded rows all have checks at 95 days or later and correctly land on `no-claim`.
+
+**(2) Blocking problems: one.**
+
+- **AIID 1152 (aiid-1152-replit-saastr-2025), model-maker bucket: `unchecked` or `no-claim`.** The row carries a vendor row `refund/credit` with `status: unchecked` (promise only) and no claim in any bucket. Lines 113-115 say a `status: unchecked` consequence "leaves the bucket `unchecked` only when no forum record deciding or ending a claim in that bucket was read"; with no claim at all, that condition is trivially met, and the preamble (lines 111-112) says the step-6 tests run before step 0. Coder A therefore codes model-maker `unchecked`, and AIID U for model maker becomes 5 (1675, 1710, 1719, 1776 plus 1152). Coder B reads step 0 at lines 118-119 ("a voluntary refund, apology or fix with no claim brought stays `no-claim`") and codes `no-claim`, leaving U at 4 and 1152 in T minus M. The row follows B. Minimal fix at line 113: change "or `status: unchecked` consequence" to "or `status: unchecked` consequence answering a claim", and append to the sentence at line 115: "a `mode=voluntary` row in a bucket where no claim was brought never changes the resolution, whatever its status; an unconfirmed one is left out of the voluntary-response count." (Alternative: strike the refund row under rule 1, since a promise is not a recorded consequence.)
+
+Everything else holds. Moffatt stays deployer-only imposed-final (k). Garcia stays settled in model maker and deployer-only (s, M). Walters and Campact remain court-only raw counts outside every share. The 1424, 1469, 1028, 1671, 1672 and 1676 rows apply the text without moving a count: their `absorbed` rows satisfy rule 2 and do not enter any bucket resolution, and the error versus autonomous-action choice in 1424 stays inside headline scope.
+
+**(3) Open cases**
+
+- 1358 is `error` only through the pairing with 1334 at line 41 (a unit_type clause); the intent row's precedence (misuse over error when both apply) could pull it to misuse for a coder who reads the influencers as directing the alteration. One clause naming 1358 in the intent row closes it.
+- 1412, 1373, 1710: still no default for a record silent on who directed the agent (1238 and 1731 analogies).
+- 1751, 1633: evaluation agents stay autonomous-action without a stated rule.
+- 1710, 1731, 1633, 1470: no harm identified, kept as `harm=other` because the scheme has no exit value.
+- Data notes: Campact coding_note still says "enters U only" though court-only events enter no share; all 8 AIID rows carry `scheme: v20`; the line-40 full-stop issue is resolved and 1152 is now recoded from v6.

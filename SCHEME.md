@@ -1,4 +1,4 @@
-# Who Answers — coding scheme v21 (DRAFT; v20 was frozen 2026-10-31 14:17Z, commit 3fba976, and reopened by round 21)
+# Who Answers — coding scheme v22 (DRAFT; v20 was frozen 2026-10-31 14:17Z, commit 3fba976, and reopened by round 21)
 
 v1 -> v2: all 17 points of a second-model review (fable-scheme-v1.txt) applied. Main changes: a bearer exists only
 where a consequence is recorded; `reachable` (who the deciding forum could touch) next to every bearer count;
@@ -28,6 +28,8 @@ v19 -> v20 (fable-scheme-v19.txt, narrow test, one point): a wave of outputs abo
 fronts of one operation are one deployer.
 v20 -> v21 (fable-scheme-v21.txt, confirmation round after the v20 freeze, one point): an unreachable bucket is
 `no-claim` only after the 90-day check; before it, `unchecked` (moves U by 4 AIID events: 1675, 1710, 1719, 1776).
+v21 -> v22 (fable-scheme-v22.txt, narrow test, one point, AIID 1152): an unconfirmed voluntary row (a promised refund)
+in a bucket with no claim does not make the bucket `unchecked`, and is left out of the voluntary-response count.
 
 Unit: one **event** = one harmful episode attributed (in part) to an AI system. Sources give *records* (a court
 decision, an incident page, a filing); several records can belong to one event (`event_id`, cross-source) and one
@@ -110,9 +112,10 @@ hallucination is the forum raising the filer's own duty; so the filer is reachab
 
 **resolution**, per event and bucket, by precedence across all forums and parties in the bucket. Both tests of step 6
 (forum record, and a dated check >= 90 days after the event) run first: steps 0 to 5 use only claims and consequences read in the forum's own record (or Charlotin's fields);
-anything else leaves the bucket `unchecked`. A `read: no` claim or `status: unchecked` consequence leaves the bucket
+anything else leaves the bucket `unchecked`. A `read: no` claim or a `status: unchecked` consequence answering a claim leaves the bucket
 `unchecked` only when no forum record deciding or ending a claim in that bucket was read; otherwise it is ignored for
-steps 0 to 5 and its count is printed beside R and N.
+steps 0 to 5 and its count is printed beside R and N. A `mode=voluntary` row in a bucket where no claim was brought never
+changes the resolution, whatever its status; an unconfirmed one is left out of the voluntary-response count.
 0. `no-claim` — the bucket is not in `reachable` and a dated check >= 90 days after the event found no claim; an unreachable
    bucket not yet checked that late is `unchecked` (step 6) until it is. Outside N, P, R and U; counted only in T minus M. A voluntary
    refund, apology or fix with no claim brought stays `no-claim` (it is printed as a separate count of voluntary
