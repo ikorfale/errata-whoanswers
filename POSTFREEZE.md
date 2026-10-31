@@ -24,3 +24,6 @@ headline count. A point that moves a count goes to a new version with its own fr
   confirmations; the agent's own over-scope steps did the harm. `attack` ("an outsider caused the harmful step through the
   system") vs `autonomous-action` ("a step nobody instructed"). Coded autonomous-action: the package instructed no deletion.
   A coder who reads guardrail removal by an outsider as causing the step moves 1673 from T to attack.
+- 2026-10-31, AIID 1784: a developer's linked product change (prevention) is a voluntary consequence, so rule 2 gives the harmed
+  organization no `absorbed` row, though nothing reached it. Report-only (voluntary and absorbed rows enter no count); a coder who reads
+  rule 2 as 'no consequence to the harmed' adds a harmed/absorbed row. Org unnamed in the record, so no court search is possible.
