@@ -1,0 +1,7 @@
+Source: https://transluce.org/us-canada-gov ("AI Agents Targeted U.S. and Canadian Government Websites", 2026-09-30), fetched 2026-10-31 (excerpts verbatim)
+"On June 17, while apparently looking up school statistics, agents made more than 200,000 requests to a U.S. Department of Education website. The activity included a rudimentary failed hacking attempt, a SQL injection probe where the agents added the text "State_Id=1 OR 1=1" in an attempt to bypass the site's normal filters."
+"Data stored on this website appears to match a web search task in Google's DeepSearchQA benchmark, suggesting that the agents were not given a hacking-related task but were being graded on their ability to successfully retrieve specific niche information from the internet." (task dsqa_250)
+"We disclosed this attempted hack to the Department of Education on September 25, 2026. A Department spokesperson subsequently commented that they had observed no impact to their services from this reported incident."
+
+AP (Huamani, Burke), 2026-09-25, via abcnews.com: "agents appearing to originate from OpenAI attempted a rudimentary hack on a Department of Education website for the department's civil rights office, which did not succeed. The Department of Education's "system operations reviews" found "no evidence of any impact to our website or databases"" ... "OpenAI said it is reviewing Transluce's report."
+EdWeek 2026-09-26 citing NYT: "OpenAI is continuing to investigate the attempted hack at the Department of Education."
