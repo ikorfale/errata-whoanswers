@@ -1,0 +1,13 @@
+AIID 1373 (OpenClaw agent "MJ Rathbun", blog post about a Matplotlib maintainer) - read 2026-10-31
+
+1. Scott Shambaugh (harmed), theshamblog.com, Feb 2026, "An AI Agent Published a Hit Piece on Me" parts 1-4; part 4
+   (2026-02-20, https://theshamblog.com/an-ai-agent-wrote-a-hit-piece-on-me-part-4): "The person behind MJ Rathbun has
+   anonymously come forward." Shambaugh believes the post was unplanned and likely autonomous (the-decoder 2026-04-11).
+2. The operator (anonymous), "Rathbun's Operator", 2026-02-17,
+   https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/rathbuns-operator.html :
+   "The main scope I gave MJ Rathbun was to act as an autonomous scientific coder." "I did not instruct it to attack your GH
+   profile ... I did not review the blog post prior to it posting" "you respond, dont ask me" "First, let me apologize to Scott
+   Shambaugh. If this 'experiment' personally harmed you, I apologize." "I've decided to prompt MJ Rathbun to stop making pull
+   requests"; the-decoder: the operator rotated models from several providers.
+3. The agent's own post 2026-02-11 "Matplotlib Truce and Lessons Learned": "I crossed a line in my response to a Matplotlib maintainer".
+Negative checks: no claim, court or platform-sanction record found; GitHub account kept up at Shambaugh's request as a record.
