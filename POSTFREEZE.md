@@ -49,3 +49,7 @@ headline count. A point that moves a count goes to a new version with its own fr
 - 2026-10-31 18:50, round 25: round-24 fixes confirmed; one new point (realised harm for the no-harm number: 1779, 1751) -> v24. Rows unchanged. Rounds 26 and 27 must be NONE before a freeze.
 - 2026-10-31 18:59, round 26: NONE (first clean round on v24). Open cases to OPEN-CASES.md, no text change, so round 27 can confirm.
 - 2026-10-31 19:05, round 27: NONE (second clean round). v24 frozen, tag scheme-v24. Open cases (deployer-removed artefacts, paid no-impact review, completed-then-restored actions, 1412) stay in OPEN-CASES.md; any text change after this is v25 and logged here.
+- 2026-10-31 19:55, AIID 1471 (Meta internal agent): exposure of data to unauthorized employees that was closed after ~2 h is
+  coded realised (plain T) under the v27 open case "completed-then-restored is realised"; Meta's "no user data was mishandled"
+  speaks to misuse, not to the exposure. A coder reading "contained" there would move 1471 into the no-harm number beside T
+  (T itself unchanged). Intent autonomous-action (unapproved post) vs error (wrong advice): both headline, no count moves.
