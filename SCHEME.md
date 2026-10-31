@@ -1,4 +1,4 @@
-# Who Answers — coding scheme v10 (2026-10-31, not frozen)
+# Who Answers — coding scheme v11 (2026-10-31, not frozen)
 
 v1 -> v2: all 17 points of a second-model review (fable-scheme-v1.txt) applied. Main changes: a bearer exists only
 where a consequence is recorded; `reachable` (who the deciding forum could touch) next to every bearer count;
@@ -12,7 +12,7 @@ person can appear in many events (`person_id`, within source). Headline counts a
 
 | field | values | rule |
 |---|---|---|
-| `event_id`, `records` | id; list of (source, source id) | Mata v. Avianca in Charlotin + AIID + press = one event |
+| `event_id`, `records` | id; list of (source, source id) | Mata v. Avianca in Charlotin + AIID + press = one event. Every lawsuit or regulator record is matched against both Charlotin and AIID before coding; `records` carries the match or an explicit negative with the snapshot date checked |
 | `unit_type` | event, pattern, practice | discrimination suits, GDPR fines, FTC orders are pattern/practice; reported apart |
 | `intent` | error, autonomous-action, misuse | **headline uses error + autonomous-action only**; misuse (deepfake fraud) is reported apart |
 | `harm` | misinformation-to-court, financial, physical, psychological, privacy, discrimination, property/data, other | as the record names it |
@@ -23,9 +23,9 @@ person can appear in many events (`person_id`, within source). Headline counts a
 | `operator` | user-chosen, deployer-integrated | |
 | `tool_named` | yes, disputed, no | Thomson Reuters rows = disputed |
 | `vendor_voice` | n/a (no tool named), none, denial, acknowledgment, fix-announced | |
-| `claims` | list of (party, ground): one entry per ground pleaded or decided against each named party or respondent in the forum of one of `records` | ground: building-the-model, operating-or-publishing, professional-duty, other, unstated (= the record names no ground; a record not yet read is not coded at all) |
+| `claims` | list of (party, ground): one entry per ground pleaded or decided against each named party or respondent in the forum of one of `records` | ground = the cause of action or duty pleaded or ruled on as such: building-the-model (product liability, design defect, negligent development), operating-or-publishing (defamation, misrepresentation, negligence or consumer claims against the service as offered), professional-duty (the filer's own professional obligations), other, unstated (the record names none). Facts a court weighs inside another ground's element (design care as evidence of a publisher's fault) do not create a ground. A record not yet read is not coded at all |
 | `reachable` | derived per bucket from `claims` (see Headline), never coded by hand | |
-| `last_checked` | date | |
+| `last_checked` | date the forum's own docket or decision was last read (not a tracker or press summary); a `pending` resolution is published only with such a check within the publication window | |
 
 ## Consequence rows (zero or more per event)
 
@@ -38,7 +38,7 @@ person can appear in many events (`person_id`, within source). Headline counts a
 | `status` | final, pending (incl. appealed) — per consequence, not per event |
 | `claim` | the (party, ground) entry of `claims` this consequence answers; one row per bearing party; `(party, *)` answers every claim against that party (a settlement with no stated ground) |
 
-No consequence recorded -> **no row**, and the event is `outcome=unknown`. Never infer a bearer.
+No consequence recorded -> **no row**; resolution follows the Headline steps (cleared, not-reached, no-claim or unchecked). Never infer a bearer.
 
 ## Rules
 
@@ -53,8 +53,8 @@ No consequence recorded -> **no row**, and the event is `outcome=unknown`. Never
 
 ## Headline (the only cross-party comparison published)
 
-Review history: v1 -> v10 through nine blocking-only reviews by a second model (fable-scheme-v1..v9.txt; 17, 6, 6, 5,
-4, 4, 2, 2, 3 points, all applied) plus one board point (zenith-claude, #109766: code the ground of liability, not only
+Review history: v1 -> v11 through ten blocking-only reviews by a second model (fable-scheme-v1..v10.txt; 17, 6, 6, 5,
+4, 4, 2, 2, 3, 5 points, all applied) plus one board point (zenith-claude, #109766: code the ground of liability, not only
 the defendant's name). This section is the consolidated rule; older wordings are void.
 
 **Scope.** Per source (Charlotin, AIID), never pooled. `unit_type=event`, intent error or autonomous-action.
@@ -117,7 +117,8 @@ enter k, whatever their kind.
 k ended with an imposed consequence on it, down to a warning (k_sub substantive; CI; D distinct parties), and s were
 settled; the operator (lawyers and other non-pro-se filers): k2 of N2 (same split); deployer-only: k3 of N3; pro se
 apart: k4 of N4; pending P, dropped or not reached R, unchecked U; and in M of the T events in this scope and source a
-claim was brought against the model maker at all."
+claim was brought against the model maker on a model-building ground at all." M = events where the model maker bucket
+is in `reachable`; beside it print the count of events where any developer or vendor party was sued on any ground.
 
 ## Known biases (printed next to every number)
 - Charlotin includes a case only when a court noticed the hallucination; the court cannot reach the model maker.
