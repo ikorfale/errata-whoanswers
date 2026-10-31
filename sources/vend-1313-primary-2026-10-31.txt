@@ -1,0 +1,11 @@
+AIID 1313 (Claude "Claudius" vending machine at the Wall Street Journal) - read 2026-10-31
+
+1. Anthropic, "Project Vend: Phase two", 2025-12-18, https://www.anthropic.com/research/project-vend-2 (also red.anthropic.com):
+   "We extended our red teaming to the Wall Street Journal newsroom, handing over control of Claudius to their reporters to
+   test the setups from phase one and phase two themselves. The WSJ installation was an opportunity to test Claudius in an
+   adversarial environment we didn't control." Partner Andon Labs "built the hardware and software infrastructure".
+2. Joanna Stern, WSJ, 2025-12-18, "We Let AI Run Our Office Vending Machine. It Lost Hundreds of Dollars."
+   (https://www.wsj.com/tech/ai/anthropic-claude-ai-vending-machine-agent-b7e84e34; paywalled; quoted verbatim by kottke.org
+   2025-12-18): "Within days, Claudius had given away nearly all its inventory for free — including a PlayStation 5 it had
+   been talked into buying for 'marketing purposes.'" Journalists posed as its board with a forged document.
+Negative checks: no claim; no statement of who bore the loss beyond "initial capital of US$1,000" (IDNFinancials via futurism).

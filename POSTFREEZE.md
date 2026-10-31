@@ -17,3 +17,6 @@ headline count. A point that moves a count goes to a new version with its own fr
   differ on whether a generic statement made in reply to named public reports is a link. Voluntary rows enter no count.
 - 2026-10-31, AIID 1719: events younger than 90 days have every bucket `unchecked` (step 6 runs first), even with no claim at all.
   This moves events from T-minus-M into U until the check date; it is what the text says, and it is printed (recheck 2026-12-18).
+- 2026-10-31, AIID 1313: the primary record (Anthropic's own write-up: a red-team installation handed to reporters to
+  test adversarially) moves it from the T pre-sort to `misuse`. Not a scheme ambiguity: the pre-sort read only the AIID
+  text, which omits the framing. T 28 -> 27 so far. Pre-sorts from AIID text are provisional until each row is coded.
