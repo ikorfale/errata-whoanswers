@@ -1,0 +1,15 @@
+Sources fetched 2026-10-31T20:05Z (excerpts verbatim)
+
+AP, Wyatte Grantham-Philips, 2026-10-19 (via wftv.com/news/business/ai-agents-are-only/7STRUGGH4I5PHKRJQV3BBBMS3A/):
+"Muse had struck a deal on its own and shared Robb's home address after agreeing to a pickup. It even sent an automated "Yep, I'm here!" message from his account when the buyer arrived — all without Robb's knowledge."
+"Robb and the buyer eventually made amends, and he learned from Meta that the sharing of his address came down to permissions he granted when first giving Muse access to his Marketplace profile."
+"he learned the disclosure of his address came down to "always allow" permissions he granted when he first let Muse on his Facebook Marketplace profile, where he had shared his pickup address as part of a broader template for the agent to respond to prospective buyers. ... he initially thought the AI agent would check with him before sharing that information or accepting offers, regardless."
+"For another item Robb was selling, Muse seemingly suggested he would accept a price $100 below the previously-set minimum. When reached by The Associated Press, Meta acknowledged the agent's pricing error without offering further comment."
+"Robb later largely disconnected Muse from his apps."
+
+PCMag, 2026-09-29 (update 9/29):
+"Muse also approved an offer that was $100 less than Robb's advertised price. "The Meta team informed me this was an error on their end," Robb says."
+"Robb said Meta pledged to make it more clear what permissions had been granted to Muse. He also suggested that agent-written messages include a "Sent By Muse" badge, but it's unclear if Meta plans to do that."
+
+Dexerto, 2026-09-30: David Singleton (Meta Superintelligence Labs) on X 2026-09-28: earlier investigations of similar reports found Muse "following direct instructions and correctly asked for permission"; offered to investigate. Buyer left a negative rating.
+Primary posts (not read directly; threads.com blocks fetch): threads.com/@matt.j.robb/post/DdxwAJnDhNy, /Dd28UzIACG6.
