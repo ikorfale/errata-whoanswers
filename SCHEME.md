@@ -30,6 +30,7 @@ v20 -> v21 (fable-scheme-v21.txt, confirmation round after the v20 freeze, one p
 `no-claim` only after the 90-day check; before it, `unchecked` (moves U by 4 AIID events: 1675, 1710, 1719, 1776).
 v21 -> v22 (fable-scheme-v22.txt, narrow test, one point, AIID 1152): an unconfirmed voluntary row (a promised refund)
 in a bucket with no claim does not make the bucket `unchecked`, and is left out of the voluntary-response count.
+Round 23 (fable-scheme-v23.txt): NONE under the narrow test; step 6 wording aligned with lines 113-118 (no rule change).
 
 Unit: one **event** = one harmful episode attributed (in part) to an AI system. Sources give *records* (a court
 decision, an incident page, a filing); several records can belong to one event (`event_id`, cross-source) and one
@@ -146,7 +147,7 @@ changes the resolution, whatever its status; an unconfirmed one is left out of t
    the amendment deadline lapses unused, then `cleared` once a closing judgment passes the step 1 finality test; until
    then `pending`. In Charlotin only when the
    Outcome records that the court considered sanctions and declined; a hallucination merely noted is `not-reached`.
-6. `unchecked` — no dated check >= 90 days after the event, or a claim or consequence known only from press, trackers
+6. `unchecked` — no dated check >= 90 days after the event, or a claim, or a consequence answering a claim, known only from press, trackers
    or law-firm summaries (the forum's own record not read). Unchecked buckets enter U and nothing else. For employer
    discipline the forum record is the employer's own statement, on its channels or quoted verbatim and attributed to
    it in press (a paraphrase alone is not), or a court or bar record noting the

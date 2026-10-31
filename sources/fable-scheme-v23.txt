@@ -1,0 +1,17 @@
+**(1) Round-22 point: FIXED.** The qualifier "answering a claim" is at `SCHEME.md:115`, the new sentence ("A `mode=voluntary` row in a bucket where no claim was brought never changes the resolution, whatever its status; an unconfirmed one is left out of the voluntary-response count") is at lines 117-118, and the changelog records it at lines 31-32. It agrees with step 0 at lines 120-122. The 1152 row applies it: the promised refund stays `status: unchecked`, all three buckets `no-claim`, the row is in T and not in M, and the counts note excludes the refund from voluntary responses. AIID U for the model-maker bucket stays at 4 (1675, 1710, 1719, 1776).
+
+**(2) Blocking problems: NONE.**
+
+Checks that hold under the v22 text:
+
+- **Court rows.** Moffatt stays deployer-only `imposed-final` (k, CRT registry read past the review period). Garcia stays `settled` in model maker and deployer-only (s, M); the Shazeer and De Freitas claims ended by the same Doc 278 dismissal and are outranked by the settlement rows in the same bucket, so nothing moves. Walters and Campact are court-only with no AIID or Charlotin record, so they enter no per-source share whatever their bucket resolution. Campact's `read: no` claim takes the summary's ground (operating-or-publishing), and even an `unstated` reading would not move M because the event is outside both sources' T.
+- **Eight AIID rows.** All checks are at or past 90 days except 1719, which is correctly `unchecked` in all three buckets with a recheck on day 90 (2026-12-18). The six `absorbed` rows carry bearer `harmed`, which maps to no bucket, so they cannot make a bucket `unchecked` under the line 114 "anything else" clause. 1152's apology and product-change rows are voluntary with no claim and stay `no-claim` by lines 117-118 and 121. The error versus autonomous-action choice in 1424 stays inside headline scope. 1671 and 1672 correctly carry no product-change row under rule 4 (the OpenAI statement does not name either event); that affects only the voluntary-response count, not a headline count.
+- **Uncoded candidates.** No incident is split by the v22 edit. The intent and unit-type calls that could move T or the misuse, attack, pattern or out-of-scope counts are the same ones carried as open cases since round 19; the v22 change touches none of them.
+
+**(3) Open cases**
+
+- Step 6 at line 149 still says "a claim or consequence known only from press" without "answering a claim"; lines 117-118 govern for 1152, but adding the same three words at line 149 removes the last inconsistency.
+- 1358 stays `error` only through the unit-type clause at line 43; one clause naming it in the intent row at line 44 would close it.
+- 1412, 1373, 1710: no default for a record silent on who directed the agent; 1779 and 1668 are coded `autonomous-action` only by analogy to 1731.
+- 1751, 1633, 1784: evaluation agents are `autonomous-action` without a stated rule.
+- 1710, 1731, 1633, 1470: no harm identified, kept as `harm=other` for lack of an exit value. Data note: the four court rows still carry `scheme: v20`, which is harmless since no v21 or v22 rule touches them.
