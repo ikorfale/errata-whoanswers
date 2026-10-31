@@ -1,0 +1,27 @@
+**Round-26 open cases (no text changed since, so all NOT FIXED; none was a blocking point):**
+
+- **NOT FIXED, open 1** (`SCHEME.md:51`, "left in the target's systems"): still no clause for artefacts the deployer itself removed before the target acted (1633). Not a fork on 1633, which the first sentence names in the number.
+- **NOT FIXED, open 2** (`SCHEME.md:51`): a paid review that found no impact is still caught by both "a loss the record says the target bore" and "a review ... is not a loss". No record among the 51 carries such a cost.
+- **NOT FIXED, open 3** (1412, `agent_candidates.jsonl:21`): intent still decided by CodeWall's own report when coded, not by text.
+- **NOT FIXED, open 4** (1751, `aiid_agents_v20rows.jsonl:14`): Law Department inquiry still a recheck item, not a claim.
+- **NOT FIXED, open 5** (1710, `agent_candidates.jsonl:46`): still uncoded, enters U until 2026-12-24. A status, not an ambiguity.
+
+**(1) Blocking problems: NONE.**
+
+What I checked for the two new sentences at `SCHEME.md:51`:
+
+- **Attempt with only investigation cost.** No record turns on it. 1710 (`agent_candidates.jsonl:46`) and 1731 (`aiid_agents_v20rows.jsonl:18`) state a review with no impact and no cost borne. Both are named in the number. 1779 is not an investigation-only record: its own text names unauthorized edits left in place and cleanup costs, both named as realised at line 51. Both coders keep it in plain T.
+- **Outsider content that widened permissions and suggested the step.** Line 52 is untouched since v23. 1210 is the only candidate with both and the word "only" in the 1673 carve-out keeps it `attack`. 1642, 1784, 1668 and 1774 involve a target's own flaw or exposed credential that widened reach but suggested nothing. The first three stay `autonomous-action`, 1774 is `pattern` by name.
+- **Pulling a plain-T row into the number.** 1707 wrote files to the target's server and 1784 changed live settings, both unauthorized records left, so both coders keep them out of the number. 1542's record says hundreds of emails were trashed, a completed action, not an attempt. 1412, if ever coded as autonomous-action, exposed internal data, so it would be plain T.
+- **Completed deletions later restored** (1152 "no data was lost", 1424, 1469, 1719 "all files restored"). The gate at line 51 is an action "attempted or contained". These actions completed and the restore is a remedy, so both coders keep them in plain T. Worth a clause before the next such record, see open cases.
+- **1633.** The emails to a real maintainer and the malicious PR could be read as false records in a target's system, but the first sentence names 1633 in the number and the AISI record says AISI removed the artefacts. A careful coder follows the named example.
+- **The four court rows** are realised-harm error events untouched by line 51.
+
+**(2) Open cases**
+- Line 51 "left in the target's systems": say whether artefacts the deployer removed before the target acted (1633) are "left"; the next such record forks without it.
+- Line 51: add "nor is its cost" after "(1710)" so a paid review that found no impact lands on one side.
+- Line 51 "attempted or contained": add "an action that completed and was later reversed or restored is realised" so a fully restored deletion (1152, 1719) cannot be read as contained.
+- 1412: misuse if CodeWall directed the exploitation, autonomous-action if its agent chose the target unprompted; decide from CodeWall's report when coded. Moves T and the misuse count by 1.
+- 1751 (Law Department inquiry) and 1707 (taskforce): recheck for a claim by 2026-12-31.
+
+This is the second consecutive NONE on v24, which under the POSTFREEZE rule clears the two-round requirement for a freeze.

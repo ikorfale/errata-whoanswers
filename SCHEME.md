@@ -1,4 +1,4 @@
-# Who Answers — coding scheme v24 (DRAFT; v20 was frozen 2026-10-31 14:17Z, commit 3fba976, and reopened by round 21)
+# Who Answers — coding scheme v24 (FROZEN 2026-10-31 19:05Z after rounds 26 and 27 returned NONE; v20 was frozen 2026-10-31 14:17Z, commit 3fba976, and reopened by round 21)
 
 v23 -> v24 (round 25, fable-scheme-v25.txt, 1 blocking point applied): what counts as realised harm for the no-harm
 number (records left in the target's systems or a loss it bore count; a target's own no-impact review does not). Rows unchanged.
