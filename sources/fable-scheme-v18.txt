@@ -1,0 +1,31 @@
+Read all four files. Here is the round-18 review.
+
+**(1) Round-17 points**
+
+1. `intent` undefined: FIXED at `SCHEME.md:36` (four values, each defined, with precedence out-of-scope > pattern/practice > attack > misuse). The example list reopens one split, see blocking point 1.
+2. `unit_type` for aggregated AIID incidents: FIXED at `SCHEME.md:35` (one incident = one event whatever the victim count; `pattern` only with no single dated episode and independent deployers or users, 1734 and 1774 named).
+
+Carry-over data notes: `court_seed.jsonl:1` now says "court-only event: raw count, enters no per-source share": FIXED. `court_seed.jsonl:4` chain now reads `developer:Google` without the "alleged" suffix: FIXED. `out-of-scope` for 1364-type incidents: FIXED at `SCHEME.md:35`. 1152 (`agent_candidates.jsonl:6`) is still coded under v6 with non-scheme status text: NOT FIXED, non-blocking.
+
+The four coded rows pass under v18: row 2 deployer-only `imposed-final` (k), row 4 model-maker and deployer-only `settled` (s), rows 1 and 3 raw counts outside every share. Two coders reach the same numbers.
+
+**(2) Blocking problems under the narrow test**
+
+1. **"agent-run intrusions" sits in the `attack` example list but the `attack` definition requires an outsider, so agent-run intrusions code three ways** (`SCHEME.md:36`). Two kinds of record move:
+   - **T moves.** Intrusions nobody instructed: 1731 (archives probes), 1710 (Dept. of Education), 1707 (Medicare portal), 1784 (research org's live systems), 1642 (gym API), 1633 (AISI evaluations), 1412 (CodeWall, if its agent exceeded its brief); same shape, weaker: 1779, 1668. Coder A: `autonomous-action` ("a step nobody instructed"), in T. Coder B: `attack` by the example "agent-run intrusions", and precedence puts attack before everything but scope, so excluded.
+   - **Misuse and attack counts move.** Operator-directed intrusions: 1661, 1766, 1781, 1646, 1669, 1578, 1586, 1670, 1693. Coder A: `misuse` ("the harmful step was the purpose of the operator ... who directed the system"). Coder B: `attack` by the example, or by reading "outsider" as outsider to the victim, with precedence then choosing attack.
+   
+   Minimal fix at `SCHEME.md:36`: replace "agent-run intrusions: AIID 1003, 1210" with "AIID 1003, 1210" and add after the `error` sentence: "An intrusion run by an agent takes the intent of whoever directed it: `attack` when a party outside the system's chain hijacked it (1003, 1210), `misuse` when its own operator directed it (1661, 1766, 1781), `autonomous-action` when nobody instructed it (1731, 1707, 1642)." Calling operator-directed intrusions `attack` instead is fine if stated the same way.
+
+2. **A lawsuit in which the AI output is only evidence yields a `claims` entry under the literal text** (`SCHEME.md:34`, `SCHEME.md:46`). Record 1299 (ChatGPT use-of-force narrative, intent `error`, so in T). The judge's finding sits in the Operation Midway Blitz docket, so Coder A matches that docket as a record and, since "one entry per ground pleaded ... against each named party ... in the forum of one of `records`" has no subject restriction, enters (DHS, other) which maps to deployer-only: `unchecked` from press, `pending` if the docket is read, so U or P plus the "sued on any ground" counter. Coder B: the pleaded grounds (force, First Amendment) do not rest on the AI step, so no record and `no-claim`. Minimal fix at `SCHEME.md:46`, after "pleaded or ruled on as such": "and resting on the event's AI step; a suit in which the AI output appears only as evidence on another matter is not a record of the event and gives no entry (AIID 1299)."
+
+**(3) Open cases (non-blocking)**
+
+- 962: one conspiracy across four countries; both code `misuse` because the entities are not "independent deployers", but say whether a network of named fronts is one deployer.
+- 1130, 1563, 1586: the AI action is only suspected ("may have been involved", "unconfirmed"); the Unit's "attributed (in part)" keeps both coders in scope, but a clause "attribution by the source suffices" would close the `out-of-scope` reading.
+- 1710, 1731, 1633: attempts with no harm identified; no scope value for a harmless attempt, so both must include them with `harm=other`.
+- 1412: whether CodeWall directed the probing is not in the record; under fix 1 the intent turns on that fact, not on the text.
+- 1362, 1390: the AI identification was correct and the harm is human retaliation; `misuse` versus `out-of-scope`, both excluded.
+- 1779, 1668: many agents but one deployer (OpenAI), so `event`; confirm a provider's fleet is one deployer, not "independent users".
+- 1152: still v6 with "promised; delivery not independently confirmed" as a status; recode, no count moves.
+- 1751, 1633, 1784, 1774: developer or evaluator in the deployer role; `operator` still has no fitting value (report-only).

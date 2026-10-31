@@ -1,0 +1,26 @@
+Read all four files. Here is the round-19 review.
+
+**(1) Round-18 points**
+
+1. Agent-run intrusions: FIXED at `SCHEME.md:38`. The `attack` example list now reads "prompt injection, malware coercing an agent: AIID 1003, 1210" without "agent-run intrusions", and the sentence "An intrusion run by an agent takes the intent of whoever directed it ... (1003, 1210) ... (1661, 1766, 1781) ... (1731, 1707, 1642)" is present verbatim. The round-18 open case on suspected attribution was also applied there ("Attribution of the AI step by the source suffices for scope (1130, 1563)").
+2. Evidence-only suits: FIXED at `SCHEME.md:48` ("and resting on the event's AI step; a suit in which the AI output appears only as evidence on another matter is not a record of the event and gives no entry (AIID 1299)"), and logged at `SCHEME.md:25-26`.
+
+Carry-over: 1152 (`agent_candidates.jsonl:6`) is still coded under v6 with non-scheme status text: NOT FIXED, non-blocking, no count moves.
+
+The four coded rows pass under v19: row 2 deployer-only `imposed-final` (k), row 4 model-maker and deployer-only `settled` (s, M), rows 1 and 3 court-only raw counts outside every share. Two coders reach the same numbers.
+
+**(2) Blocking problems under the narrow test**
+
+1. **1358 (`agent_candidates.jsonl:16`) codes `event`/`misuse` or `pattern`, moving the misuse count** (T is unchanged, since both readings exclude it). Fields that matter: `deployer` lists four independent user groups (influencers, unidentified users, partisan accounts, manipulation actors), and the description dates only the shooting, not the AI step ("Following the fatal shooting ... accounts reportedly circulated images"). `SCHEME.md:37` makes `pattern` turn on "names no single dated episode and aggregates independent deployers or users". Coder A: the dated shooting is the episode, so `event`, then `misuse` by precedence, printed in the misuse count. Coder B: the AI step is the episode, many independent users each altered images, no single dated AI step, so `pattern`, which falls outside T and outside the misuse count. 962 (`agent_candidates.jsonl:2`) sits on the same seam from the other side: six `deployer` entries, but the description calls it one operation. Minimal fix at `SCHEME.md:37`, after "(AIID 1734, 1774)": "The dated episode may be the occasion the outputs answer to, so a wave of independent users' outputs about one news event is one `event` (1358, like 1334); named fronts of one operation are one deployer (962 is `event`)." Choosing `pattern` for 1358 instead is fine if stated the same way.
+
+No other listed record moves a count. Every intrusion candidate falls cleanly under the new sentence at `SCHEME.md:38` (misuse: 1646, 1669, 1578, 1586, 1670, 1693 beside the three named; autonomous-action: 1710, 1784, 1779, 1668 beside the three named). Error versus autonomous-action never moves a count, since both are in T and `permission_source` is report-only (`SCHEME.md:45`).
+
+**(3) Open cases (non-blocking)**
+
+- 1412: the record never says who directed the probe; the 1238 analogy gives `misuse`, but a one-line default ("a security firm or researcher reporting its own agent's intrusion directed it") would remove the only inference.
+- 1633, 1751: evaluation agents; `autonomous-action` because the live step was "unsanctioned"; say that an evaluator's elicitation is `misuse` only when the harmful step itself was the elicited one (1238).
+- 1070: misconfigured database of an agent platform, `out-of-scope` like 1364; name it beside 1364 so the "AI platform exposed" title does not tempt an `error` reading.
+- 1710, 1731, 1633, 1470: no harm identified; the text (and naming 1731) forces inclusion with `harm=other`, unchanged from round 18.
+- 1779, 1668: one deployer (OpenAI) and no users named in the text, so `event`; a clause that a provider's fleet is one deployer would close it.
+- 1362, 1390: the AI output is in the chain and was the agent's purpose, so `misuse`, not `out-of-scope`; both excluded either way.
+- Data notes: `court_seed.jsonl:3` coding_note still says "enters U only" though the row is court-only and, like row 1, a raw count outside every share; 1152 still v6. No count moves.

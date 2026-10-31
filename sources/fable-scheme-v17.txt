@@ -1,0 +1,33 @@
+Read all four files. Here is the round-17 review.
+
+**(1) Round-16 points**
+
+1. FIXED. `SCHEME.md:114-115`: employer discipline is final when "a step-6 record of the discipline (the employer's statement, or the court or bar record noting it) records the measure as taken".
+2. FIXED. `SCHEME.md:43` (last sentence): "A `read: no` entry takes the ground the summary names, or `unstated` if it names none." Row 3 (`court_seed.jsonl:3`) complies.
+3. FIXED. `SCHEME.md:137-140`: the employer's statement "on its channels or quoted verbatim and attributed to it in press (a paraphrase alone is not)". Change log at `SCHEME.md:20-21`.
+
+Carry-over data notes, both still NOT FIXED and still non-blocking: `court_seed.jsonl:1` "why" ends "-> unchecked" although a court-only event is a raw count under `SCHEME.md:81-82` and enters no U; `court_seed.jsonl:4` still carries `developer:Google (alleged in complaint)`, not a value under `SCHEME.md:37`. Row 3's `last_checked` now says "Not in any headline count until read" (FIXED).
+
+**(2) Blocking problems under the narrow test**
+
+The four coded rows pass: two coders reach deployer-only `imposed-final` for row 2 (k), model-maker and deployer-only `settled` for row 4 (s), and raw-count-only for rows 1 and 3. The batch is different: for 51 AIID incidents with no claim brought, the only headline counts that move are T and the exclusion count, and both depend on two fields the text barely defines.
+
+1. **`intent` has no definition, so attacker-driven and user-driven agent actions split between misuse and in-scope** (`SCHEME.md:33`, the only guidance is "misuse (deepfake fraud)"). Records and the two codings:
+   - `1003` (AIXBT): a hacker queued prompts, the agent transferred 55.5 ETH. Coder A: `misuse` (a human used the AI to commit theft, like deepfake fraud), excluded. Coder B: `autonomous-action` (the agent acted without its operator's approval; `permission_source` = operator-standing-config fits it exactly), in T. Same split for `1210` (Nx malware coercing coding agents).
+   - `1334` (Grok "unmask"): users asked Grok to identify an officer, Grok fabricated a face and the name "Steve Grove". Coder A: `error` (hallucinated identity), in T. Coder B: `misuse` (users directed a doxxing), excluded.
+   - `1238` (NBC jailbreak): Coder A: `misuse` (deliberate guardrail circumvention), excluded. Coder B: `error` (safeguard failure, nobody harmed on purpose), in T.
+   
+   Minimal fix at `SCHEME.md:33`, after "misuse": "`misuse` when the harmful step was the purpose of whoever gave the instruction the system acted on, operator or intruder (deepfake fraud, prompt injection, agent-run intrusions, jailbreak tests); `autonomous-action` when the system took a step nobody instructed; `error` when an instructed task produced a wrong output or decision." Under that text 1003, 1210 and 1238 are misuse, 1334 is error. The opposite choice for prompt injection is fine if stated.
+
+2. **`unit_type` gives only legal examples of pattern/practice, so an AIID incident that aggregates unrelated episodes is coded both ways** (`SCHEME.md:23` "one harmful episode" versus `SCHEME.md:32` "discrimination suits, GDPR fines, FTC orders"). Records: `1734` (13,000 images from 300+ organizations, many employees, models unnamed, no single dated episode) and `1774` (CERT-In report on unnamed providers' agents at several Indian organizations). Coder A: one AIID incident page is one `event`, in T. Coder B: no single episode, `pattern`, excluded. Minimal fix at `SCHEME.md:32`: "An AIID incident is one `event` whatever its victim count; it is `pattern` only when its text names no single dated episode and aggregates independent deployers or users (1734, 1774)." Or the opposite rule, "an AIID incident is always one event", stated.
+
+**(3) Open cases (non-blocking)**
+
+- No scope value removes AIID incidents where no AI system did anything (`1364` Moltbook database, `1070` Serviceaide misconfiguration, `1362` a possibly bluffed facial-recognition claim); both coders include them as `error`. Decide whether that is intended.
+- `1412` CodeWall: whether CodeWall directed the access to McKinsey's Lilli is not in the description; intent under fix 1 depends on that fact.
+- `1070`: class actions against Serviceaide may exist; the match at `SCHEME.md:31` would make deployer-only reachable (U or P). Data, not text.
+- If misuse and pattern/practice are printed as separate exclusion counts, campaigns like `1661`, `1766`, `1781` need an order of precedence between them.
+- Rule 6 at `SCHEME.md:71` defaults to `absorbed`, while `SCHEME.md:59` says never infer a bearer and rule 2 needs a 90-day check; the `1152` row has such a row. No headline count moves.
+- `1152` is coded under v6 with non-scheme status text ("promised; delivery not independently confirmed") and old resolution labels; recode to v17 values, no count moves.
+- Evaluation incidents (`1751`, `1633`, `1784`, `1774`) put the developer or an evaluation body in the deployer role; nothing moves, but `operator` (user-chosen / deployer-integrated) has no fitting value.
+- Row 1 "why" still reads as if the event enters U; harmless while court-only events stay raw counts.

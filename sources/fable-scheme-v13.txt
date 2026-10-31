@@ -1,0 +1,22 @@
+Four of four v12 points are fixed. Four new problems in v13 would move headline numbers.
+
+**(1) v12 blocking points**
+
+1. FIXED. `SCHEME.md:58-59` makes Charlotin's fields the record for Charlotin rows and limits step 6's tracker clause to AIID and court records; `SCHEME.md:92` repeats it inside the gate. (The promised bias line is not yet in the Known biases list at `SCHEME.md:141-145`; no count effect.)
+2. FIXED. `SCHEME.md:91-93` runs the forum-record test before step 0, and steps 0 to 5 use only forum-read claims and consequences.
+3. FIXED. `SCHEME.md:80-81` maps `other` like `unstated` and counts it in the same printed number.
+4. FIXED. `SCHEME.md:115-117` names the employer's own published statement, or a court or bar record, as the forum record and excludes a press paraphrase.
+
+Data note: FIXED. `SCHEME.md:45` now lists `unchecked` as a consequence status, so `court_seed.jsonl:3` is valid.
+
+**(2) New blocking problems**
+
+1. **A press-only claim is both forbidden and required as a `claims` entry** (`SCHEME.md:33`, `SCHEME.md:92-93`, `SCHEME.md:87`, `court_seed.jsonl:3`). Line 33 says a record not yet read is not coded at all. The gate at line 92 says anything known outside the forum record leaves the bucket `unchecked`, but the bucket can only be identified through a coded `(party, ground)` entry, and `reachable` and M are derived from `claims`. Campact codes the claim although the LG Hamburg order is unread. Coder A follows line 33: no entry, bucket not reachable, step 0 gives `no-claim`, event in T minus M. Coder B follows the Campact row: entry coded, bucket reachable, `unchecked`, event in U and, for a model-building ground, in M. Minimal fix at line 33: replace the last sentence with "a claim known only from press, trackers or summaries is coded with `read: no`; it makes the bucket reachable, resolves `unchecked`, and the number of such entries is printed beside M".
+
+2. **`cleared` and `imposed-final` have no finality test tied to the forum docket** (`SCHEME.md:98`, `SCHEME.md:109`, `SCHEME.md:35`, `SCHEME.md:45`, `court_seed.jsonl:1`). Line 45 makes an appealed consequence `pending`, and step 2 puts a live claim before step 5, but nothing says how a coder learns that no appeal is pending. Line 35 requires a docket check only for `pending`, and line 92 excludes tracker evidence. Walters codes `cleared` with "no appeal found" taken from ailawsuittracker and the docket "not re-read for appeal". Coder A codes `cleared` from the order alone. Coder B cannot show the claim ended from the forum record and codes `unchecked`. N and U differ, and a ruling later reversed sits in N. Minimal fix at step 1 and step 5: "final or cleared only when the forum docket, read after the appeal period, shows no appeal, or the record states the ruling is unappealable; otherwise `pending`". If tracker appeal checks are to be accepted, say so at line 35 and print it as a bias.
+
+3. **P, R and U are per bucket in one place and per event in another** (`SCHEME.md:91`, `SCHEME.md:114`, `SCHEME.md:119-120`, `SCHEME.md:136-137`). Resolution is per event and bucket, and line 120 prints the pending, dropped and unchecked counts "beside every share". Line 114 says "unchecked events enter U and nothing else", and the sentence prints a single P, R, U after four bucket-specific N values. For Garcia-type events with claims in two buckets, Coder A prints P, R, U per bucket and Coder B counts events with any bucket in that state. Minimal fix at line 119: "P, R and U are per bucket, printed beside that bucket's N", and expand the sentence accordingly, or state the event-level rule and define which bucket wins when they differ.
+
+4. **The 90-day clause was left behind at step 6 when the gate moved** (`SCHEME.md:91`, `SCHEME.md:114`, `SCHEME.md:94`). Line 91 moves only the forum-record test to the front. The 90-day test stays at step 6, where it is unreachable, because step 0 or step 2 fires on every bucket before it. A coder who reads "step 6 runs first" as all of step 6 puts a fresh event with no claim in U; a coder who reads it literally puts it in T minus M. Minimal fix: either delete the 90-day clause from step 6 (Rule 2 keeps it for `absorbed`) or write "both tests of step 6 run first".
+
+Data note, not blocking: `court_seed.jsonl:4` uses `bearer: "developer+deployer"` and a `party` field, neither at `SCHEME.md:41-46`. Resolution is derived from the claim ground, so no count moves, but line 46's "one row per bearing party" needs either a `party` field in the schema or a single-role bearer value.

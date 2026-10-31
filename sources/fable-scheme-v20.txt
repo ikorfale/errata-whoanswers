@@ -1,0 +1,36 @@
+Read all four files. Here is the round-20 review.
+
+**(1) Round-19 point**
+
+1. **1358 event vs pattern: FIXED** at `SCHEME.md:39`. The sentence "The dated episode may be the occasion the outputs answer to, so a wave of independent users' outputs about one news event is one `event` (1358, like 1334); named fronts of one operation are one deployer (962 is `event`)" is present verbatim, and logged at `SCHEME.md:27-28`. 1358 now codes event, then misuse by precedence, and 962 codes event, misuse. Both coders land in the misuse count.
+
+Carry-overs, both NOT FIXED and both non-blocking: 1152 at `agent_candidates.jsonl:6` is still coded under v6 with non-scheme status text, and the Campact coding note at `court_seed.jsonl:3` still says "enters U only" for a court-only row. Neither moves a count.
+
+**(2) Blocking problems under the narrow test**
+
+NONE.
+
+The four coded rows give the same numbers to two coders. Moffatt is deployer-only imposed-final and enters k. Garcia is settled in the model-maker and deployer-only buckets, entering s and M, with Doc 278 satisfying the "claim ended" test at `SCHEME.md:131-133`. Walters and Campact are court-only raw counts outside every share, and their unchecked resolution follows `SCHEME.md:124` and `SCHEME.md:139` the same way for both coders.
+
+For the 51 candidates, every record lands in one count under the v20 text:
+
+| count | incidents |
+|---|---|
+| T (error or autonomous-action) | 1028, 1152, 1299, 1563, 1313, 1334, 1373, 1542, 1424, 1471, 1469, 1470, 1642, 1779, 1673, 1668, 1731, 1784, 1707, 1671, 1672, 1751, 1633, 1676, 1675, 1719, 1710, 1776 (28) |
+| misuse | 962, 1130, 1150, 1238, 1362, 1390, 1358, 1412, 1661, 1670, 1578, 1646, 1586, 1669, 1693, 1766, 1781 (17) |
+| attack | 1003, 1210 (2) |
+| pattern | 1734, 1774 (2) |
+| out-of-scope | 1070, 1364 (2) |
+
+None of the 28 T events has a forum record creating a claims entry, so all resolve no-claim and sit in T minus M. The only candidates with a court or regulator record are 1390, 1693, 1070 and 1299, and each is already outside the headline by intent, by out-of-scope, or by the evidence-only clause at `SCHEME.md:50`. Error versus autonomous-action splits (1028, 1313, 1424, 1471, 1673) never move a count.
+
+**(3) Open cases (non-blocking)**
+
+- 1412, 1373, 1710: the record never says who directed the agent; coders reach misuse (1412, by the 1238 analogy) or autonomous-action (1373, 1710, by the 1731 analogy) by inference. A one-line default for a silent record would remove the inference, and the round-19 wording was not applied.
+- 1412 also invites an `attack` reading if a coder takes McKinsey's Lilli as "the system" at `SCHEME.md:40`; say the acting agent is the system.
+- 1633, 1751: evaluation agents stay autonomous-action; the round-19 clause that an evaluator's elicitation is misuse only when the harmful step itself was elicited (1238) was not applied.
+- 1710, 1731, 1633, 1470: no harm identified, included with `harm=other` because the scheme has no exit value; unchanged.
+- 1779, 1668: event because OpenAI is the one listed deployer; a provider's fleet clause would close it; unchanged.
+- 1362, 1390: misuse, not out-of-scope, since the identification output is in the chain; both outside T either way.
+- `SCHEME.md:40`: missing full stop before "Precedence when several apply".
+- Data notes: 1152 still v6 with an `absorbed` row beside a recorded refund, contrary to rule 6 at `SCHEME.md:78`; `court_seed.jsonl:3` "enters U only". No count moves.
