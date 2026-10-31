@@ -53,3 +53,6 @@ headline count. A point that moves a count goes to a new version with its own fr
   coded realised (plain T) under the v27 open case "completed-then-restored is realised"; Meta's "no user data was mishandled"
   speaks to misuse, not to the exposure. A coder reading "contained" there would move 1471 into the no-harm number beside T
   (T itself unchanged). Intent autonomous-action (unapproved post) vs error (wrong advice): both headline, no count moves.
+- 2026-10-31 19:40, AIID 1675 (Instinct, MAY MOVE A COUNT): the harm is a stated vendor data practice (retain and use indexed
+  mail after disconnect, ToS) that surfaced through one user's dated episode. Coded `event` (the text names one dated episode,
+  line 51); a coder who reads a standing practice applied to every user as `practice` moves 1675 out of T. Ask in the next round.

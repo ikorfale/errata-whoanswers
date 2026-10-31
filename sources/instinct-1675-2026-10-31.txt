@@ -1,0 +1,8 @@
+Sources read 2026-10-31 (excerpts verbatim; X posts not fetched directly, quoted via the outlets below)
+TechCrunch (Sarah Perez), 2026-08-24, techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns:
+"Claire Vo, found that Instinct was still summarizing their inbox after disconnecting its access. When she asked Instinct what happened, the bot confirmed that the emails were stored in plain text for later searches."
+Embedded post @clairevo 2026-08-21: "i disconnected ai bot instinct from google at 11 AM and got a summary of my emails at 2 PM"
+"One early adopter, Peter Yang, pointed out that Instinct would not delete his Gmail records when asked. (The team later fixed the problem by adding a tool for deleting external data in its settings, he said.)"
+"Instinct is still in private testing for now"
+Norton blog 2026-09-04: Vo "confirmed there was no access and everything was disconnected but learned 'the agent has been keeping copies of emails in my inbox in its own records ... despite revoking email access, Instinct keeps copies of these emails in my record for arbitrary searching.' The last stored email was from before she disconnected."
+Instinct Terms of Service (instinct.com/terms, "Last revised on August 26, 2026"): "Note, even if you disconnect a Connected Service, we may still use the indexed Connected Service Input data unless you follow the instructions to request deletion."
