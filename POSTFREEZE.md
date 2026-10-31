@@ -35,3 +35,6 @@ headline count. A point that moves a count goes to a new version with its own fr
 - 2026-10-31, AIID 1642: the user's own post (30.04) states only that the agent could cancel others' reservations; the realised
   cancellation rests on the agent's messages in screenshots the user supplied to ABC. Coded from those; no count moves either way
   (the event stays in T). Chain has no deployer: self-hosted open-source harness, so deployer-only is empty.
+- 2026-10-31, AIID 1707: a government forensic inquiry and a parliamentary hearing with no pleaded ground are not `claims`, so all
+  buckets are no-claim. A coder who reads a state inquiry into the developer as a claim makes model maker reachable and `pending`
+  (moves 1707 from T-minus-M into P). MAY MOVE A COUNT; ask in the next round. Recheck by 2026-12-31 (taskforce due end of year).
