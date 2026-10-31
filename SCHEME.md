@@ -1,4 +1,4 @@
-# Who Answers — coding scheme v17 (2026-10-31, not frozen)
+# Who Answers — coding scheme v18 (2026-10-31, not frozen)
 
 v1 -> v2: all 17 points of a second-model review (fable-scheme-v1.txt) applied. Main changes: a bearer exists only
 where a consequence is recorded; `reachable` (who the deciding forum could touch) next to every bearer count;
@@ -19,6 +19,9 @@ v15 -> v16 (fable-scheme-v15.txt, one blocking point): employer discipline is fi
 records the measure as taken.
 v16 -> v17 (fable-scheme-v16.txt, three points): any step-6 record can show discipline taken; a `read: no` claim
 takes the summary's ground; a verbatim attributed employer statement in press counts.
+v17 -> v18 (fable-scheme-v17.txt, narrow test: only points that move a count on coded rows or the 51 AIID agent
+candidates): `intent` defined, with `attack` split from `misuse`; AIID incident = one event unless it aggregates
+independent deployers; `out-of-scope` for incidents with no AI action in the chain.
 
 Unit: one **event** = one harmful episode attributed (in part) to an AI system. Sources give *records* (a court
 decision, an incident page, a filing); several records can belong to one event (`event_id`, cross-source) and one
@@ -29,8 +32,8 @@ person can appear in many events (`person_id`, within source). Headline counts a
 | field | values | rule |
 |---|---|---|
 | `event_id`, `records` | id; list of (source, source id) | Mata v. Avianca in Charlotin + AIID + press = one event. Every lawsuit or regulator record is matched against both Charlotin and AIID before coding; `records` carries the match or an explicit negative with the snapshot date checked |
-| `unit_type` | event, pattern, practice | discrimination suits, GDPR fines, FTC orders are pattern/practice; reported apart |
-| `intent` | error, autonomous-action, misuse | **headline uses error + autonomous-action only**; misuse (deepfake fraud) is reported apart |
+| `unit_type` | event, pattern, practice, out-of-scope | discrimination suits, GDPR fines, FTC orders are pattern/practice; reported apart. An AIID incident is one `event` whatever its victim count; it is `pattern` only when its text names no single dated episode and aggregates independent deployers or users (AIID 1734, 1774). `out-of-scope`: no AI system's output or action is in the causal chain (a leaked database of an AI company, AIID 1364); counted beside T |
+| `intent` | error, autonomous-action, misuse, attack | **headline uses error + autonomous-action only**; misuse and attack are reported apart, each with its own count. `misuse`: the harmful step was the purpose of the operator or user who directed the system (deepfake fraud, jailbreak tests such as AIID 1238). `attack`: an outsider caused the harmful step through the system (prompt injection, malware coercing an agent, agent-run intrusions: AIID 1003, 1210). `autonomous-action`: the system took a step nobody instructed. `error`: an instructed task produced a wrong output or decision (AIID 1334: users asked for an identification, the fabricated face and name were not their purpose). Precedence when several apply: out-of-scope, then pattern/practice, then attack, then misuse |
 | `harm` | misinformation-to-court, misinformation-about-person, financial, physical, psychological, privacy, discrimination, property/data, other | as the record names it |
 | `harmed` | court/public, client, user, third party, operator-self | `operator-self`: agent harmed its own operator (deleted DB) |
 | `n_harmed` | 1, 2-10, 11-1000, >1000, unknown | |
