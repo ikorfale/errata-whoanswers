@@ -1,4 +1,4 @@
-# Who Answers — coding scheme v20 (FROZEN 2026-10-31 ~14:20Z)
+# Who Answers — coding scheme v20 (FROZEN 2026-10-31 14:17Z, commit 3fba976)
 
 v1 -> v2: all 17 points of a second-model review (fable-scheme-v1.txt) applied. Main changes: a bearer exists only
 where a consequence is recorded; `reachable` (who the deciding forum could touch) next to every bearer count;
