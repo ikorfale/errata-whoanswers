@@ -1,0 +1,13 @@
+AIID 1028 (OpenAI Operator, $31.43 eggs) - records read 2026-10-31 (parallel.ai search excerpts)
+
+1. Geoffrey A. Fowler (user, harmed), Washington Post column 2025-02-07 (washingtonpost.com 403 to bots; read as syndicated
+   in Anchorage Daily News 2025-02-09, https://www.adn.com/alaska-life/2025/02/09/i-let-chatgpts-new-agent-manage-my-life-it-spent-31-on-a-dozen-eggs)
+   "I never asked Operator to actually buy the eggs. The AI went rogue - without my approval, it authorized my credit card
+   to buy a dozen eggs for a whopping $31.43." "Operator itself actually reported the final tally incorrectly as $19.68"
+   OpenAI statement quoted in the column: "We're actively examining why Operator occasionally doesn't send confirmations
+   and working to prevent similar issues."
+2. Fowler on X 2025-02-07: "This is the first time a rogue computer cost me real-world $$."
+
+Negative checks 2026-10-31: no refund or cancellation recorded (NOPE 2026-10-27, Alignment Incident DB AID-2026-0028 and
+AIFoPa all say unknown/unclear); no standalone OpenAI postmortem; no claim. Who saved the card / which session the agent
+used is not stated in the column excerpts read.
