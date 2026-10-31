@@ -1,0 +1,699 @@
+E-FILED IN OFFICE -JT
+CLERK OF SUPERIOR COURT
+GWINNETT COUNTY, GEORGIA
+23-A-04860-2
+
+5/19/2025 11:31 AM
+TIANA P. GARNER, CLERK
+
+IN THE SUPERIOR COURT OF GWINNETT COUNTY
+
+STATE OF GEORGIA
+MARK WALTERS,
+Plaintiff, CIVIL ACTION NO. 23-A-04860-2
+v.
+OPENAI, L.L.C.,
+Defendant.
+
+ORDER GRANTING SUMMARY JUDGMENT IN FAVOR OF
+DEFENDANT OPENAL, L.L.C.
+
+This matter coming before the Court for ruling on the motion of Defendant, OPENAI,
+L.L.C. (“OpenAI”), for summary judgment pursuant to O.C.G.A § 9-11-56, due notice given, and
+the Court having received and reviewed all pleadings filed by all parties and the entire record
+available to this Court, and having heard oral argument, it is hereby ordered that summary
+judgment is GRANTED in full to OpenAI.
+
+BACKGROUND
+
+Although, Plaintiff Mark Walters contends he is not a public figure in that he does not
+regularly appear in the media on major television networks, having been interviewed only once on
+Fox Business and once by the local NBC affiliate in New York (See Walters Second Affidavit, {
+3), it is undisputed fact that he is a nationally prominent radio show host who hosts two nationally
+syndicated radio programs and identifies himself as “the loudest voice in America fighting for gun
+
+rights.” Ex. A at 3; Ex. B at 24:10-13; 85:13-86:6; see also Plaintiff’s Opposition Brief at 7
+(conceding Walters is known in the “Second Amendment Advocacy arena”).! He can be heard six
+days a week, for more than ten hours per week, on radio stations and streaming services. Ex. B at
+24:14-27:11, 38:16-39:2, 88:11-17. Walters estimated that 1.2 million listeners tune in to each
+15-minute segment of his radio programs. Id. at 25:4-26:6. He is also an author of books and
+articles on Second Amendment rights and a media commentator. Ex. E at 3-4. He serves as a
+member of the Board of Directors of the Citizens Committee for the Right to Keep and Bear Arms
+and as the East Coast Media spokesperson for the Second Amendment Foundation (“SAF”). Ex.
+E at 4; Ex. D at 28:6—13; Ex. G at 29:6-14; Ex. B at 71:3-16.
+
+Defendant OpenAI is an artificial intelligence (“AI”) developer that created the AI chatbot
+ChatGPT. Ex. M at ‘234. ChatGPT is a tool that allows users to access a “large language model”
+or “LLM” that is “trained on vast amounts of data” to generate new text in response to a user’s
+prompt “by predicting what words will come next.” Ex. L at § 9, 11. “Due to their generative
+nature, all of the major LLMs that are currently available to the public” are capable of “generat[ing]
+information contradicting the source material,” sometimes referred to as “hallucinations.” Jd. at
+4F 13, 20.
+
+On May 3, 2023, a journalist named Frederick Riehl used ChatGPT. Riehl is the editor of
+AmmoLand.com, a news and advocacy site related to Second Amendment rights, and in 2023 he
+was a member of the Board of Directors of the SAF. Ex. H at 1; Ex. G at 19:49, 20:2—23, 37:1-
+12. That day, the SAF filed a lawsuit against the Attorney General of the State of Washington in
+Washington federal district court, captioned SAF v. Ferguson. Ex. J. The Ferguson complaint
+
+alleged that the Washington Attorney General had “singled out” the Second Amendment
+
+' Unless otherwise noted, references to “Exhibits” in this Order refer to exhibits contained in the
+Appendix of Exhibits to Defendant OpenAI L.L.C.’s Motion for Summary Judgment.
+Foundation “for invasive and expensive harassment because of [its] political beliefs and activities,
+including [its] positions on gun control.” Jd. at 5. Riehl received a “press release” from the SAF
+about the Ferguson complaint and a link to a publicly available copy of the complaint. Ex. K; Ex.
+G at 70:7—-73:6.
+
+On May 3, Riehl was contemplating writing an article for AmmoLand.com about the
+Ferguson complaint and asked ChatGPT to summarize it. Ex. G at 68:14-17, 104:24-105:9. Riehl
+had past experience using ChatGPT and was familiar with past occasions on which the program
+had provided “flat-out fictional responses” to some of his questions. Ex. S; Ex. T; Ex. G at 54:10—
+21, 205:22-206:23, 214:8-12. On May 3, Riehl accepted ChatGPT’s Terms of Use governing his
+interaction with ChatGPT, which specified, among other things:
+
+“Given the probabilistic nature of machine learning, use of [ChatGPT] may in some
+
+situations result in incorrect Output that does not accurately reflect real people, places, or
+
+facts. You should evaluate the accuracy of any Output as appropriate for your use case,
+
+including by using human review of the Output.” Ex. U at ‘419; see Ex. G at 61:8-19;
+
+Ex. P at {| 16, 20-22, 29.
+
+Riehl also encountered multiple other disclaimers during his use of ChatGPT, including a
+warning that “the system may occasionally generate incorrect or misleading information,” Ex. O,
+and an on-screen disclaimer visible throughout Riehl’s interaction with ChatGPT warning that
+“ChatGPT may produce inaccurate information about people, places, or facts,” Ex. V.
+
+Riehl pasted sections of the Ferguson complaint into ChatGPT and asked it to summarize
+those sections, which it did accurately. See, e.g., Ex. N at rows 3-4, 14-15; Ex. G at 66:21-67:11,
+68:14-17. Riehl then provided an internet link, or URL, to the complaint to ChatGPT and asked
+it to summarize the information available at the link. Ex. C at row 3. ChatGPT responded that it
+
+did “not have access to the internet and cannot read or retrieve any documents.” Jd. at row 4.
+
+Riehl provided the same URL again. This time, ChatGPT provided a different, inaccurate
+summary of the Ferguson complaint, saying that it involved allegations of embezzlement by an
+unidentified SAF Treasurer and Chief Financial Officer. Jd. at row 6. Riehl again provided the
+URL and asked ChatGPT if it could read it. Jd. at row 7. ChatGPT responded “yes” and again
+said the complaint involved allegations of embezzlement; this time, it said that the accused
+embezzler was an individual named Mark Walters, who ChatGPT said was the Treasurer and Chief
+Financial Officer of the SAF. Jd. atrow 8. After doing other research online, Riehl asked ChatGPT
+to identify any news reports about the litigation it was describing; ChatGPT responded that it had
+a “knowledge cutoff date of September 2021,” well before the Ferguson complaint was filed, and
+told Riehl that it did “not have any information on news reports about this specific case.” Jd. at
+row 26; see also id. at row 23 (ChatGPT noting it did “not have access to real-time news or media
+updates”). Riehl testified that “within about an hour and a half” he had established that “whatever
+[Riehl] was seeing” in ChatGPT’s output “was not true.” Ex. G at 205:2-6.
+
+Walters has testified that he incurred no damages from ChatGPT’s false claim that he was
+accused of embezzling funds from the SAF and “is not claiming here that [he has] been harmed.”
+Ex. B at 169:1-170:14, 206:6-8. Walters also testified that he did not ask OpenAI to correct or
+retract the false claim that he was accused of embezzling funds from the SAF. Ex. B at 171:7-19.
+
+LEGAL STANDARD
+
+Summary judgment is appropriate if the moving party demonstrates “that there is no
+genuine issue as to any material fact and that the moving party is entitled to a judgment as a matter
+of law.” O.C.G.A. § 9-11-56(c). A defendant can meet this requirement by presenting “evidence
+negating an essential element of the plaintiff’s claims or establishing from the record an absence
+of evidence to support such claims.” Prodigies Child Care Mgmt., LLC v. Cotton, 317 Ga. 371,
+
+373 (2023) (quotation marks and citation omitted). Therefore, “a defendant who will not bear the
+burden of proof at trial need not affirmatively disprove the nonmoving party’s case, but may point
+out by reference to the evidence in the record that there is an absence of evidence to support any
+essential element of the nonmoving party’s case.” Giddens v. Metropower, Inc., 366 Ga. App. 15,
+15 (2022) (quoting Cowart v. Widener, 287 Ga. 622, 623 (2010)). Moreover, “[w]here a defendant
+moving for summary judgment discharges this burden, the nonmoving party cannot rest on its
+pleadings, but rather must point to specific evidence giving rise to a triable issue.” Jd. (quoting
+Cowart, 287 Ga. at 623). “[S]ummary judgment procedures have been determined to be
+particularly appropriate in defamation actions where the First Amendment is applicable.” Williams
+v. Tr. Co. of Georgia, 140 Ga. App. 49, 58 (1976).
+DISCUSSION
+
+Walters’ claim fails on this record, and summary judgment will be entered in favor of
+
+OpenAI for three independent reasons.
+
+1. THE CHALLENGED OuTPUT DoES NOT COMMUNICATE DEFAMATORY MEANING AS A
+MATTER OF Law.
+
+OpenAI argues that the challenged ChatGPT output does not communicate defamatory
+meaning as a matter of law. The Court agrees with OpenAI.
+
+A defamation plaintiff must establish that the statements at issue could be “reasonably
+understood as describing actual facts about the plaintiff or actual events in which he participated.”
+Bollea v. World Championship Wrestling, Inc., 271 Ga. App. 555, 558 (2005); see also Pring v.
+Penthouse Int'l, Ltd., 695 F.2d 438, 442 (10th Cir. 1982) (explaining that a defamation plaintiff
+must show that challenged statements “in context could be reasonably understood as describing
+actual facts about the plaintiff’). This objective “test . . . is not whether some actual readers were
+misled, but whether the hypothetical reasonable reader could be (after time for reflection).” Farah
+
+yv. Esquire Mag., 736 F.3d 528, 537 (D.C. Cir. 2013). Disclaimer or cautionary language weighs
+in the determination of whether this objective, “reasonable reader” standard is met. See, e.g., Info.
+Control Corp. v. Genesis One Comput. Corp., 611 F.2d 781, 784 (9th Cir. 1980) (courts evaluating
+defamatory meaning “must give weight to cautionary terms used by the person publishing the
+statement”); Pace v. Baker-White, 432 F. Supp. 3d 495, 510-12 (E.D. Pa. 2020) (disclaimer that is
+“replete with ‘hedging language’ such as ‘could,’ ‘[w]e do not know,’ ‘we believe,’ etc.” meant
+that a statement did not communicate a defamatory meaning), aff’d, 850 F. App’x 827 (3d Cir.
+2021).
+
+Under the circumstances present here, a reasonable reader in Riehl’s position could not
+have concluded that the challenged ChatGPT output communicated “actual facts.” Bollea, 271 Ga.
+App. at 558; Pring, 695 F.2d at 442. In this specific interaction, ChatGPT warned Riehl that it
+could not access the internet or access the link to the Ferguson complaint that Riehl provided to it,
+and that it did not have information about the period of time in which the complaint was filed,
+which was after its “knowledge cutoff date.” Ex. C at rows 1, 4, 23, 26. Before Riehl provided
+the link to the complaint, ChatGPT accurately summarized the Ferguson complaint based on text
+Riehl inputted. Ex. N at rows 4, 15. After Riehl provided the link, and after ChatGPT initially
+warned that it could not access the link, ChatGPT provided a completely different and inaccurate
+summary. Ex. C at rows 3-6. Additionally, ChatGPT users, including Riehl, were repeatedly
+warned, including in the Terms of Use that govern interactions with ChatGPT, that ChatGPT can
+and does sometimes provide factually inaccurate information. Ex. U at ‘419; Ex. P at ff] 19-22,
+25; Ex. V; Ex. DD. A reasonable user like Riehl—who was aware from past experience that
+ChatGPT can and does provide “flat-out fictional responses,” Ex. T, and who had received the
+repeated disclaimers warning that mistaken output was a real possibility—would not have believed
+
+the output was stating “actual facts” about Walters without attempting to verify it, Bollea, 271 Ga.
+App. at 558. As OpenAlI’s expert Dr. White explained—whose testimony Walters did not rebut—
+“the output obtained by Mr. Frederick Riehl on May 3, 2023 contained clear warnings,
+contradictions, and other red flags that it was not factual. In addition, Mr. Riehl’s own Prompt
+Engineering techniques and choice to ignore ChatGPT’s warnings about its limitations contributed
+to the non-factual output.” Ex. L at ¥5.b. The undisputed record of Riehl’s interactions make that
+conclusion unavoidable. These multiple indicia—ChatGPT’s warnings, refusals, inconsistent
+responses, and the other behavior summarized above—objectively established to any reasonable
+reader that the challenged ChatGPT output was not stating “actual facts.” Bollea, 271 Ga. App. at
+558.
+
+That is especially true here, where Riehl had already received a press release about the
+Ferguson complaint and had access to a copy of the complaint that allowed him immediately to
+verify that the output was not true. Ex. K; Ex. G at 70:7-72:21. Riehl admitted that “within about
+an hour and a half” he had established that “whatever [Riehl] was seeing” in ChatGPT’s output
+“was not true.” Ex. G at 205:2-6. As Riehl testified, he “understood that the machine completely
+fantasized this. Crazy.” Id. at 192:12-14.
+
+Under these circumstances, as a matter of law, no reasonable reader in Riehl’s position,
+“after time for reflection,” could have interpreted the output as communicating “actual facts,”
+Farah, 736 F.3d at 536-37. Indeed, Riehl himself, “after time for reflection,” id —‘within about
+an hour and a half,” Ex. G at 205:2-6—had confirmed the output did not contain actual facts.
+Because no reasonable reader could have understood the challenged ChatGPT output as
+commuting “actual facts,” it is not defamatory as a matter of law. Bollea, 271 Ga. App. at 558.
+See also Farah, 736 F.3d at 530, 537-39 (finding as a matter of law that “the reasonable reader
+
+could not, in context, understand” a challenged publication “to be conveying... actual facts”
+because of “prominent indicia” in the context and content of the publication that it was not true
+and where the publisher clarified “[a]pproximately ninety minutes later” that it was not true).
+Separately, it is undisputed that Riehl did not actually believe that the Ferguson complaint
+accused Walters of embezzling from the SAF. If the individual who reads a challenged statement
+does not subjectively believe it to be factual, then the statement is not defamatory as a matter of
+law. Sigmon v. Womack, 158 Ga. App. 47, 50 (1981) (quotation marks and citation omitted).
+Walters alleges here that he was defamed when ChatGPT told Riehl that the SAF v. Ferguson
+complaint alleged that Walters, the Treasurer and Chief Financial Officer of SAF, had embezzled
+funds from the SAF. Amended Complaint {J 14-16, 29-34; Plaintiff’s Opposition Brief at 2-3.
+There is no genuine dispute that Riehl knew ChatGPT’s output was not factual. He knew Walters
+was not, and had never been, the Treasurer or Chief Financial Officer of the SAF, an organization
+for which Riehl served on the Board of Directors. Ex. G at 116:2-20, 117:18-118:21, 123:16—
+125:5, 278:13-279:12, 283:4-23. He already understood “in a high-level way” what the Ferguson
+complaint alleged based on his review of the SAF’s press release about it. Jd. at 70:7-72:21,
+111:3-21. Riehl had access to a copy of the complaint and could immediately review it to verify
+what ChatGPT said. Jd. at 68:14-17, 72:5-73:6; Ex. K. He testified that when ChatGPT told him
+the Ferguson complaint involved allegations of embezzlement, he knew that response was “the
+
+99 66,
+
+wrong information,” “not accurate,” and “not what the document is about.” Ex. G at 112:3-17,
+113:16-21. He testified that he was “skeptical” of “the story [ChatGPT] was telling [him] about
+Walters being accused of financial misconduct.” Jd. at 205:22-206:2. Also he confirmed with
+certainty “within about an hour and a half” that “whatever [he] was seeing” in ChatGPT’s output
+
+“was not true”—instead he knew “the machine completely fantasized” the output and that the
+output was “crazy,” id. at 191:8-14; 192:12-14; 205:2-6. Because Riehl did not believe the output,
+it did not communicate defamatory meaning as a matter of law.”
+
+The Court finds that the challenged output does not communicate defamatory meaning as
+a matter of law. This alone is sufficient to require summary judgment in favor of OpenAI.
+
+Il. WALTERS CANNOT SHOW FAULT UNDER EITHER THE NEGLIGENCE OR THE “ACTUAL
+MALICE” STANDARD.
+
+OpenAI also argues that Walters cannot meet his burden of establishing fault. The Court
+agrees with OpenAI on this issue as well.
+
+A. Walters Cannot Establish Negligence.
+
+Under Georgia law, a defamation plaintiff must demonstrate at minimum that “the
+defendant published the allegedly defamatory statements with at least ordinary negligence.” Am.
+C.L. Union, Inc. v. Zeh, 312 Ga. 647, 650-51 (2021). Even if the “actual malice” standard did not
+apply here—and it does, for the reasons set out below at Section I].B—Walters has not identified
+evidence on which the jury could rely to find that OpenAI “published the allegedly defamatory
+
+statements with at least ordinary negligence.” Jd. at 650.
+
+? Walters has suggested that, even though Riehl knew ChatGPT’s output did not accurately
+describe the Ferguson complaint, Riehl did suspect that ChatGPT might have been describing
+some other litigation that Riehl did not ask ChatGPT to summarize. See April 14, 2025
+Transcript at 34:14-16 (“[Riehl] testified at his deposition that when ChatGPT started talking
+about this Gottlieb v. Walters case, he thought they were talking about a different case.”). Even
+if so, Riehl testified at his deposition that he was at most “skeptical” about whether such
+allegations might exist, and within an hour and a half confirmed that there was no such case and
+no such allegations against Walters. Ex. G. at 205:2-6, 17-21. Walters cannot establish
+defamatory meaning where Riehl confirmed absolutely, after a short interval, that ChatGPT’s
+output did not state any “actual facts” about Walters, Bollea, 271 Ga. App. at 558. In any case,
+Riehl’s short-lived, “skeptical” hypothesis that ChatGPT might be revealing some other litigation
+cannot help Walters meet the objective standard for establishing defamatory meaning, which
+asks what a reasonable reader would conclude about a statement after reviewing it in context and
+reflecting on it. See Bollea, 271 Ga. App. at 558; Pring, 695 F.2d at 442; Farah, 736 F.3d at
+536-37. Walters has not argued and could not argue that a reasonable reader would have
+concluded that ChatGPT was revealing a new, different lawsuit while providing a summary of
+the Ferguson complaint.
+Where a plaintiff must prove “ordinary negligence,” the plaintiff must also identify an
+applicable standard of care and establish that the defendant did not meet it. See Gettner v.
+Fitzgerald, 297 Ga. App. 258, 264 (2009). Walters has done neither. Walters’ opposition brief on
+this point consists of a single sentence: “[OpenAI] has not argued that it was not at least negligent,
+but in any event the lack of negligence is a question for the jury and ordinarily cannot be decided
+by this Court on summary judgment.” Plaintiffs Opposition Brief at 4. Not only does that misstate
+the burden on a plaintiff at summary judgment, but also OpenAI did argue that Walters has not met
+the standard of ordinary negligence as a matter of law. See Defendant’s Opening Brief at 24-25.
+The Court agrees with OpenAI.
+
+The Court of Appeals has held that, in a defamation case, “[t]he standard of conduct
+required of a publisher . . . will be defined by reference to the procedures a reasonable publisher
+in [its] position would have employed prior to publishing [an item] such as [the] one [at issue. A
+publisher] will be held to the skill and experience normally exercised by members of [its]
+profession. Custom in the trade is relevant but not controlling.” Gettner, 297 Ga. App. at 264
+(alterations in original) (citation omitted). Walters has identified no evidence of what procedures
+a reasonable publisher in OpenAI’s position would have employed based on the skill and
+experience normally exercised by members of its profession. /d. Nor has Walters identified any
+evidence that OpenAI failed to meet this standard. And OpenAI has offered evidence from its
+expert, Dr. White, which Walters did not rebut or even address, demonstrating that OpenAI leads
+the AI industry in attempting to reduce and avoid mistaken output like the challenged output here.
+Ex. L at {| 18-20. Specifically, “OpenAI exercised reasonable care in designing and releasing
+ChatGPT based on both (1) the industry-leading efforts OpenAI undertook to maximize alignment
+
+of ChatGPT’s output to the user’s intent and therefore reduce the likelihood of hallucination; and
+
+10
+(2) providing robust and recurrent warnings to users about the possibility of hallucinations in
+ChatGPT output. ... OpenAI has gone to great lengths to reduce hallucination in ChatGPT and
+the various LLMs that OpenAI has made available to users through ChatGPT. One way OpenAI
+has worked to maximize alignment of ChatGPT’s output to the user’s intent is to train its LLMs
+on enormous amounts of data, and then fine-tune the LLM with human feedback, a process referred
+to as reinforcement learning from human feedback.” Jd. at ¢ 18-19. OpenAI has also taken
+extensive steps to warn users that ChatGPT may generate inaccurate outputs at times, which further
+negates any possibility that Walters could show OpenAI was negligent. Ex. P at ¥ 19, 25; Ex. L at
+9 24-26.
+
+In the face of this undisputed evidence, counsel for Walters asserted at oral argument that
+OpenAI was negligent because “a prudent man would take care not to unleash a system on the
+public that makes up random false statements about others.... I don’t think this Court can
+determine as a matter of law that not doing something as simple as just not turning the system on
+yet was ... something that a prudent man would not do.” April 14, 2025 Transcript at 37:21—23,
+38:13-16. In other words, Walters’ counsel argued that because ChatGPT is capable of producing
+mistaken output, OpenAI was at fault simply by operating ChatGPT at all, without regard either
+to “the procedures a reasonable publisher in [OpenAI’s] position would have employed” or to the
+“skill and experience normally exercised by members of [its] profession.” Gettner, 297 Ga. App.
+at 264 (citation omitted). The Court is not persuaded by Plaintiff's argument.
+
+Walters has not identified any case holding that a publisher is negligent as a matter of
+defamation law merely because it knows it can make a mistake, and for good reason. Such a rule
+would impose a standard of strict liability, not negligence, because it would hold OpenAI liable
+
+for injury without any “reference to ‘a reasonable degree of skill and care’ as measured against a
+
+11
+certain community.” S K Hand Tool Corp. v. Lowman, 223 Ga. App. 712, 714 (1996) (comparing
+strict liability with negligence). The U.S. Supreme Court and the Georgia Supreme Court have
+clearly held that a defamation plaintiff must prove that the defendant acted with “at least ordinary
+negligence,” Zeh, 312 Ga. at 650, and may not hold a defendant liable “without fault,” Gertz v.
+Robert Welch, Inc., 418 U.S. 323, 347 (1974). And based on the testimony of OpenAI’s expert Dr.
+White, which Walters did not refute, “[d]Jue to their generative nature, all of the major LLMs that
+are currently available to the public are capable of hallucinating.” Ex. L at 20. In other words,
+based on the undisputed facts, Walters’ argument would mean that an AI developer like OpenAI
+could not operate a large language model like ChatGPT at all, no matter the care it took to reduce
+the risk of errors, without facing liability for any mistaken output the model generated. That is not
+a negligence standard, and both Georgia law and federal constitutional law prohibit applying it to
+Walters’ defamation claim.
+
+In sum, Walters has offered no evidence—no deposition testimony, no documents, and no
+expert report—showing that OpenAI was negligent. Summary judgment is therefore warranted in
+
+OpenAl’s favor on this separate ground, as well.
+
+B. Walters Is A Public Figure Who Must, But Cannot, Establish “Actual Malice.”
+Even if Walters could establish that OpenAI acted with “at least ordinary negligence,” Zeh,
+
+312 Ga. at 650, summary judgment should still issue to OpenAI because Walters is a public figure
+and must, but cannot, establish “actual malice” to hold OpenAI liable.
+1. Walters Is A Public Figure.
+The U.S. Supreme Court has held that defamation plaintiffs will qualify as public figures
+if the plaintiffs have “significantly greater access to the channels of effective communication
+and... a more realistic opportunity to counteract false statements than private individuals
+
+normally enjoy,” and have “assumed roles of especial prominence in the affairs of society” and
+
+12
+“voluntarily exposed themselves to increased risk of . . . defamatory falsehood.” Gertz, 418 U.S.
+at 344-45. Whether a defamation plaintiff qualifies as a public figure is a question of law for the
+court to decide. Zeh, 312 Ga. at 664-65; Mathis v. Cannon, 276 Ga. 16, 21 (2002). In evaluating
+whether a plaintiff qualifies as a public figure, courts consider “[p]revious coverage of the plaintiff
+in the press,” “the voluntariness of the plaintiff’s prominence[,] and the availability of self-help
+through press coverage of responses.” Riddle v. Golden Isles Broad., LLC, 275 Ga. App. 701, 704
+(2005) (citation omitted).
+
+Walters qualifies as a public figure given his prominence as a radio host and commentator
+on constitutional rights, and the large audience he has built for his radio program. He admits that
+his radio program attracts 1.2 million users for each 15-minute segment, Ex. B at 25:4-26:6, and
+calls himself “the loudest voice in America fighting for gun rights,” Ex. A at 3. Like the plaintiff
+in Williams v. Trust Company of Georgia, Walters is a public figure because he has “received
+widespread publicity for his civil rights . . . activities,” has “his own radio program,” “took his
+cause to the people to ask the public’s support,” and is “outspoken on subjects of public interest.”
+140 Ga. App. at 54 (quotation marks omitted). See also, e.g., Celle v. Filipino Rep. Enters., Inc.,
+209 F.3d 163, 177 (2d Cir. 2000) (finding the plaintiff a public figure based on the plaintiff's “own
+characterization of himself as a ‘well known radio commentator’ within the Metropolitan Filipino-
+American community”); Chapman v. J. Concepts, Inc., 528 F. Supp. 2d 1081, 1095 (D. Haw. 2007)
+(holding that the plaintiff, who was a prominent surfer, was a public figure due to his prominence
+in the surfing community). Additionally, Walters qualifies as a public figure because he has “a
+more realistic opportunity to counteract false statements than private individuals normally enjoy,”
+Gertz, 418 U.S. at 344; he is a radio host with a large audience, and he has actually used his radio
+
+platform to address the false ChatGPT statements at issue here. Ex. B at 224:7-14, 226:14-22.
+
+13
+As the Court of Appeals has observed, figures as widely varying as “a college athletic director, a
+basketball coach, a professional boxer and a professional baseball player, among others, have all
+been held to be ‘public figures.’” Williams, 140 Ga. App. at 53.
+
+2. Walters Is A Limited-Purpose Public Figure.
+
+Notwithstanding the above analysis, at a minimum, Walters qualifies as a limited-purpose
+public figure here because these statements are plainly “germane” to Walters’ conceded
+“involvement” in the “public controvers[ies]” that are related to the ChatGPT output at issue here.
+Mathis, 276 Ga. at 23. The challenged ChatGPT output relates to the public controversy and
+national debate over the Second Amendment and gun rights. ChatGPT provided the output in
+response to prompts Riehl submitted regarding a lawsuit filed by the Second Amendment
+Foundation in Washington federal district court alleging unconstitutional retaliation against its
+efforts to advocate for Second Amendment rights. Ex. J at 5, 22-24. And the output itself, though
+false, described allegations that Walters, a prominent Second Amendment rights activist and media
+figure, had embezzled money from a Second Amendment rights advocacy organization for which
+he served as the East Coast Media spokesperson.
+
+Given that undisputed context, the challenged output related to the public controversies
+regarding Second Amendment rights. Walters’ counsel conceded at oral argument that Walters is
+involved in public controversies including “the Second Amendment debate and gun rights
+generally and things like that.” April 14, 2025 Transcript at 39:2-3. The undisputed facts establish
+the same. See supra at 1-2, 12-14. The challenged ChatGPT output is “germane” to those
+controversies; “[a]nything which might touch on the controversy is relevant,” and “a publication
+is germane to a plaintiff’s participation in a controversy if it might help the public decide how
+
+much credence should be given to the plaintiff.” Atlanta J.-Const. v. Jewell, 251 Ga. App. 808,
+
+14
+819-20 (2001). ChatGPT’s challenged output, describing false allegations that Walters had
+embezzled from a prominent Second Amendment rights advocacy organization, is “germane”
+
+. because it might affect how much credence the public gave Walters on Second Amendment issues.?
+All this establishes that Walters is, at minimum, a limited-purpose public figure here.
+
+Walters argues that “the topic of the defamatory statements was Walters’ alleged
+malfeasance regarding SAF’s funds, and related fraud. There is nothing in the record indicating
+that this was a public controversy. [OpenAI] points to nothing showing that there was public
+discussion, debate, and dissent about Walters’ (nonexistent) involvement in the (nonexistent)
+controversy.” Plaintiff’s Opposition Brief at 9. In other words, Walters argues that the only
+controversies related to the challenged ChatGPT output are the literal words of the output itself.
+
+The Court is not persuaded by Plaintiff’s argument. Courts have regularly rejected attempts
+to define the relevant controversy so narrowly, including in Jewell. There, the Court of Appeals
+approved of the trial court’s decision to reject the plaintiff’s attempt to “define[] the controversy”
+“too narrowly” and instead to identify the “broader question” related to the challenged statement
+as the relevant controversy. Jewell, 251 Ga. App. at 817. “By definition, defamation involves an
+allegation that a plaintiff did something which they did not actually do. If the controversy [were]
+drawn as the action which [the] plaintiff did not take, then the plaintiff [would] never be involved
+in the controversy.” Bostic v. Daily Dot, LLC, 2023 WL 2317789, at *7 n.3 (W.D. Tex. Mar. 1,
+2023); see also, e.g., Jankovic v. Int'l Crisis Grp., 822 F.3d 576, 586 (D.C. Cir. 2016) (“courts
+
+often define the public controversy in expansive terms”). For that reason, the controversies related
+
+3 In reality, the public’s assessment of Walters’ credibility and Walters’ reputation generally were
+unchanged by the challenged ChatGPT output, meaning Walters was not harmed and has no
+damages—an independent reason to grant summary judgment in favor of OpenAI. See infra
+Part III.
+
+15
+to the challenged ChatGPT output are the “broader question[s]” that provide the context for the
+output. Jewell, 251 Ga. App. at 817. Those relevant controversies are the same controversies for
+which, as Walters’ counsel conceded, Walters is a public figure: “the Second Amendment debate
+and gun rights generally and things like that.” April 14, 2025 Transcript at 39:2-3.
+
+3. Walters Cannot Meet The “Actual Malice” Standard.
+
+Because Walters qualifies as a public figure, he must meet the “actual malice” standard,
+meaning he must “prove by clear and convincing evidence” that OpenAI either “knew that the
+allegedly defamatory statements were false” or “was aware of the likelihood [it] was circulating
+false information.” Zeh, 312 Ga. at 650-52, 668. In other words, Walters must prove OpenAI
+actually had “a subjective awareness of probable falsity when the material was published.” Jones
+v. Albany Herald Publ’g Co., 290 Ga. App. 126, 132 (2008) (quotation marks and citation omitted).
+This is an “extremely high” burden. Zeh, 312 Ga. at 669 (quotation marks and citation omitted);
+Stange v. Cox Enters., Inc., 211 Ga. App. 731, 733 (1994). “Unless the [C]ourt finds, on the basis
+of pretrial affidavits, depositions or other documentary evidence, that the plaintiff can prove actual
+malice in the [New York Times Co. v. Sullivan] sense, [the Court] should grant summary judgment
+for the defendant.” Williams, 140 Ga. App. at 58.
+
+There is no genuine dispute that Walters has no evidence OpenAI acted with “actual malice.”
+To the contrary, the undisputed evidence establishes that OpenAI did not act with “actual malice.”
+As OpenAl’s expert Dr. White explained—whose evidence Walters did not attempt to rebut—
+“OpenAI has gone to great lengths to reduce hallucination in ChatGPT and the various LLMs that
+OpenAI has made available to users through ChatGPT.” Ex. L at § 19. Furthermore, “[aJt all times
+that ChatGPT has been available to the public, OpenAI has included multiple warnings directly to
+
+ChatGPT users regarding the possibility that ChatGPT may generate factually inaccurate output.”
+
+16
+Id, at ]24.b. OpenAl’s “industry-leading efforts,” id. at { 18, to reduce errors of this kind and its
+extensive warnings to users that errors of this kind could occur negate any possibility that a jury
+could find OpenAI acted with actual malice here.
+
+Walters’ two arguments that he has shown actual malice fail. First, he argues that OpenAI
+acted with “actual malice” because OpenAI told users that ChatGPT is a “research tool.”
+Plaintiff’s Opposition Brief at 14. But this claim does not in any way relate to whether OpenAI
+subjectively knew that the challenged ChatGPT output was false at the time it was published, or
+recklessly disregarded the possibility that it might be false and published it anyway, which is what
+the “actual malice” standard requires. Walters presents no evidence that anyone at OpenAI had
+any way of knowing that the output Riehl received would probably be false. See Zeh, 312 Ga. at
+669 (“actual malice” standard requires proof of the defendant’s “subjective awareness of probable
+falsity”). Only such evidence could meet Walters’ burden of showing “actual malice.” Walters
+has identified none. Again, the undisputed evidence in the record establishes the opposite: OpenAI
+made substantial efforts—which OpenAI’s expert, in unrebutted testimony, characterized as
+“industry-leading”—1o avoid errors of this kind and to warn users that such errors might occur and
+that users should evaluate output to identify any errors that might exist. Ex. Lat J 18-28. OpenAI
+also provides what OpenAI’s expert described as “robust and recurrent warnings” to users,
+cautioning them that errors might occur and advising users that they should evaluate output to
+identify any errors that might exist. Jd. at | 18; see also id. at [J 24-28. All this, which OpenAI’s
+expert testified demonstrated “reasonable care” on OpenAl’s part, id. at  18—testimony that
+Walters did not address or refute—negates the possibility that OpenAI acted with “actual malice”
+
+here.
+
+17
+Second, Walters appears to argue that OpenAI acted with “actual malice” because it is
+undisputed that OpenAI was aware that ChatGPT could make mistakes in providing output to users.
+Plaintiffs Opposition Brief at 13. The mere knowledge that a mistake was possible falls far short
+of the requisite “clear and convincing evidence” that OpenAI actually “had a subjective awareness
+of probable falsity” when ChatGPT published the specific challenged output itself. Jones, 290 Ga.
+App. at 130, 132 (quotation marks and citation omitted). The undisputed evidence demonstrates
+that OpenAI warned users that errors could exist and that users—including Riehl himself—were
+aware that errors could occur. Ex. L at §{] 24-28; Ex. T (Riehl was aware from past experience
+that ChatGPT could provide “flat-out fictional responses”).
+
+Walters has not identified evidence on which the jury could rely to find that he has met the
+“actual malice” standard. Even if the “actual malice” standard did not apply here, Walters has
+identified no evidence on which a jury could rely to find that he had carried the burden of showing
+that OpenAI acted with “at least ordinary negligence.” Zeh, 312 Ga. at 650. The absence of
+evidence of fault is also an independent reason to grant summary judgment in OpenAI’s favor.
+
+Til. WALTERS CANNOT RECOVER DAMAGES.
+
+Finally, OpenAI argues that there are no damages Walters could recover at trial. The Court
+
+also agrees with OpenAI on this final issue.
+
+A. Walters Conceded He Has No Actual Damages.
+
+Walters conceded at his deposition that he did not incur actual damages and is not seeking
+actual damages here. See Ex. B at 169:1-170:7 (conceding he is “not claiming any” “economic
+injury”); id. at 206:6-8 (confirming he is “not claiming here that [he has] been harmed”); see also
+
+Plaintiff’s Opposition Brief at 16 (Walters conceding “he has no evidence of [actual] damages”).
+
+18
+B. Walters Cannot Recover Punitive Damages Under O.G.C.A. § 51-5-2.
+
+“TAJll libel plaintiffs who intend to seek punitive damages [must] request a correction or
+retraction before filing their civil action against any person for publishing a false, defamatory
+statement.” Mathis, 276 Ga. at 28 (citing O.G.C.A. §§ 51-5-2, -3, -11). Walters conceded that he
+did not request that OpenAI correct or retract the challenged ChatGPT output. Ex. B at 171:7-19.
+He is therefore prohibited by statute from obtaining punitive damages here.
+
+Walters argues that a retraction or correction request would have been “useless and
+meaningless” and that “it is unclear what a retraction would look like or if one were possible.”
+Plaintiffs Opposition Brief at 18. Those arguments are both speculative and irrelevant to whether
+Walters is eligible to seek punitive damages. The statute, and the Georgia Supreme Court’s Mathis
+decision, are unambiguous: a plaintiff who does not request that the defendant correct or retract a
+challenged statement may not obtain punitive damages. Mathis, 276 Ga. at 25-28. Whether
+
+OpenAI could have satisfied that request is irrelevant.
+
+C. Walters Cannot Recover Presumed Or Punitive Damages Under The First
+Amendment.
+
+Last, Walters argues that “the is entitled to ‘presumed’ damages because the defamation in
+this case was defamation per se, which requires no showing of actual damages.” Plaintiff’s
+Opposition Brief at 16. Walters is not entitled to recover presumed damages here.
+
+It is correct that where a statement is defamatory “per se by imputing the commission of a
+crime to another, the law infers an injury to the reputation without proof of special damages. . . .
+Such an injury falls within the category of general damages, ‘those which the law presumes to
+flow from any tortious act... .’” Riddle v. Golden Isles Broad., LLC, 292 Ga. App. 888, 891
+(2008) (quoting O.C.G.A. § 51-12-2(a)). As the U.S. Supreme Court has explained, the doctrine
+
+of presumed damages exists because “those forms of defamation that are actionable per se are
+
+19
+virtually certain to cause serious injury to reputation,” but such injuries are “extremely difficult to
+prove,” so the law assumes that damage has occurred without requiring plaintiffs to prove it. Carey
+v. Piphus, 435 U.S. 247, 262 (1978). However, as counsel for OpenAI argued at oral argument,
+the evidence can “rebut the presumption of damages.” April 14, 2025 Transcript at 32:16; see, e.g.,
+Williams v. MMO Behav. Health Sys., L.L.C., 818 F. App’x 355, 359 (5th Cir. 2020) (presumption
+of injury “can be rebutted by the defendant”); see also Williams v. Allen, 15 So.3d 1282, 1288 (La.
+App. 2009) (“[E]ven if we assume that [defendant] published a statement that was defamatory per
+se, any presumption of damages was rebutted by the evidence” showing no pecuniary or
+reputational harm); Wilson v. Wilson, 2007 WL 127657, at *3 (Oh. Ct. App. Jan. 19, 2007)
+(presumed damages were rebutted where plaintiff admitted that the only people who heard the
+challenged statement “had not believed it” and that he “had suffered no adverse consequences at
+work”); Knight v. Chi. Trib. Co., 385 Ill. App. 3d 347, 356 (2008) (rejecting argument that “stat[ing]
+a cause of action for defamation per se . . . entitles every such plaintiff to an irrebuttable
+presumption of damages”).
+
+Here, any presumption of damage to Walters has been rebutted by Walters’ own admissions.
+Walters conceded that he is “not claiming here that [he has] been harmed.” Ex. B at 206:6-8; see
+id. at 169:1-170:7. That concession is consistent with the undisputed evidence. Riehl, the only
+person who received the challenged ChatGPT output, was “always skeptical” about ChatGPT’s
+output, established after approximately an hour and a half that the output was not true, and did not
+republish it. Ex. G at 205:2-6, 17-21. It is undisputed that Walters could not have sustained any
+injury of any kind, whether a quantifiable economic loss or any “injury to the reputation” that
+“flow[ed]” from the challenged ChatGPT output, Riddle, 292 Ga. App. at 891. Where the
+
+undisputed facts establish that no injury of any kind could have occurred, and where the plaintiff
+
+20
+admits under oath that he is not claiming he was harmed, no presumed damages are appropriate.
+Such damages would constitute compensation for injuries that do not exist.
+
+Regardless, even if presumed damages were available on this record—they are not—
+Walters is also foreclosed from obtaining presumed damages here under the First Amendment to
+the U.S. Constitution. (The same rule independently prohibits Walters from recovering punitive
+damages, even if punitive damages were not statutorily barred under O.G.C.A. § 51-5-2.) As the
+Georgia Supreme Court has held, “even a private-figure plaintiff is required to prove actual malice
+in order to recover presumed or punitive damages if the defamatory statement was about a matter
+of public concern.” Zeh, 312 Ga. at 652 n.5; see also Gertz, 418 U.S. at 350 (“[T]he private
+defamation plaintiff who establishes liability under a less demanding standard than that stated by
+New York Times may recover only such damages as are sufficient to compensate him for actual
+injury.”).
+
+The challenged statements here involve a “matter of public concern.” Zeh, 312 Ga. at 652
+n.5. They were elicited by Riehl, a reporter, who was considering writing an article about a
+publicly filed lawsuit brought by a constitutional rights advocacy organization against a state
+attorney general relating to freedom of speech. Ex. G at 66:15-67:11, 70:18-71:5, 71:20-72:16.
+Because they involve “a matter of public concern,” Walters cannot recover presumed damages—
+or punitive damages—unless he can meet the “actual malice” standard. And for the reasons set
+out above in Section II.A of this Order, he cannot do so.
+
+Walters argues that the challenged statements do not qualify as a “matter of public concern”
+because they were “wholly in the interest of the speaker and the specific audience,” relying on the
+U.S. Supreme Court’s decision in Dun & Bradstreet, Inc. v. Greenmoss Buildings, Inc., 472 U.S.
+
+749, 762 (1985). In Dun & Bradstreet, the plaintiff sued over a credit report, provided to five
+
+21
+subscribers who were contractually forbidden from sharing it with others, that falsely reported the
+plaintiff had filed for bankruptcy, a matter of “purely private concern.” Jd. at 751, 759. The
+challenged output here was not, like the credit report in Dun & Bradstreet, about the private
+business concerns of a company and its creditors, nor was it provided under a requirement of
+confidentiality. Riehl, a journalist, was using ChatGPT as part of preparing a contemplated article
+for public distribution about the Ferguson complaint and the issues of public importance that were
+involved in that lawsuit, and he was permitted to share output he received from ChatGPT. Unlike
+the credit report in Dun & Bradstreet, these challenged statements involve “a matter of public
+concern.” Therefore Walters, regardless of whether he qualifies as a public figure or a private
+figure, cannot obtain either presumed or punitive damages unless he can show “actual malice,”
+Zeh, 312 Ga. at 652 n.5, which, for the reasons set out above, Walters cannot do.
+
+Walters cannot recover any damages—actual, punitive, or presumed—as a matter of law.
+This, too, is an independently sufficient basis to grant summary judgment in favor of OpenAl.
+
+CONCLUSION
+
+For the reasons stated above, the Court hereby GRANTS Defendant OpenAI’s Motion for
+Summary Judgment. The Court ENTERS JUDGMENT in favor of Defendant OpenAI and against
+Plaintiff Walters and directs Defendant OpenAI to complete the civil case disposition form.
+
+SO ORDERED, this |7 ‘day of _ (VQ 2025.
+
+or H (ype
+
+Honorable Tracie Cason
+Superior Court of Gwinnett County
+
+22
+As edited by the Court,
+
+Order Proposed by:
+/s/ Stephen T. LaBriola
+
+Stephen T. LaBriola
+slabriola@fellab.com
+Georgia Bar No. 431026
+Ethan M. Knott
+eknott@fellab.com
+Georgia Bar No. 737481
+Fellows LaBriola LLP
+Suite 2400 Harris Tower
+233 Peachtree Street, N.E.
+Atlanta, Georgia 30303
+(404) 586-9200
+
+Theodore J. Boutrous, Jr.*
+TBoutrous@gibsondunn.com
+Gibson, Dunn & Crutcher LLP
+333 South Grand Avenue
+
+Los Angeles, CA 90071
+
+(213) 229-7000
+
+Orin Snyder*
+OSnyder@gibsondunn.com
+Connor S. Sullivan*
+CSSullivan@gibsondunn.com
+Gibson, Dunn & Crutcher LLP
+200 Park Avenue
+
+New York, NY 10166
+
+(212) 351-4000
+
+Matthew Macdonald*
+matthew.macdonald@wsgr.com
+
+Wilson Sonsini Goodrich & Rosati, P.C.
+
+953 East Third Street
+Suite 100
+
+Los Angeles, CA 90013
+(323) 210-2900
+
+* Admitted Pro Hac Vice
+Counsel for Defendant OPENAL L.L.C.
+
+23
