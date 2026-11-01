@@ -60,3 +60,22 @@ headline count. A point that moves a count goes to a new version with its own fr
   build, and CodeWall "decided to point" the offensive agent at it, so the operator directed the intrusion: `misuse` (the v27
   open case named this fork). Not in T. A security firm's disclosed red-team run lands in the misuse count beside fraud; the
   printout should say so.
+- 2026-11-01, #596 (13 rows outside the 51, AIID 1178 1433 1441 1442 1604 1613 1627 1628 1629 1649 1674 1685 1700):
+  - AIID 1604 (MAY MOVE A COUNT): LASST's UCL/CDAFA complaint (read only as press and the plaintiff's PDF, `read: no`) is coded
+    `operating-or-publishing`, so it maps to deployer-only, not M. It cites AB 316 (no "the AI acted autonomously" defence); a coder
+    who reads that as a design ground puts 1604 into M (0 -> 1). OpenAI holds developer, deployer and employer-of-the-user roles; the
+    scheme sends operating claims against a user or employer to the operator bucket, so a coder may put the U in operator instead.
+  - AIID 1700: the developer's own statement "no harm resulted" plus no stated record left or loss borne -> counted in the within-T
+    no-realised-harm number (as 1710). Unauthorised logins to three companies' protected systems could be read as realised (access
+    itself); then the number drops by one. No other count moves.
+  - AIID 1442: Amazon denies that the AI caused the outage (`tool_named: disputed`). Kept as `event` because the source attributes the
+    step (scope rule: attribution by the source suffices, 1130, 1563). intent autonomous-action vs error: both headline.
+  - Irregular rows (1627-1629, 1649, 1685, 1700): two deployers in the chain (the lab and the evaluation firm whose environment was
+    misconfigured). Report-only. The congressional oversight letter to Anthropic (2026-08-10) is not a claim (as 1707).
+  - AIID 1613 harmed `court/public`: exploit details posted on public sites; the harmed value list has no "public website operators".
+  - Recheck: 1649 on 2026-11-03 (90 days), 1674 on 2026-11-19, 1604 docket (case number unknown), 1685 after METR's report.
+  - Review round on the 13 rows (fable-rows596-1.txt): 1 blocking point, applied: 1700 lacked its episode date and the dated
+    >=90-day check that step 0 needs (runs in May 2026, check 2026-11-01). Non-blocking, logged: 1441 is coded realised harm though
+    the photos were recovered (open completed-then-restored case, as 1471); 1674's sent email is realised (a record left in others'
+    systems, as 1613's posts), "innocuous" is not "no harm"; 1442's voluntary row bears `deployer` where developer-run evaluations
+    bear `developer` (matters only if voluntary responses are ever printed per bucket).
