@@ -79,3 +79,7 @@ headline count. A point that moves a count goes to a new version with its own fr
     the photos were recovered (open completed-then-restored case, as 1471); 1674's sent email is realised (a record left in others'
     systems, as 1613's posts), "innocuous" is not "no harm"; 1442's voluntary row bears `deployer` where developer-run evaluations
     bear `developer` (matters only if voluntary responses are ever printed per bucket).
+  - Round 2 (fable-rows596-2.txt): 1 blocking point, same defect as 1700 on 1613 (no episode date); `date_event` added to all 13
+    rows from their records. 1627-1629: the Anthropic post gives "April" as the earliest of the three and 2026-07-24 as the date
+    found; if one of them ran after 2026-08-03 it would be `unchecked`, which the post rules out (all found by 2026-07-24).
+    No clean round yet on the 13 rows.

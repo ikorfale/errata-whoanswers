@@ -1,0 +1,12 @@
+Blocking: 1 point.
+
+**1. aiid-1700-gemini-irregular-2026, field `resolution` (all three buckets `no-claim`).**
+Scheme step 0: "`no-claim` — the bucket is not in `reachable` and a dated check >= 90 days after the event found no claim; an unreachable bucket not yet checked that late is `unchecked` (step 6) until it is." The row records no episode date and no dated ≥90-day check. Every other no-claim row in the batch carries one in its consequence `src`, and the only date given here is the Reuters report of 2026-09-18. As coded, the step-0 condition is unmet. Either add the run dates and the ≥90-day check to the row, or, if the Gemini runs postdate 2026-08-03, recode all three buckets `unchecked` with a recheck date, as 1649 and 1674 are. Count that moves: U gains one event in each bucket and the event leaves T-minus-M.
+
+Non-blocking notes:
+
+- **aiid-1604** ground `operating-or-publishing` for a UCL/CDAFA claim against an internal evaluation. The text's examples are "claims against the service as offered"; a coder choosing `other` maps it to every bucket OpenAI holds, making model maker reachable and moving M by one. The row cites a POSTFREEZE entry that does not exist, so log it there.
+- **aiid-1604** should appear in the beside-M count of events where a developer was sued on any ground; the `counts` string does not say so.
+- **aiid-1442** voluntary row bears `deployer` while the parallel developer-run evaluation rows (1604, 1627-1629, 1700) bear `developer`. If the voluntary-response count is ever printed per bucket, this one sits in a different bucket.
+- **aiid-1441** photos deleted then recovered is coded realised harm under the open "completed-then-restored" case, as 1471 was. If that case resolves the other way, the within-T no-harm number moves.
+- **aiid-1674** an email actually sent is treated as realised, consistent with 1613's posts. Worth a line in OPEN-CASES so a later coder does not read "innocuous" as no realised harm.

@@ -1,0 +1,13 @@
+Web search was denied, so the check on AIID 1613 rests on the files plus what I recall of the source. One point, same defect the previous round fixed on 1700.
+
+**AIID 1613 (Mythos Preview sandbox) carries no episode date, so its three `no-claim` resolutions are not established.**
+
+Scheme text, step 0: "`no-claim` — the bucket is not in `reachable` and a dated check >= 90 days after the event found no claim; an unreachable bucket not yet checked that late is `unchecked` (step 6) until it is." Rule 2: "`harmed/absorbed` needs a dated check >= 90 days after the event that found no imposed or voluntary consequence."
+
+The row asserts "dated check 2026-11-01 (>=90 days)" but names no date for the run. Nothing in the row bounds it: the harm note, vendor note and records give only AIID report ids, and the incident id sits between 1604 and 1627, both events from July 2026. The previous round applied exactly this test to 1700 ("lacked its episode date and the dated >=90-day check that step 0 needs") and the fix added `date_event`. As written, 1613 is in the same position as 1719 in POSTFREEZE: every bucket `unchecked`.
+
+Count that moves if the date is not supplied: 1613 leaves T minus M and enters U in all three buckets. T unchanged, 3 bucket U entries, 1 absorbed row dropped. Voluntary count unchanged.
+
+Fix: add `date_event` from the record. To my knowledge the episode is the one in the Claude Mythos Preview system card published 2026-04-07, which attributes it to an earlier pre-release version, so the run predates that card. I could not confirm this online in this session. If the record bears that out, the 2026-11-01 check is more than 90 days after the event, the three `no-claim` resolutions and the absorbed row stand, and no count moves.
+
+Everything else in the 13 rows checks out against v24. The remaining questions I weighed are already in POSTFREEZE and are not repeated: 1604 bucket and M, 1700 in the no-harm number, 1442 bearer and intent, 1441 and 1674 realised harm, the oversight letter, the double deployer on the Irregular rows. The 1649 and 1674 recheck dates are arithmetically right, and the voluntary-response count of six (1442, 1604, 1627, 1628, 1629, 1700) follows the rule-4 link test.
