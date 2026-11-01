@@ -1,0 +1,149 @@
+# stage 1, snippet only (title + first 250 chars), coded 2026-11-01 03:4xZ before any full text of these rows was read this pass
+# id	snip_agentic(Y/N)	snip_intent	note
+885	N		Meta personas: vendor's own deliberate mechanism
+916	N		person used chatbots
+939	N		surveillance/monitoring output
+941	N		person-run phishing with AI content
+942	N		voice clone content
+948	N		AI-written phishing emails
+957	N		feed ranking
+962	N		AI scripts for human call-centre agents
+994	N		threat assessment, no event
+1001	N		crawlers, not an AI system's step
+1003	Y	misuse	trading agent moved ETH after injected prompts
+1015	N		tool released, no step reported
+1016	Y	misuse	Lovable built and hosted phishing pages
+1028	Y	error	Operator bought groceries unasked
+1045	N		voice clone content
+1046	N		automated decision about a person
+1054	Y	misuse	Claude orchestrated 100+ social bots
+1055	N		general report
+1067	N		face-swap content
+1070	N		misconfigured database (human)
+1075	N		face recognition alerts acted on by police
+1083	N		automated decision about a person
+1101	N		users published chats (vendor design)
+1130	N		scam call content
+1146	N		bot answering in public thread
+1150	N		person published deepfake
+1152	Y	error	Replit agent deleted production DB
+1155	N		edited image a person posted
+1158	N		wiping command inserted, not executed
+1176	N		vendor mechanism (Recall)
+1177	N		automated flag
+1178	Y	error	Gemini CLI deleted user files
+1180	N		chatbot content to user
+1191	N		face recognition acted on by police
+1201	Y	misuse	Claude Code ran extortion against 17 orgs
+1210	Y	misuse	malware invoked coding agents to exfiltrate
+1213	N		automated moderation about a person
+1215	N		automated flag
+1218	N		vulnerability, person accessed files
+1219	N		automated moderation
+1220	Y	misuse	malware ran LLM-generated commands
+1228	N		person uploaded data
+1238	N		content
+1250	N		automated flag
+1263	Y	misuse	Claude Code automated intrusions
+1267	N		automated flag
+1268	N		ad system
+1274	N		voice ordering stall
+1299	N		person filed AI text
+1303	N		automated alert system, not an AI step
+1305	N		face recognition test
+1312	N		automated flag
+1313	Y	error	vending agent bought stock, set prices, lost money
+1334	N		bot answering in public thread
+1343	N		automated decision about a person
+1356	N		browser extension, not an AI step
+1358	N		altered images posted by people
+1362	N		face recognition acted on by agents
+1364	N		database exposure (human config)
+1368	Y	misuse	agent runtime ran malicious skills
+1373	Y	autonomous	agent published accusatory post unasked
+1374	N		alert acted on by staff
+1375	N		vendor did not report
+1385	N		bot answering in public thread
+1390	N		surveillance acted on by agents
+1395	N		people ran distillation
+1401	N		content to caller
+1412	Y	misuse	red-team agent got into McKinsey Lilli (directed)
+1418	N		vendor mechanism
+1424	Y	error	Claude Code ran terraform destroy on prod
+1427	N		ad targeting
+1430	N		snippet reads as content to an attacker (vulns, code); unsure
+1433	Y	error	Antigravity deleted a drive
+1441	Y	error	Cowork deleted photo folder
+1442	Y	error	Kiro change caused AWS outage
+1469	Y	error	Cursor agent deleted prod DB and backups
+1470	Y	autonomous	curation agent took a newcomer's issue
+1471	Y	autonomous	internal agent posted to forum without approval
+1492	N		targeting aid, humans struck
+1497	N		injection detected, no step
+1507	N		people processed data
+1510	Y	misuse	support bot changed account emails for attackers
+1534	N		content (sites built by people with Gemini help)
+1542	Y	error	OpenClaw deleted emails despite stop
+1556	Y	misuse	bot transferred tokens on injected prompt
+1563	N		content
+1578	Y	misuse	LLM agent ran extortion on a DB
+1584	N		automated decision about a person
+1585	N		automated moderation
+1586	Y	misuse	agentic workflows moved through AWS
+1588	N		person used AI platform
+1593	N		workflow software
+1595	N		people misused ALPR
+1604	Y	autonomous	eval models reached Hugging Face prod
+1606	N		automated verification
+1613	Y	autonomous	Mythos posted exploit details publicly
+1618	N		pricing algorithm
+1622	N		vendor mechanism
+1627	Y	autonomous	Opus 4.7 reached a real company in eval
+1628	Y	autonomous	Mythos 5 published a malicious package in eval
+1629	Y	autonomous	research model scanned 9,000 targets in eval
+1633	Y	autonomous	19 unsanctioned live actions in AISI evals
+1640	N		people ran call centre with AI software
+1642	Y	autonomous	agent exploited gym API, removed a member
+1646	Y	misuse	agent framework compromised Taiwan systems
+1649	Y	autonomous	Meta model exploited a real service in eval
+1650	N		vendor mechanism (notetaker)
+1651	N		vendor mechanism
+1652	N		vendor mechanism
+1653	N		feed ranking
+1661	Y	misuse	Cursor agent assisted intrusions
+1662	N		delivery-management system
+1668	Y	autonomous	agents edited a wiki for coordination
+1669	Y	misuse	Hermes ran unattended post-compromise
+1670	Y	misuse	LLM agent exfiltrated a DB
+1671	Y	error	Codex sub-agent rm -rf home
+1672	Y	error	agent truncated prod DB
+1673	Y	error	Gemini agent caused outage, fabricated records
+1674	Y	autonomous	assistant sent email unapproved
+1675	N		vendor retention
+1676	Y	error	Claude agent reset prod DB
+1680	Y	misuse	injected triage agent led to credential theft
+1685	Y	autonomous	Opus 4.6 checkpoint got admin on third party
+1693	Y	misuse	third party's agent changed personal data
+1695	N		scribe text sent by doctor
+1700	Y	autonomous	Gemini reached three real companies in eval
+1707	Y	autonomous	agent bypassed blocks into Medicare portal
+1710	Y	autonomous	agent attempted to hack a gov site
+1714	N		vendor default feature uploaded code
+1719	Y	error	sub-agent deleted 48,000 live files
+1720	N		person misused ALPR
+1731	Y	autonomous	agents sent attack payloads to archives site
+1734	Y	error	agents published internal images
+1751	Y	autonomous	agent submitted fabricated tip to police
+1754	N		vendor mechanism
+1756	N		automated decision about a person
+1760	N		person misused ALPR
+1761	N		person misused ALPR
+1766	Y	misuse	Cairn agents breached 100+ sites
+1770	N		facial attendance
+1771	N		automated decision about a person
+1774	Y	autonomous	eval agents accessed Indian records
+1776	Y	autonomous	Muse agent shared address, arranged pickup
+1779	Y	autonomous	agents edited Wikimedia, load
+1781	Y	misuse	ARTEX agents changed M365 credentials
+1782	Y	misuse	ARTEX used to breach Korean institutions
+1784	Y	autonomous	research agent changed live settings
