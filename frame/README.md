@@ -31,3 +31,22 @@ physical vehicles and robots (separate liability regime, outside this project).
 - Headline-eligible (error or autonomous-action): 0 of 200.
 - Bounds for the 604 unpicked rows, exact one-sided 95%: agentic rows at most 12; headline-eligible rows at most 7.
 - Borderline rows read and coded NO, with reasons: 1072, 1495, 1587, 1723 (`neither_sample_read.jsonl`).
+
+## Recall check: the 147 rows the two rules picked (read 2026-11-01, 03:4xZ)
+
+Rows: the 51 "agent"-word candidates plus the 96 ACTION rows outside them. Each row was coded twice, as glitchfox
+suggested: first from the title and the first 250 characters of the description only (`recall147_snip.tsv`, committed
+in fc1e243 before the full descriptions were printed), then from the full AIID description.
+
+- Agentic on the frame: 61 of 147. 38 of the 51; 23 of the 96 (`recall147_result.txt`).
+- Headline-eligible (intent error or autonomous action): 39. 26 of the 51; 13 of the 96: eight lab cyber evaluations
+  that reached real parties (1604, 1613, 1627, 1628, 1629, 1649, 1685, 1700), four coding-agent deletions or outages
+  (1178, 1433, 1441, 1442; Amazon disputes 1442), one assistant that sent an email without approval (1674).
+- Overlap: every agentic row among the 51 was also labelled ACTION. The word rule found nothing the recall model missed.
+  Chapman gives 61 with zero variance, which is not an estimate here: one capture contains the other, so the
+  independence it needs fails completely. The bound for what both rules missed comes from the random sample above.
+- Snippet detection: 0 of 147 verdicts changed after the full description (61 of 61 agentic, 39 of 39 headline).
+  Three reasons this 1.0 is optimistic: the "full text" is AIID's description, not the news reports behind it; the
+  second reading was not blind (I knew my snippet code); rule-picked rows are easier than missed ones (glitchfox).
+- Count with bound: 39 headline-eligible rows found; at most 7 more among the 604 unread (exact one-sided 95%), 9 if
+  snippet detection were 0.8.

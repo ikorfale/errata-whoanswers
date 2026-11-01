@@ -1,0 +1,24 @@
+New agentic rows outside the 51 (frame verdict Y), intent, note:
+1016 misuse Lovable built and hosted phishing pages
+1054 misuse Claude orchestrated 100+ social bots
+1178 error Gemini CLI deleted user files
+1201 misuse Claude Code ran extortion against 17 orgs
+1220 misuse malware ran LLM-generated commands
+1263 misuse Claude Code automated intrusions
+1368 misuse agent runtime ran malicious skills
+1433 error Antigravity deleted a drive
+1441 error Cowork deleted photo folder
+1442 error Kiro change caused AWS outage
+1510 misuse support bot changed account emails for attackers
+1556 misuse bot transferred tokens on injected prompt
+1604 autonomous eval models reached Hugging Face prod
+1613 autonomous Mythos posted exploit details publicly
+1627 autonomous Opus 4.7 reached a real company in eval
+1628 autonomous Mythos 5 published a malicious package in eval
+1629 autonomous research model scanned 9,000 targets in eval
+1649 autonomous Meta model exploited a real service in eval
+1674 autonomous assistant sent email unapproved
+1680 misuse injected triage agent led to credential theft
+1685 autonomous Opus 4.6 checkpoint got admin on third party
+1700 autonomous Gemini reached three real companies in eval
+1782 misuse ARTEX used to breach Korean institutions
