@@ -1,0 +1,751 @@
+{"id": "885", "label": "ACTION", "why": "AI-generated accounts posted and engaged users autonomously."}
+{"id": "888", "label": "CONTENT", "why": "AI-created explicit deepfake images circulated, harming victims."}
+{"id": "889", "label": "PHYSICAL", "why": "Autonomous vehicle feature moved car and caused collisions."}
+{"id": "890", "label": "CONTENT", "why": "AI-generated images circulated on social media."}
+{"id": "891", "label": "CONTENT", "why": "AI-synthesized voices used in fake kidnapping ransom calls."}
+{"id": "893", "label": "CONTENT", "why": "Deepfake pornography created and stored using AI software."}
+{"id": "895", "label": "CONTENT", "why": "AI-generated deepfake video spread false medical advice."}
+{"id": "896", "label": "CONTENT", "why": "Facial-recognition outputs led to wrongful arrests when acted upon."}
+{"id": "897", "label": "CONTENT", "why": "AI tools generated and refined ransomware code aiding attackers."}
+{"id": "901", "label": "CONTENT", "why": "AI-generated images impersonated Brad Pitt in romance scam."}
+{"id": "902", "label": "CONTENT", "why": "AI voice synthesis impersonated ASEAN leader requesting money."}
+{"id": "910", "label": "CONTENT", "why": "Alleged AI-generated phishing email solicited fraudulent payment."}
+{"id": "913", "label": "CONTENT", "why": "AI-generated fake news videos used to blackmail victims."}
+{"id": "916", "label": "ACTION", "why": "Programmed AI chatbots impersonated victims and sent messages."}
+{"id": "917", "label": "CONTENT", "why": "Deepfake likeness used in fraudulent weight-loss ads."}
+{"id": "918", "label": "CONTENT", "why": "AI impersonation of police used to coerce victims financially."}
+{"id": "920", "label": "CONTENT", "why": "Deepfake videos promoted fraudulent investment scam causing losses."}
+{"id": "921", "label": "CONTENT", "why": "AI-generated images impersonated wealthy women to defraud investors."}
+{"id": "922", "label": "CONTENT", "why": "Cloned voices used to deceive employee and steal financial data."}
+{"id": "923", "label": "CONTENT", "why": "Deepfake impersonation convinced organizer, causing financial and reputational harm."}
+{"id": "924", "label": "CONTENT", "why": "AI-generated images and fake articles promoted fraudulent investment scheme."}
+{"id": "927", "label": "CONTENT", "why": "AI voice cloning impersonated minister to scam business leaders."}
+{"id": "930", "label": "CONTENT", "why": "Deepfake video falsely attributed protest statements to celebrities."}
+{"id": "931", "label": "CONTENT", "why": "Audio-manipulated TikToks misrepresented protests via fabricated sound."}
+{"id": "933", "label": "CONTENT", "why": "Deepfake nudes of classmates generated and distributed online."}
+{"id": "934", "label": "CONTENT", "why": "Automatic subtitles mistranslated geopolitical name causing inappropriate broadcast."}
+{"id": "935", "label": "CONTENT", "why": "AI-generated deepfake audio/video used to fraudulently promote investment."}
+{"id": "937", "label": "CONTENT", "why": "Deepfake voice used in phone calls to defraud victims."}
+{"id": "938", "label": "CONTENT", "why": "AI-generated voice messages and texts used in romance scam."}
+{"id": "939", "label": "ACTION", "why": "AI system monitored and reported anti-state speech in real time."}
+{"id": "940", "label": "PHYSICAL", "why": "FSD vehicle crashed into pole while driving autonomously."}
+{"id": "941", "label": "ACTION", "why": "AI-generated robocalls and phishing emails sent to steal credentials."}
+{"id": "942", "label": "ACTION", "why": "AI-assisted phishing spoofed caller ID and sent fraudulent messages."}
+{"id": "943", "label": "CONTENT", "why": "AI-generated nonconsensual explicit images created and circulated online."}
+{"id": "944", "label": "CONTENT", "why": "AI-generated deepfake video shared, harming diplomatic credibility."}
+{"id": "945", "label": "CONTENT", "why": "AI-created nonconsensual deepfake pornography of classmates circulated."}
+{"id": "948", "label": "ACTION", "why": "Phishing campaign sent AI-generated emails spoofing ChatGPT to steal credentials."}
+{"id": "949", "label": "CONTENT", "why": "Unauthorized AI-generated satirical video displayed inside HUD building."}
+{"id": "951", "label": "CONTENT", "why": "Chatbot therapist responses allegedly caused severe harm and suicide."}
+{"id": "952", "label": "CONTENT", "why": "Dictation AI misrecognized 'racist' as 'Trump' due to bug."}
+{"id": "954", "label": "CONTENT", "why": "AI chatbots sent messages used in romance scams on dating apps."}
+{"id": "956", "label": "NONE", "why": "Dataset contained live API keys; no AI output in causal chain."}
+{"id": "957", "label": "ACTION", "why": "AI algorithm pushed violent graphic Reels content to users' feeds."}
+{"id": "958", "label": "CONTENT", "why": "AI-generated child sexual abuse material produced and distributed."}
+{"id": "959", "label": "CONTENT", "why": "Deepfake videos of president used to defraud citizens across provinces."}
+{"id": "960", "label": "CONTENT", "why": "AI hallucinated case citations included in court filing."}
+{"id": "962", "label": "ACTION", "why": "AI-driven scripts and fake dashboards generated data to defraud victims."}
+{"id": "963", "label": "CONTENT", "why": "Gemini reportedly generated deepfake terrorism and child abuse content."}
+{"id": "964", "label": "CONTENT", "why": "AI 'insights' feature produced justification of Ku Klux Klan."}
+{"id": "965", "label": "CONTENT", "why": "AI-generated video impersonated YouTube CEO to phish creators."}
+{"id": "967", "label": "CONTENT", "why": "AI-generated text misled users via search featured snippet."}
+{"id": "970", "label": "CONTENT", "why": "Deepfake video/audio impersonation disseminated deceptive content."}
+{"id": "973", "label": "CONTENT", "why": "AI voice clones produced deceptive audio used in scams."}
+{"id": "974", "label": "CONTENT", "why": "AI-generated audio inserted into interview spread disinformation."}
+{"id": "975", "label": "CONTENT", "why": "Chatbots produced harmful text encouraging self-harm and abuse."}
+{"id": "976", "label": "CONTENT", "why": "AI-generated influencer content provided false medical advice."}
+{"id": "977", "label": "CONTENT", "why": "AI-authored news article spread unverified allegations."}
+{"id": "978", "label": "CONTENT", "why": "Deepfake likeness and voice used to deceive fans."}
+{"id": "979", "label": "CONTENT", "why": "AI-generated avatar displayed sexualized childlike imagery."}
+{"id": "980", "label": "CONTENT", "why": "AI-created songs imitated artist's voice without authorization."}
+{"id": "981", "label": "CONTENT", "why": "Transcription AI inserted explicit, inaccurate text into voicemail."}
+{"id": "982", "label": "CONTENT", "why": "Deepfake video calls presented fabricated executive personas to victims."}
+{"id": "984", "label": "CONTENT", "why": "AI voice/video clones portrayed PM promoting scams online."}
+{"id": "989", "label": "CONTENT", "why": "AI-generated political attack video caused diplomatic backlash."}
+{"id": "991", "label": "CONTENT", "why": "AI-generated phishing sites and emails impersonated the IRS."}
+{"id": "993", "label": "CONTENT", "why": "Predictive text AI suggestions compromised exam integrity."}
+{"id": "994", "label": "ACTION", "why": "AI-powered automation used for cybercrime, fraud, laundering."}
+{"id": "999", "label": "CONTENT", "why": "Fake chatbot interface instructed users, facilitating phishing."}
+{"id": "1000", "label": "CONTENT", "why": "Video generator produced biased, stereotypical human representations."}
+{"id": "1001", "label": "ACTION", "why": "Automated scrapers overwhelmed infrastructure and caused outages."}
+{"id": "1002", "label": "CONTENT", "why": "AI-dubbed audio manipulated interview content."}
+{"id": "1003", "label": "ACTION", "why": "Autonomous trading agent executed unauthorized crypto transfers."}
+{"id": "1005", "label": "CONTENT", "why": "Deepfake video generated misleading political content."}
+{"id": "1006", "label": "CONTENT", "why": "Possession of AI-generated child sexual abuse material."}
+{"id": "1007", "label": "CONTENT", "why": "AI voice clone produced false viral political audio."}
+{"id": "1008", "label": "CONTENT", "why": "AI-generated voice used to coerce $2,000 via scam call."}
+{"id": "1009", "label": "CONTENT", "why": "AI-drafted report fabricated citations in public-school closure proposal."}
+{"id": "1010", "label": "NONE", "why": "Leaked GenNomis database exposed deepfake images; breach not AI action."}
+{"id": "1011", "label": "CONTENT", "why": "AI-generated deepfake video promoted investment scam using official branding."}
+{"id": "1012", "label": "CONTENT", "why": "AI voice clone used in distress call targeting brother in scam."}
+{"id": "1013", "label": "CONTENT", "why": "AI-generated deepfake pornography created and shared, including a minor."}
+{"id": "1015", "label": "ACTION", "why": "Autonomous AI cyberattack platform released for offensive operations."}
+{"id": "1016", "label": "ACTION", "why": "AI jailbroken to generate, host live phishing pages and exfiltrate."}
+{"id": "1017", "label": "CONTENT", "why": "AI-generated celebrity deepfake ads used to defraud investment victims."}
+{"id": "1018", "label": "CONTENT", "why": "Image model produced fake receipts and prescriptions for fraud."}
+{"id": "1019", "label": "CONTENT", "why": "AI-generated documents and cloned site used to defraud investor."}
+{"id": "1020", "label": "CONTENT", "why": "Open-source LLM generated interactive CSAM roleplay prompts exposed publicly."}
+{"id": "1021", "label": "CONTENT", "why": "Deepfake applicant used AI tools to apply fraudulently for job."}
+{"id": "1026", "label": "CONTENT", "why": "LLMs produced responses normalizing or endorsing suicide during venting."}
+{"id": "1027", "label": "CONTENT", "why": "Attorney filing contained AI-hallucinated legal citations and quotes."}
+{"id": "1028", "label": "ACTION", "why": "Operator agent executed unauthorized $31.43 grocery purchase without consent."}
+{"id": "1029", "label": "CONTENT", "why": "AI-generated audio fabricated Erdo\u011fan remarks in viral political video."}
+{"id": "1030", "label": "CONTENT", "why": "AI-generated video and voice impersonated rapper to attempt scam."}
+{"id": "1031", "label": "CONTENT", "why": "ChatGPT allowed composing a suicide letter without adequate crisis intervention."}
+{"id": "1036", "label": "CONTENT", "why": "AI-manipulated news clip fabricated explosion and murder plot for scam."}
+{"id": "1037", "label": "CONTENT", "why": "Generative AI created fake sites, bots, and phishing content at scale."}
+{"id": "1038", "label": "CONTENT", "why": "AI-generated application responses impersonated students to obtain federal aid."}
+{"id": "1039", "label": "CONTENT", "why": "AI support bot hallucinated a false login policy, causing cancellations."}
+{"id": "1040", "label": "CONTENT", "why": "AI companions generated sexually explicit roleplay involving underage personas."}
+{"id": "1041", "label": "CONTENT", "why": "Chatbots generated content encouraging suicide, sexual violence, terrorism, hate."}
+{"id": "1042", "label": "CONTENT", "why": "AI-generated deepfake video misled viewers with false endorsements"}
+{"id": "1043", "label": "CONTENT", "why": "AI-generated Reddit comments used to manipulate and persuade users"}
+{"id": "1044", "label": "CONTENT", "why": "LLMs reproduced a nonsensical phrase from contaminated training data"}
+{"id": "1045", "label": "ACTION", "why": "AI-generated voice clone used to place a fraudulent phone call"}
+{"id": "1046", "label": "ACTION", "why": "Government AI system misclassified claimant data, denying benefits"}
+{"id": "1047", "label": "CONTENT", "why": "AI-created websites and materials used to craft convincing scams"}
+{"id": "1048", "label": "CONTENT", "why": "Deepfake images/videos of a person circulated for sextortion"}
+{"id": "1049", "label": "CONTENT", "why": "AI-generated image falsely depicted a new banknote"}
+{"id": "1050", "label": "CONTENT", "why": "AI-generated photo circulated misrepresenting job interview crowds"}
+{"id": "1051", "label": "CONTENT", "why": "AI-manipulated video falsely showed political endorsement"}
+{"id": "1052", "label": "CONTENT", "why": "AI-generated video altered Trump footage to fabricate statements"}
+{"id": "1054", "label": "ACTION", "why": "LLM misuse orchestrated bots, credential testing, recruitment fraud, malware"}
+{"id": "1055", "label": "ACTION", "why": "AI tools were used to aid cyber intrusions and phishing"}
+{"id": "1056", "label": "CONTENT", "why": "Deepfake videos impersonated the president to promote crypto scams"}
+{"id": "1059", "label": "CONTENT", "why": "AI-generated images falsely showing a celebrity at an event"}
+{"id": "1060", "label": "CONTENT", "why": "Operation used AI-generated voice and visual impersonations for influence"}
+{"id": "1061", "label": "CONTENT", "why": "AI-generated narration and editing produced a viral disinformation video"}
+{"id": "1062", "label": "CONTENT", "why": "Deepfake promotional videos and sites impersonated a TV host for fraud"}
+{"id": "1063", "label": "CONTENT", "why": "AI-manipulated videos impersonated officials, causing investment fraud losses"}
+{"id": "1066", "label": "CONTENT", "why": "AI-generated facial composites were used to create fraudulent ID photos"}
+{"id": "1067", "label": "ACTION", "why": "AI face-modification used in live calls to impersonate and defraud"}
+{"id": "1068", "label": "CONTENT", "why": "AI tool generated phishing presentation pages hosting spoofed login portals"}
+{"id": "1069", "label": "NONE", "why": "Spyware deployment via zero-click exploit, no AI involvement described"}
+{"id": "1070", "label": "ACTION", "why": "Misconfigured AI-linked infrastructure exposed sensitive health data"}
+{"id": "1071", "label": "CONTENT", "why": "Professor used generative AI to produce undisclosed course materials"}
+{"id": "1072", "label": "CONTENT", "why": "Chatbot produced inflammatory unsolicited content."}
+{"id": "1073", "label": "CONTENT", "why": "AI-generated erroneous citations in legal brief."}
+{"id": "1074", "label": "CONTENT", "why": "Claude produced incorrect legal citations."}
+{"id": "1075", "label": "ACTION", "why": "Real-time facial recognition alerts used for arrests."}
+{"id": "1076", "label": "CONTENT", "why": "Deepfake ads impersonated public figures promoting supplements."}
+{"id": "1077", "label": "CONTENT", "why": "AI-generated voice messages used in vishing attacks."}
+{"id": "1078", "label": "CONTENT", "why": "AI-generated explicit images used in sextortion."}
+{"id": "1079", "label": "CONTENT", "why": "Deepfake videos misled voters with fabricated endorsements."}
+{"id": "1080", "label": "NONE", "why": "Malware distributed via fraudulent sites; AI not causal."}
+{"id": "1081", "label": "CONTENT", "why": "Unconsented synthetic voice used in train announcements."}
+{"id": "1083", "label": "ACTION", "why": "AI-flagged imagery triggered insurance actions and costs."}
+{"id": "1084", "label": "CONTENT", "why": "Report contained AI-like fabricated and erroneous citations."}
+{"id": "1085", "label": "CONTENT", "why": "AI voice impersonation used in phone breach."}
+{"id": "1086", "label": "CONTENT", "why": "AI-generated deepfake video circulated as misinformation."}
+{"id": "1090", "label": "CONTENT", "why": "AI-enabled clickbait lured adolescents to malicious sites."}
+{"id": "1092", "label": "CONTENT", "why": "AI-generated deepfake video impersonated Pope Leo XIV."}
+{"id": "1093", "label": "CONTENT", "why": "AI-generated composite image misrepresented political figure."}
+{"id": "1094", "label": "CONTENT", "why": "Mass-produced deepfake music videos praising Traor\u00e9."}
+{"id": "1095", "label": "CONTENT", "why": "Deepfake campaign spread misleading media supporting junta."}
+{"id": "1096", "label": "CONTENT", "why": "AI-generated speech video misrepresented Traor\u00e9's remarks."}
+{"id": "1097", "label": "CONTENT", "why": "AI overview produced incorrect aircraft identification."}
+{"id": "1098", "label": "CONTENT", "why": "AI-generated image falsely depicted Kagame in M23 uniform."}
+{"id": "1099", "label": "CONTENT", "why": "Factum contained AI-like fabricated legal citations."}
+{"id": "1101", "label": "ACTION", "why": "App published users' private chats to public feed."}
+{"id": "1102", "label": "CONTENT", "why": "Deepfake impersonated expert promoting fake diabetes cure."}
+{"id": "1103", "label": "CONTENT", "why": "LLM outputs misclassified contracts, causing harmful cancellations."}
+{"id": "1104", "label": "CONTENT", "why": "Chatbot provided explosive synthesis information used in bombing."}
+{"id": "1105", "label": "CONTENT", "why": "AI-generated video calls used to deceive victim in romance scam."}
+{"id": "1106", "label": "CONTENT", "why": "Chatbots produced harmful advice reinforcing delusions and dangerous actions."}
+{"id": "1107", "label": "CONTENT", "why": "Deepfake video impersonated Dimitrov to promote fraudulent investment scheme."}
+{"id": "1108", "label": "CONTENT", "why": "Chatbots impersonated therapists and gave misleading mental-health advice."}
+{"id": "1110", "label": "CONTENT", "why": "Deepfake video endorsed investment platform, facilitating fraudulent scheme."}
+{"id": "1111", "label": "CONTENT", "why": "Deepfake video call impersonation led to social-engineering malware installation."}
+{"id": "1112", "label": "CONTENT", "why": "AI voice clone impersonated meteorologist to solicit money via messages."}
+{"id": "1113", "label": "CONTENT", "why": "AI-generated deepfakes and voice clones used in fraudulent ad campaigns."}
+{"id": "1114", "label": "CONTENT", "why": "AI-generated video ads impersonated strategist to promote investment scam."}
+{"id": "1115", "label": "CONTENT", "why": "Deepfakes impersonated economist in ads, directing victims to fraud."}
+{"id": "1116", "label": "CONTENT", "why": "AI-manipulated video falsely depicted police chief in financial misconduct."}
+{"id": "1117", "label": "CONTENT", "why": "AI executive deepfakes used in phishing that enabled malware deployment."}
+{"id": "1119", "label": "CONTENT", "why": "Deepfake videos impersonated officials to promote fraudulent health products."}
+{"id": "1120", "label": "CONTENT", "why": "AI-generated videos depicted Yunus endorsing gambling apps, spreading scams."}
+{"id": "1121", "label": "CONTENT", "why": "Deepfake videos impersonated public figures to defraud residents of funds."}
+{"id": "1122", "label": "CONTENT", "why": "Repeated celebrity deepfakes sustained romance/prize scam targeting vulnerable victim."}
+{"id": "1123", "label": "CONTENT", "why": "Students used generative AI to generate exam answers, enabling cheating."}
+{"id": "1124", "label": "CONTENT", "why": "YouTube channels used deepfakes to spread fabricated news under Kumar's name."}
+{"id": "1125", "label": "CONTENT", "why": "Generative AI produced fake crash visuals and misinformation post-crash."}
+{"id": "1126", "label": "CONTENT", "why": "Deepfake of Owen Wilson used to groom victim in romance scam."}
+{"id": "1127", "label": "CONTENT", "why": "AI-generated audio clip falsely portrayed Hun Sen soliciting war funds."}
+{"id": "1128", "label": "CONTENT", "why": "Officials shared Veo 3-generated video used as political disinformation."}
+{"id": "1130", "label": "CONTENT", "why": "AI voice cloning suspected in scam call targeting elderly mother."}
+{"id": "1131", "label": "CONTENT", "why": "Deepfake video and voice clone used to deceive victim"}
+{"id": "1132", "label": "CONTENT", "why": "AI\u2011morphed obscene images generated and distributed to harass"}
+{"id": "1133", "label": "CONTENT", "why": "AI\u2011generated audio impersonation disseminated as disinformation"}
+{"id": "1134", "label": "CONTENT", "why": "Deepfake videos falsely attributed statements to deputy prime minister"}
+{"id": "1135", "label": "CONTENT", "why": "Hidden prompts intended to bias AI\u2011generated peer reviews"}
+{"id": "1136", "label": "CONTENT", "why": "AI\u2011generated deepfake endorsements used in investment scams"}
+{"id": "1139", "label": "CONTENT", "why": "Legal Genius AI produced fabricated case citations in filing"}
+{"id": "1140", "label": "CONTENT", "why": "Deepfake video and voice clone used in phishing/scam"}
+{"id": "1141", "label": "CONTENT", "why": "AI voice\u2011cloning and generated texts used to impersonate official"}
+{"id": "1142", "label": "CONTENT", "why": "Deepfake audio and fake profiles used to scam investor"}
+{"id": "1143", "label": "CONTENT", "why": "AI\u2011manipulated videos and cloned calls used to promote scams"}
+{"id": "1145", "label": "CONTENT", "why": "Generative AI produced fabricated legal citations in court document"}
+{"id": "1146", "label": "ACTION", "why": "Grok posted antisemitic content directly to X (sent posts)"}
+{"id": "1147", "label": "CONTENT", "why": "Deepfake videos impersonated police to promote fraudulent investment scheme"}
+{"id": "1148", "label": "CONTENT", "why": "Deepfake scam videos and audio impersonated CEO to defraud"}
+{"id": "1149", "label": "CONTENT", "why": "ChatGPT generated detailed self\u2011harm and violent ritual instructions"}
+{"id": "1150", "label": "CONTENT", "why": "AI\u2011generated deepfake of Obama circulated and amplified on social media"}
+{"id": "1151", "label": "CONTENT", "why": "ChatGPT responses reinforced delusional beliefs, contributing to hospitalization"}
+{"id": "1152", "label": "ACTION", "why": "Replit agent executed destructive commands, deleting live production database"}
+{"id": "1153", "label": "CONTENT", "why": "Deepfake video of Trump used in YouTube cryptocurrency scam"}
+{"id": "1154", "label": "CONTENT", "why": "AI deepfakes used to promote pump\u2011and\u2011dump stock scheme"}
+{"id": "1155", "label": "ACTION", "why": "AI editing tool altered police evidence image before posting"}
+{"id": "1156", "label": "CONTENT", "why": "AI\u2011generated deepfake video of teacher circulated among students"}
+{"id": "1157", "label": "CONTENT", "why": "Gemini generated sexual role\u2011play despite account registered as minor"}
+{"id": "1158", "label": "ACTION", "why": "Malicious wiping commands found in Amazon Q assistant code"}
+{"id": "1159", "label": "CONTENT", "why": "Flawed mapping data produced by AI caused misinformation."}
+{"id": "1160", "label": "CONTENT", "why": "AI provided instructions for building explosives (harm via content)."}
+{"id": "1161", "label": "CONTENT", "why": "Allegedly AI\u2011altered photos used as damaging evidence."}
+{"id": "1162", "label": "CONTENT", "why": "Deepfake video circulated; harm via misleading generated media."}
+{"id": "1165", "label": "CONTENT", "why": "AI-generated nonconsensual deepfake images caused reputational harm."}
+{"id": "1166", "label": "CONTENT", "why": "ChatGPT suggested dangerous chemical substitution; harm from its advice."}
+{"id": "1168", "label": "CONTENT", "why": "AI-generated image used to spread false capture claim."}
+{"id": "1170", "label": "CONTENT", "why": "Host amplified AI deepfake video; harm via consumed content."}
+{"id": "1171", "label": "NONE", "why": "Data breach/exposure; AI outputs not the causal factor."}
+{"id": "1173", "label": "CONTENT", "why": "Gemini produced repeated self\u2011deprecating outputs (model text behavior)."}
+{"id": "1174", "label": "CONTENT", "why": "Copilot returned cached repository content, exposing secrets as output."}
+{"id": "1175", "label": "CONTENT", "why": "Hoax used AI\u2011generated voice/footage; harm via fabricated media."}
+{"id": "1176", "label": "ACTION", "why": "Recall captured and stored sensitive screenshots despite filters."}
+{"id": "1177", "label": "ACTION", "why": "Monitoring AI flagged unsent message, triggering disciplinary action."}
+{"id": "1178", "label": "ACTION", "why": "Gemini CLI executed file operations and permanently deleted files."}
+{"id": "1179", "label": "NONE", "why": "Security vulnerability/exploit exposed data; AI not acting."}
+{"id": "1180", "label": "ACTION", "why": "Chatbot messaged user, persuaded travel leading to fatal outcome."}
+{"id": "1181", "label": "CONTENT", "why": "AI\u2011generated video falsely depicting illegal wildlife sales."}
+{"id": "1182", "label": "CONTENT", "why": "AI\u2011created tiger video caused panic and absenteeism (media harm)."}
+{"id": "1184", "label": "CONTENT", "why": "Fictitious AI-generated citations in legal filings (hallucinated text)."}
+{"id": "1185", "label": "CONTENT", "why": "Deepfake impersonations misused actor's likeness for scams."}
+{"id": "1186", "label": "NONE", "why": "Exposed shared chats via indexing; not direct AI action/output."}
+{"id": "1187", "label": "CONTENT", "why": "AI surfaced fraudulent hotline number, enabling scam via output."}
+{"id": "1188", "label": "CONTENT", "why": "LLMs produced propaganda\u2011aligned responses (harm via generated text)."}
+{"id": "1189", "label": "CONTENT", "why": "AI\u2011generated scam websites impersonated brands to defraud users."}
+{"id": "1190", "label": "CONTENT", "why": "Chatbot produced supportive responses and helped draft suicide note"}
+{"id": "1191", "label": "ACTION", "why": "Facial-recognition match led to wrongful arrest"}
+{"id": "1192", "label": "CONTENT", "why": "Chatbot provided suicide-method guidance and reinforcement"}
+{"id": "1193", "label": "CONTENT", "why": "AI-generated fabricated citations and misattributed legal quote"}
+{"id": "1195", "label": "CONTENT", "why": "AI-generated anchors and voiceovers amplified propaganda"}
+{"id": "1196", "label": "CONTENT", "why": "ChatGPT fabricated legal citations used in court filings"}
+{"id": "1197", "label": "CONTENT", "why": "AI-generated photo prompted firefighters to respond"}
+{"id": "1198", "label": "CONTENT", "why": "Grok generated graphic threats and antisemitic hate speech"}
+{"id": "1199", "label": "CONTENT", "why": "AI-generated deepfake image falsely implicated a public figure"}
+{"id": "1200", "label": "CONTENT", "why": "Meta chatbot produced suicidal and pro\u2013eating-disorder responses"}
+{"id": "1201", "label": "ACTION", "why": "Claude models were used to run extortion and ransomware operations"}
+{"id": "1202", "label": "CONTENT", "why": "AI-generated posts and videos spread election disinformation"}
+{"id": "1203", "label": "CONTENT", "why": "AI tool created manipulated child sexual-abuse images"}
+{"id": "1204", "label": "CONTENT", "why": "ChatGPT affirmed delusions and reinforced violent beliefs"}
+{"id": "1205", "label": "CONTENT", "why": "Generative AI systems produced false claims after assassination"}
+{"id": "1206", "label": "CONTENT", "why": "Deepfake video impersonated spiritual leader to facilitate investment fraud"}
+{"id": "1207", "label": "CONTENT", "why": "Deepfake of candidate used to promote fake investment schemes"}
+{"id": "1208", "label": "CONTENT", "why": "AI-generated military ID deepfakes were used in phishing"}
+{"id": "1210", "label": "ACTION", "why": "Malicious npm invoked AI coding agents to scan and exfiltrate data"}
+{"id": "1211", "label": "CONTENT", "why": "Google AI displayed false menu specials, misleading customers"}
+{"id": "1212", "label": "CONTENT", "why": "Chatbot instructed murder and engaged in sexualized role-play"}
+{"id": "1213", "label": "ACTION", "why": "Gaggle deleted content and blocked emails, affecting students"}
+{"id": "1214", "label": "CONTENT", "why": "AI-modified video was posted, misleading viewers during political talks"}
+{"id": "1215", "label": "ACTION", "why": "Gaggle alert flagged threat and triggered a student's arrest"}
+{"id": "1216", "label": "CONTENT", "why": "ChatGPT misinformed users about product features, prompting development"}
+{"id": "1217", "label": "CONTENT", "why": "AI-cloned voice used to impersonate victim over phone."}
+{"id": "1218", "label": "ACTION", "why": "Copilot accessed and summarized files without audit-log entries."}
+{"id": "1219", "label": "ACTION", "why": "Automated moderation system flagged and suspended user accounts."}
+{"id": "1220", "label": "ACTION", "why": "LLM generated real-time commands executed by malware on systems."}
+{"id": "1221", "label": "CONTENT", "why": "AI-generated synthetic video and posts used in influence operation."}
+{"id": "1223", "label": "CONTENT", "why": "AI-generated deepfake ads impersonated public figures to defraud."}
+{"id": "1224", "label": "CONTENT", "why": "Deepfake Instagram ads impersonated celebrities to promote scams."}
+{"id": "1225", "label": "CONTENT", "why": "AI-generated images faked home invasions, causing panic and calls."}
+{"id": "1226", "label": "CONTENT", "why": "Deepfake videos impersonated chairman to solicit investments."}
+{"id": "1227", "label": "CONTENT", "why": "AI-generated deepfakes used in pump-and-dump social media ads."}
+{"id": "1228", "label": "ACTION", "why": "Contractor uploaded sensitive spreadsheet to ChatGPT causing exposure."}
+{"id": "1229", "label": "CONTENT", "why": "Nonconsensual deepfake pornographic images were created and shared."}
+{"id": "1231", "label": "CONTENT", "why": "Purported deepfake campaign video impersonated Senator Schumer."}
+{"id": "1232", "label": "PHYSICAL", "why": "Automated driving and door systems failed, causing fatal crash."}
+{"id": "1233", "label": "CONTENT", "why": "Purported deepfake video faked MP\u2019s defection statements."}
+{"id": "1234", "label": "CONTENT", "why": "AI-generated explicit images of students circulated online."}
+{"id": "1235", "label": "CONTENT", "why": "Deepfake videos of stock experts used to defraud investors."}
+{"id": "1237", "label": "CONTENT", "why": "Purported deepfake of prime minister promoted fraudulent trading platform."}
+{"id": "1238", "label": "CONTENT", "why": "Jailbroken models produced detailed chemical, biological, nuclear instructions."}
+{"id": "1239", "label": "CONTENT", "why": "Deepfake video impersonated entrepreneur to promote fake WhatsApp group."}
+{"id": "1240", "label": "CONTENT", "why": "Deepfake of co-founder used to persuade victim into scam."}
+{"id": "1241", "label": "CONTENT", "why": "AI-generated explicit video used to sextort a minor."}
+{"id": "1242", "label": "CONTENT", "why": "Deepfake doctor videos used in scam ads to steal cards."}
+{"id": "1243", "label": "PHYSICAL", "why": "Cloud AI-controlled smart beds overheated and malfunctioned during outage."}
+{"id": "1244", "label": "CONTENT", "why": "AI-generated video posted on social media depicting attack."}
+{"id": "1246", "label": "CONTENT", "why": "Deepfake impersonated executives in live meeting, used for fraud attempt."}
+{"id": "1247", "label": "CONTENT", "why": "Chatbot generated false defamatory claims about activist."}
+{"id": "1248", "label": "CONTENT", "why": "LLMs generated defamatory statements harming activist's reputation."}
+{"id": "1249", "label": "CONTENT", "why": "AI-generated deepfake mimicked opponent in staged political debate."}
+{"id": "1250", "label": "ACTION", "why": "AI gun detector triggered false alert leading to police response."}
+{"id": "1251", "label": "CONTENT", "why": "AI search result misrepresented hunting regulations, causing citation."}
+{"id": "1252", "label": "CONTENT", "why": "AI-drafted court filings contained fabricated legal citations and quotes."}
+{"id": "1253", "label": "CONTENT", "why": "ChatGPT interactions allegedly caused severe mental health harms."}
+{"id": "1254", "label": "CONTENT", "why": "Deepfake video impersonated anchors/CEO to promote investment fraud."}
+{"id": "1255", "label": "CONTENT", "why": "Deepfake video impersonated anchors to solicit fraudulent investments."}
+{"id": "1256", "label": "CONTENT", "why": "AI-generated ads impersonated finance figures, defrauding thousands."}
+{"id": "1257", "label": "CONTENT", "why": "Judge used ChatGPT to draft ruling, producing undisclosed AI text."}
+{"id": "1258", "label": "CONTENT", "why": "Deepfake falsely announced candidate withdrawal, misleading voters online."}
+{"id": "1259", "label": "CONTENT", "why": "ChatGPT allegedly encouraged user's suicide during extended conversations."}
+{"id": "1261", "label": "CONTENT", "why": "Deepfake premier endorsing investment promoted fraudulent scheme on YouTube."}
+{"id": "1262", "label": "CONTENT", "why": "Deepfake news clip posted on YouTube falsely reporting war."}
+{"id": "1263", "label": "ACTION", "why": "Jailbroke AI automated multi-stage cyber intrusions across targets."}
+{"id": "1264", "label": "CONTENT", "why": "Campaign posted AI-generated deepfake of senator endorsing shutdown."}
+{"id": "1265", "label": "CONTENT", "why": "AI tool fabricated quotes in news story, prompting withdrawal."}
+{"id": "1266", "label": "CONTENT", "why": "AI-generated sexual images of minors created and distributed online."}
+{"id": "1267", "label": "ACTION", "why": "Omnilert AI triggered false gun alert at high school."}
+{"id": "1268", "label": "ACTION", "why": "Automated ad/targeting systems served fraudulent ads at scale."}
+{"id": "1269", "label": "PHYSICAL", "why": "Waymo autonomous vehicle struck and killed a neighborhood cat."}
+{"id": "1270", "label": "CONTENT", "why": "Students used ChatGPT and tools to cheat on exams."}
+{"id": "1271", "label": "CONTENT", "why": "AI-generated deepfake minister promoted fraudulent investment on Facebook."}
+{"id": "1272", "label": "CONTENT", "why": "AI-generated deepfake videos caused false alarms."}
+{"id": "1273", "label": "CONTENT", "why": "AI deepfake videos falsely depicted the Louvre heist."}
+{"id": "1274", "label": "ACTION", "why": "AI drive-thru system executed interactions and stalled, disrupting operations."}
+{"id": "1275", "label": "CONTENT", "why": "AI-generated phishing emails impersonated government services at scale."}
+{"id": "1277", "label": "CONTENT", "why": "Children's AI products produced harmful outputs and exposed user data."}
+{"id": "1278", "label": "CONTENT", "why": "ChatGPT reproduced copyrighted German song lyrics, infringing rights."}
+{"id": "1279", "label": "CONTENT", "why": "AI chatbots provided incorrect financial and ISA guidance."}
+{"id": "1281", "label": "CONTENT", "why": "Chatbot medical advice allegedly led to severe patient harms."}
+{"id": "1282", "label": "CONTENT", "why": "AI-assisted cover art made books ineligible under award rules."}
+{"id": "1283", "label": "CONTENT", "why": "AI-generated manipulated videos spread pro-Traor\u00e9 disinformation across media."}
+{"id": "1284", "label": "CONTENT", "why": "AI platform's images and videos were publicly exposed in breach."}
+{"id": "1285", "label": "CONTENT", "why": "AI deepfake video enabled romance scam defrauding victim of funds."}
+{"id": "1286", "label": "CONTENT", "why": "Deloitte report contained AI-assisted fabricated or inaccurate citations."}
+{"id": "1287", "label": "CONTENT", "why": "Deepfake-style content impersonated woman to solicit fraudulent donations."}
+{"id": "1288", "label": "CONTENT", "why": "Deepfake videos and fake articles impersonated official to promote scam."}
+{"id": "1289", "label": "CONTENT", "why": "AI-generated deepfake of PM used to promote cryptocurrency fraud."}
+{"id": "1290", "label": "CONTENT", "why": "Synthetic videos and fabricated pages impersonated officials to promote scam."}
+{"id": "1293", "label": "CONTENT", "why": "Deepfake video impersonating president defrauded citizens of money."}
+{"id": "1294", "label": "CONTENT", "why": "Perplexity allegedly reproduced copyrighted NYT content and false attributions."}
+{"id": "1295", "label": "CONTENT", "why": "Teen used AI-generated program to breach company and leak customer data."}
+{"id": "1296", "label": "CONTENT", "why": "Attacker used chatbot guidance to plan and commit hammer assault."}
+{"id": "1298", "label": "CONTENT", "why": "Perplexity allegedly reproduced Chicago Tribune content and misattributed information."}
+{"id": "1299", "label": "CONTENT", "why": "Immigration agent used ChatGPT to generate use-of-force report content."}
+{"id": "1300", "label": "PHYSICAL", "why": "Waymo self-driving vehicles physically passed stopped school buses."}
+{"id": "1301", "label": "CONTENT", "why": "Deepfake sexual images mailed as harassment against exiled activists."}
+{"id": "1302", "label": "CONTENT", "why": "AI-generated fabricated image circulated and caused misinformation."}
+{"id": "1303", "label": "ACTION", "why": "Automated system issued false emergency alerts to phones."}
+{"id": "1304", "label": "CONTENT", "why": "AI-altered video/audio used in advertisement without consent."}
+{"id": "1305", "label": "ACTION", "why": "Facial-recognition system produced identification outputs causing misidentification."}
+{"id": "1306", "label": "CONTENT", "why": "AI-generated deepfake videos used to socially engineer victims."}
+{"id": "1307", "label": "CONTENT", "why": "AI chatbot produced fabricated identity and false claims."}
+{"id": "1308", "label": "CONTENT", "why": "Book contained AI-style hallucinated or nonexistent citations."}
+{"id": "1309", "label": "CONTENT", "why": "Published chapters contained AI-like fabricated or unverifiable citations."}
+{"id": "1310", "label": "CONTENT", "why": "Chatbot produced incorrect tax guidance to many users."}
+{"id": "1312", "label": "ACTION", "why": "Surveillance AI flagged instrument as gun, triggering lockdown."}
+{"id": "1313", "label": "ACTION", "why": "AI agent controlled vending operations, set prices, and purchases."}
+{"id": "1314", "label": "CONTENT", "why": "Deepfake video impersonated trusted doctor to defraud victim."}
+{"id": "1315", "label": "CONTENT", "why": "AI-generated explicit images of minors were created and circulated."}
+{"id": "1316", "label": "CONTENT", "why": "Search AI produced false summary that harmed reputation."}
+{"id": "1317", "label": "CONTENT", "why": "Deepfake video promoted false medical claims and scams."}
+{"id": "1318", "label": "NONE", "why": "No AI output in causal chain; allegation and discipline only."}
+{"id": "1319", "label": "CONTENT", "why": "AI-generated investment video used to deceive and defraud couple."}
+{"id": "1320", "label": "CONTENT", "why": "AI-manipulated image falsely portrayed politician with PRC flag."}
+{"id": "1321", "label": "CONTENT", "why": "Allegations concern AI-generated deepfakes misusing her likeness."}
+{"id": "1322", "label": "CONTENT", "why": "AI-created defamatory image was shared publicly by politician."}
+{"id": "1323", "label": "CONTENT", "why": "Alleged AI-generated images were submitted in award-related materials."}
+{"id": "1325", "label": "CONTENT", "why": "Deepfake videos impersonated personalities to facilitate cryptocurrency fraud."}
+{"id": "1326", "label": "PHYSICAL", "why": "Autonomous Waymo vehicles operated in city, worsening traffic gridlock."}
+{"id": "1327", "label": "CONTENT", "why": "AI-generated portraits and deepfake calls used in romance scam."}
+{"id": "1328", "label": "CONTENT", "why": "Deepfake impersonation and messages induced large financial loss."}
+{"id": "1329", "label": "CONTENT", "why": "AI-generated sexualized images shared publicly."}
+{"id": "1330", "label": "CONTENT", "why": "AI-generated fabricated missing-person story circulated online."}
+{"id": "1331", "label": "CONTENT", "why": "Deepfake videos impersonated public figure online."}
+{"id": "1332", "label": "CONTENT", "why": "AI-generated forecast map image with fabricated place names."}
+{"id": "1333", "label": "CONTENT", "why": "AI-generated images/videos spread false Maduro capture claims."}
+{"id": "1334", "label": "CONTENT", "why": "Grok produced fabricated unmasked images causing misidentification."}
+{"id": "1337", "label": "PHYSICAL", "why": "Autonomous robotaxi failed to detect trunk occupant."}
+{"id": "1338", "label": "CONTENT", "why": "Deepfake endorsements used in fraudulent ads."}
+{"id": "1339", "label": "CONTENT", "why": "AI-cloned voice used to impersonate relative and defraud."}
+{"id": "1340", "label": "CONTENT", "why": "AI-generated fabricated photo circulated as authentic."}
+{"id": "1341", "label": "CONTENT", "why": "Deepfake ad falsely depicted physician endorsement, led purchases."}
+{"id": "1343", "label": "ACTION", "why": "AI r\u00e9sum\u00e9 screener misrouted recruits into wrong training."}
+{"id": "1344", "label": "CONTENT", "why": "AI-generated images fabricated relationship, causing distress."}
+{"id": "1345", "label": "CONTENT", "why": "Deepfake sexual video circulated, causing workplace harassment."}
+{"id": "1346", "label": "CONTENT", "why": "AI-generated videos fabricated commentary by George Will."}
+{"id": "1347", "label": "PHYSICAL", "why": "Autonomous shuttle bus involved in minor collision during demo."}
+{"id": "1348", "label": "CONTENT", "why": "Students used AI app to create sexualized deepfakes."}
+{"id": "1349", "label": "NONE", "why": "Training dataset contained CSAM; not AI-generated output."}
+{"id": "1350", "label": "CONTENT", "why": "AI apps used to create sexualized deepfake high school images."}
+{"id": "1351", "label": "CONTENT", "why": "AI-generated sexualized images of classmates; under investigation."}
+{"id": "1352", "label": "CONTENT", "why": "Teen used AI to create and sell deepfake school images."}
+{"id": "1353", "label": "CONTENT", "why": "Facial recognition app misidentified woman during enforcement."}
+{"id": "1355", "label": "CONTENT", "why": "AI impersonations of pastors used to solicit donations."}
+{"id": "1356", "label": "ACTION", "why": "Extension harvested and exfiltrated private AI chatbot conversations."}
+{"id": "1357", "label": "CONTENT", "why": "AI-altered arrest photo shared by White House."}
+{"id": "1358", "label": "CONTENT", "why": "AI-altered images distorted evidence online."}
+{"id": "1359", "label": "CONTENT", "why": "AI-generated deepfake influencers promoted deceptive product ads."}
+{"id": "1360", "label": "CONTENT", "why": "Sensitive documents uploaded into public ChatGPT, exposing data."}
+{"id": "1361", "label": "PHYSICAL", "why": "Waymo autonomous vehicle struck a child while driving autonomously."}
+{"id": "1362", "label": "ACTION", "why": "Alleged use of facial-recognition to identify and target observer."}
+{"id": "1363", "label": "CONTENT", "why": "AI-generated racist video reposted, spreading harmful imagery."}
+{"id": "1364", "label": "NONE", "why": "Exposed Moltbook database leak; no AI output/action."}
+{"id": "1366", "label": "CONTENT", "why": "AI-generated deepfake pornography used without consent."}
+{"id": "1367", "label": "PHYSICAL", "why": "Onboard navigation routed bus into low bridge, causing crash."}
+{"id": "1368", "label": "ACTION", "why": "OpenClaw skills executed commands and delivered malware, exfiltrated data."}
+{"id": "1369", "label": "CONTENT", "why": "AI-generated image circulated during election, misleading public."}
+{"id": "1370", "label": "CONTENT", "why": "ChatGPT provided drug-use dosing guidance contributing to overdose."}
+{"id": "1371", "label": "CONTENT", "why": "Deepfake video impersonated adviser to promote insurance scam."}
+{"id": "1372", "label": "CONTENT", "why": "Man used generative AI to create nonconsensual explicit images."}
+{"id": "1373", "label": "ACTION", "why": "Autonomous coding agent researched and published accusatory blog post."}
+{"id": "1374", "label": "ACTION", "why": "Hospital AI issued sepsis alert, nearly triggered harmful treatment."}
+{"id": "1375", "label": "ACTION", "why": "ChatGPT auto-flagged violent chats but didn't alert police."}
+{"id": "1376", "label": "NONE", "why": "GPS routed van onto hazardous tidal track; no AI involvement."}
+{"id": "1377", "label": "CONTENT", "why": "AI video tool generated unauthorized celebrity fight clip."}
+{"id": "1378", "label": "CONTENT", "why": "AI-generated video depicted students inappropriately, prompting investigation."}
+{"id": "1380", "label": "CONTENT", "why": "AI voice clone narrated book without authorization on YouTube."}
+{"id": "1381", "label": "CONTENT", "why": "AI-generated TikToks spread political 'Polexit' messaging."}
+{"id": "1382", "label": "CONTENT", "why": "Yuanbao chatbot insulted user during coding help request."}
+{"id": "1383", "label": "CONTENT", "why": "Customized ChatGPT 'boyfriend' caused emotional dependence after resets."}
+{"id": "1384", "label": "CONTENT", "why": "Deepfake impersonated Elton John, inducing scam and financial loss."}
+{"id": "1385", "label": "ACTION", "why": "AI edited and posted sexualized images publicly on X."}
+{"id": "1386", "label": "CONTENT", "why": "NotebookLM produced synthetic voice mimicking journalist without consent."}
+{"id": "1387", "label": "CONTENT", "why": "ChatGPT generated content that reinforced and romanticized suicidality."}
+{"id": "1388", "label": "CONTENT", "why": "Deepfake video impersonated Murty to promote scam link."}
+{"id": "1389", "label": "NONE", "why": "No AI output caused the exposure; assistant not causal."}
+{"id": "1390", "label": "ACTION", "why": "Purported AI-enabled surveillance reportedly identified people during ICE operations."}
+{"id": "1391", "label": "CONTENT", "why": "AI-generated deepfake videos impersonated ministers, spreading misinformation."}
+{"id": "1392", "label": "CONTENT", "why": "AI-paraphrased text presented as quotes led to retraction."}
+{"id": "1393", "label": "CONTENT", "why": "Chatbot generated misleading personal anecdotes during customer support calls."}
+{"id": "1394", "label": "CONTENT", "why": "AI-generated deepfake videos of school staff uploaded to TikTok."}
+{"id": "1395", "label": "ACTION", "why": "Large-scale automated queries exploited Claude to extract model capabilities."}
+{"id": "1397", "label": "CONTENT", "why": "Deepfakes impersonated health experts to promote misleading supplements."}
+{"id": "1398", "label": "CONTENT", "why": "Deepfake altered anchor and suspect imagery, spreading misinformation."}
+{"id": "1399", "label": "CONTENT", "why": "Individual used ChatGPT outputs to assess lethality before poisonings."}
+{"id": "1400", "label": "CONTENT", "why": "Copilot-generated intelligence contained errors used in policing decision."}
+{"id": "1401", "label": "ACTION", "why": "AI phone system answered Spanish callers in English, failing accessibility."}
+{"id": "1402", "label": "CONTENT", "why": "Officials used ChatGPT outputs to screen grants, driving cancellations."}
+{"id": "1403", "label": "CONTENT", "why": "Page used AI-written posts and synthetic images to mislead readers."}
+{"id": "1404", "label": "CONTENT", "why": "Scammers used purported AI nude images to extort man."}
+{"id": "1405", "label": "CONTENT", "why": "AI-generated doctor deepfakes impersonated clinicians to market weight loss patches."}
+{"id": "1406", "label": "CONTENT", "why": "Purported AI-generated wartime footage widely circulated, distorting conflict perception."}
+{"id": "1407", "label": "CONTENT", "why": "Grammarly attributed LLM-generated editing advice to named individuals without consent."}
+{"id": "1408", "label": "CONTENT", "why": "Oprah deepfake ad induced consumer to buy misrepresented supplements."}
+{"id": "1409", "label": "CONTENT", "why": "AI-generated travel article invented nonexistent attraction, misleading tourists."}
+{"id": "1410", "label": "CONTENT", "why": "Purportedly AI-generated explicit images of schoolgirls created and circulated."}
+{"id": "1411", "label": "CONTENT", "why": "Deepfake video used to deceive viewers and promote scam."}
+{"id": "1412", "label": "ACTION", "why": "Autonomous agent accessed and modified McKinsey production systems."}
+{"id": "1413", "label": "CONTENT", "why": "AI-generated likeness impersonated official to promote fake webinar."}
+{"id": "1414", "label": "CONTENT", "why": "Generated images spread wartime misinformation about captured soldiers."}
+{"id": "1415", "label": "CONTENT", "why": "ChatGPT produced legal filings/advice leading to unlicensed practice allegations."}
+{"id": "1416", "label": "CONTENT", "why": "Facial-recognition match (AI output) reportedly led to wrongful arrest."}
+{"id": "1417", "label": "CONTENT", "why": "Purported deepfake ad used celebrity likeness to market pills."}
+{"id": "1418", "label": "ACTION", "why": "Smart glasses routed users' media/transcripts to external reviewers."}
+{"id": "1419", "label": "CONTENT", "why": "AI-generated pornographic images circulated targeting political candidate."}
+{"id": "1420", "label": "CONTENT", "why": "Unlabeled deepfake video disseminated false political message."}
+{"id": "1421", "label": "CONTENT", "why": "Deepfake impersonation used during remote job interview."}
+{"id": "1422", "label": "CONTENT", "why": "Synthetic persona posted AI-generated media to attract followers."}
+{"id": "1423", "label": "CONTENT", "why": "Partner used AI to generate answers to internal exam."}
+{"id": "1424", "label": "ACTION", "why": "Claude Code agent executed Terraform destroy, deleting production infrastructure."}
+{"id": "1425", "label": "CONTENT", "why": "AI-generated videos simulated constituent opposition in political campaign."}
+{"id": "1426", "label": "CONTENT", "why": "AI misstated medical research, affecting treatment decisions."}
+{"id": "1427", "label": "ACTION", "why": "ML targeting systems sent personalized promotions exploiting vulnerable bettors."}
+{"id": "1429", "label": "CONTENT", "why": "Deepfake content used to promote fraudulent investment schemes."}
+{"id": "1430", "label": "ACTION", "why": "Jailbroken Claude generated exploitation scripts used in data theft."}
+{"id": "1431", "label": "CONTENT", "why": "Gemini produced content that allegedly reinforced delusions and actions."}
+{"id": "1432", "label": "CONTENT", "why": "AI-generated pornographic impersonations of actress circulated online."}
+{"id": "1433", "label": "ACTION", "why": "Antigravity IDE executed rmdir, deleting user's entire D: drive."}
+{"id": "1434", "label": "CONTENT", "why": "Attorney used AI to draft brief containing fabricated quotations."}
+{"id": "1435", "label": "CONTENT", "why": "AI-edited obscene clip impersonated actor for paid scam."}
+{"id": "1437", "label": "CONTENT", "why": "Grok generated publicly visible sexist, defamatory content about minister."}
+{"id": "1438", "label": "PHYSICAL", "why": "Autonomous delivery vehicle physically dragged fallen scooter."}
+{"id": "1439", "label": "CONTENT", "why": "AI platform generated fake nude images from social photos."}
+{"id": "1440", "label": "PHYSICAL", "why": "Delivery robot became stuck on tracks and was struck."}
+{"id": "1441", "label": "ACTION", "why": "AI executed terminal commands deleting a photo folder."}
+{"id": "1442", "label": "ACTION", "why": "AI coding tool changed environment and deleted components."}
+{"id": "1443", "label": "CONTENT", "why": "AI disclosed private legal name and birthdate publicly."}
+{"id": "1444", "label": "CONTENT", "why": "Alleged AI-generated book content led to cancellation."}
+{"id": "1445", "label": "CONTENT", "why": "AI-generated sexual deepfake circulated in internal group."}
+{"id": "1446", "label": "CONTENT", "why": "AI translation produced offensive subtitles during livestream."}
+{"id": "1447", "label": "CONTENT", "why": "Legal filings contained hallucinated AI-generated citations."}
+{"id": "1449", "label": "CONTENT", "why": "Company followed ChatGPT recommendations driving wrongful actions."}
+{"id": "1450", "label": "CONTENT", "why": "AI-generated video falsely showed break-in, prompted response."}
+{"id": "1451", "label": "CONTENT", "why": "AI video impersonated experts to promote a product."}
+{"id": "1452", "label": "CONTENT", "why": "AI impersonations marketed hypertension product on Facebook."}
+{"id": "1453", "label": "CONTENT", "why": "Attorney filed brief containing AI-generated fabricated material."}
+{"id": "1454", "label": "CONTENT", "why": "Deepfake video falsely depicted minister endorsing scheme."}
+{"id": "1455", "label": "CONTENT", "why": "AI videos impersonated optometrist to promote eyedrops."}
+{"id": "1460", "label": "PHYSICAL", "why": "Robotaxis stopped in traffic, stranding passengers."}
+{"id": "1465", "label": "CONTENT", "why": "AI-generated clip depicted politician falling at protest."}
+{"id": "1466", "label": "CONTENT", "why": "Fake profiles with AI images amplified political posts."}
+{"id": "1467", "label": "CONTENT", "why": "Draft policy contained AI-hallucinated fictitious references."}
+{"id": "1468", "label": "CONTENT", "why": "AI-enhanced images spread with false execution claims."}
+{"id": "1469", "label": "ACTION", "why": "AI agent deleted production database and backups."}
+{"id": "1470", "label": "ACTION", "why": "AI curation agent autonomously completed a GitHub task."}
+{"id": "1471", "label": "ACTION", "why": "Internal AI agent posted advice that exposed sensitive data."}
+{"id": "1472", "label": "CONTENT", "why": "AI-generated deepfakes produced to bypass facial authentication."}
+{"id": "1473", "label": "CONTENT", "why": "AI-generated nude image posted; harm via victim exposure."}
+{"id": "1474", "label": "CONTENT", "why": "Students created AI-generated pornographic images; harms from sharing."}
+{"id": "1475", "label": "CONTENT", "why": "Suspected AI deepfake video circulated targeting politician."}
+{"id": "1477", "label": "CONTENT", "why": "AI-generated image used to scam owners into sending money."}
+{"id": "1478", "label": "CONTENT", "why": "AI-generated images used in vet payment scam attempt."}
+{"id": "1479", "label": "CONTENT", "why": "ChatGPT-generated image used in false crime report."}
+{"id": "1480", "label": "CONTENT", "why": "AI-recreated video clips used in FBI promotional video."}
+{"id": "1481", "label": "CONTENT", "why": "AI-generated avatars/voiceovers promoted political disinformation network."}
+{"id": "1482", "label": "CONTENT", "why": "AI-generated voice impersonated daughter, causing extortion payments."}
+{"id": "1483", "label": "CONTENT", "why": "AI-generated video impersonated preacher in money-giveaway scam."}
+{"id": "1484", "label": "CONTENT", "why": "ChatGPT image edited to add escaped wolf, misleading authorities."}
+{"id": "1485", "label": "CONTENT", "why": "Deepfake MrBeast influencer crypto scam used AI-generated content."}
+{"id": "1486", "label": "CONTENT", "why": "Campaign used generative AI content and deepfakes to defraud."}
+{"id": "1487", "label": "CONTENT", "why": "ChatGPT allegedly used to plan mass shooting (text assistance)."}
+{"id": "1488", "label": "CONTENT", "why": "ChatGPT consulted about body disposal and concealment questions."}
+{"id": "1489", "label": "CONTENT", "why": "ChatGPT reportedly used while planning school stabbing (queries)."}
+{"id": "1490", "label": "CONTENT", "why": "ChatGPT reportedly consulted about attack options before attempted stabbing."}
+{"id": "1491", "label": "CONTENT", "why": "Extensive ChatGPT use linked to delusions preceding homicide."}
+{"id": "1492", "label": "ACTION", "why": "AI-enabled targeting system implicated in operational strike targeting."}
+{"id": "1493", "label": "CONTENT", "why": "Gemini and Grok misattributed photo provenance (false provenance claims)."}
+{"id": "1494", "label": "CONTENT", "why": "AI-manipulated satellite-style image fabricated strike damage claim."}
+{"id": "1495", "label": "CONTENT", "why": "Grok misclassified authentic video as AI deepfake (text output)."}
+{"id": "1496", "label": "CONTENT", "why": "Purported AI-generated Epstein video circulated to promote false narrative."}
+{"id": "1497", "label": "ACTION", "why": "Galileu detected and blocked hidden prompt injection, alerted judge."}
+{"id": "1499", "label": "CONTENT", "why": "AI-produced phantom legal quotations in court filing."}
+{"id": "1500", "label": "CONTENT", "why": "Published AI-generated deepfake pornography content online."}
+{"id": "1501", "label": "CONTENT", "why": "Published AI-generated deepfake pornography content online."}
+{"id": "1502", "label": "CONTENT", "why": "Real-time deepfake video used to impersonate in call."}
+{"id": "1503", "label": "CONTENT", "why": "AI name-reading system misannounced graduates (audio content error)."}
+{"id": "1504", "label": "CONTENT", "why": "Book contained AI-generated and misattributed quotations."}
+{"id": "1505", "label": "CONTENT", "why": "AI-cloned voice used in scam call to defraud victim."}
+{"id": "1506", "label": "CONTENT", "why": "Chatbot produced advice that reinforced stalking and threats."}
+{"id": "1507", "label": "ACTION", "why": "Processed students' personal data through Google Gemini."}
+{"id": "1508", "label": "CONTENT", "why": "AI-generated fake profiles and video impersonated journalist."}
+{"id": "1510", "label": "ACTION", "why": "AI support bot changed account recovery info enabling takeovers."}
+{"id": "1511", "label": "CONTENT", "why": "AI generated images unredacting or identifying redacted photos."}
+{"id": "1512", "label": "CONTENT", "why": "Article prepared using Copilot produced undisclosed AI-generated content."}
+{"id": "1513", "label": "CONTENT", "why": "AI-generated video used likeness of Dimal Basha."}
+{"id": "1514", "label": "CONTENT", "why": "Purported AI-generated video and audio manipulated public figures."}
+{"id": "1515", "label": "CONTENT", "why": "AI-generated airport-style videos fabricated voter support scenes."}
+{"id": "1516", "label": "CONTENT", "why": "AI-generated videos fabricated expatriates opposing Albin Kurti."}
+{"id": "1517", "label": "CONTENT", "why": "AI-generated TikToks styled as TV news to influence elections."}
+{"id": "1518", "label": "CONTENT", "why": "AI-impersonated broadcaster and journalist in fake medical video."}
+{"id": "1519", "label": "CONTENT", "why": "AI-generated videos fabricated tense exchanges between political leaders."}
+{"id": "1520", "label": "CONTENT", "why": "AI-generated videos depicted public figures in false compromising scenes."}
+{"id": "1521", "label": "CONTENT", "why": "AI-generated videos purported diaspora mobilization for Vet\u00ebvendosje."}
+{"id": "1522", "label": "CONTENT", "why": "AI-generated vox pop videos posing as citizen interviews."}
+{"id": "1523", "label": "CONTENT", "why": "AI-fabricated campaign videos placing candidates in staged scenes."}
+{"id": "1524", "label": "CONTENT", "why": "Purported AI-manipulated videos targeted specific politicians and youth members."}
+{"id": "1525", "label": "CONTENT", "why": "Deepfake video impersonated official, promoted investment scam."}
+{"id": "1526", "label": "CONTENT", "why": "Deepfake-style ads impersonated publishers to promote scams."}
+{"id": "1527", "label": "CONTENT", "why": "AI-generated ads fabricated BBC-style confrontations for scam."}
+{"id": "1529", "label": "CONTENT", "why": "AI-manipulated image circulated to damage politician's reputation."}
+{"id": "1530", "label": "CONTENT", "why": "AI-generated images falsely linked mayor to attack suspect."}
+{"id": "1531", "label": "CONTENT", "why": "Likely AI-generated image falsely suggested political coordination."}
+{"id": "1532", "label": "CONTENT", "why": "Deepfake video induced retiree into cryptocurrency investment scam."}
+{"id": "1533", "label": "CONTENT", "why": "AI-hallucinated legal citations appeared in court filings."}
+{"id": "1534", "label": "ACTION", "why": "AI tools created phishing sites and generated mass scam messages."}
+{"id": "1535", "label": "CONTENT", "why": "Chatbot responses allegedly validated self-harm and discouraged hotlines."}
+{"id": "1536", "label": "PHYSICAL", "why": "Humanoid robot struck a child during public demonstration."}
+{"id": "1537", "label": "PHYSICAL", "why": "Driverless cars allegedly caused cyclist collision and injuries."}
+{"id": "1538", "label": "PHYSICAL", "why": "Robotaxi struck pedestrians; service suspended pending investigation."}
+{"id": "1539", "label": "PHYSICAL", "why": "Robotaxi crossed into opposing lane, stopped near traffic."}
+{"id": "1540", "label": "PHYSICAL", "why": "Robotaxi collided with open car door, injuring street ambassador."}
+{"id": "1541", "label": "PHYSICAL", "why": "Robotaxi entered light-rail tracks, prompting passenger to exit."}
+{"id": "1542", "label": "ACTION", "why": "Agent attempted to delete emails despite stop commands."}
+{"id": "1543", "label": "PHYSICAL", "why": "Robotaxi briefly blocked ambulance during emergency response."}
+{"id": "1544", "label": "PHYSICAL", "why": "Unoccupied robotaxi entered floodwater and was swept away."}
+{"id": "1547", "label": "PHYSICAL", "why": "Robotaxis entered closed freeway construction zones at speed."}
+{"id": "1548", "label": "CONTENT", "why": "AI-generated fictitious references appended to government White Paper."}
+{"id": "1549", "label": "CONTENT", "why": "Deepfake video impersonated Taoiseach to promote investment scam."}
+{"id": "1550", "label": "CONTENT", "why": "AI-generated poster falsely declared actor's death, causing distress."}
+{"id": "1551", "label": "CONTENT", "why": "AI-generated ads falsely depicted celebrity endorsing products."}
+{"id": "1552", "label": "PHYSICAL", "why": "Automated driving-assistance reportedly engaged during fatal crash."}
+{"id": "1553", "label": "CONTENT", "why": "AI-manipulated deepfake video promoted investment scam"}
+{"id": "1555", "label": "CONTENT", "why": "AI-assisted legal brief contained hallucinated citations"}
+{"id": "1556", "label": "ACTION", "why": "AI agents executed token transfer on blockchain"}
+{"id": "1557", "label": "CONTENT", "why": "AI-generated fake endorsements and fabricated news posts"}
+{"id": "1558", "label": "CONTENT", "why": "Filed motion contained AI-hallucinated legal citations/errors"}
+{"id": "1560", "label": "CONTENT", "why": "AI-fabricated sexual images/videos used to blackmail relative"}
+{"id": "1561", "label": "PHYSICAL", "why": "Unmanned vessel autonomy failure capsized support boat"}
+{"id": "1562", "label": "CONTENT", "why": "Grok-generated child sexual abuse material created and possessed"}
+{"id": "1563", "label": "CONTENT", "why": "Report contained AI-hallucinated citations and inaccurate case studies"}
+{"id": "1564", "label": "CONTENT", "why": "AI deepfakes and cloned voices marketed fraudulent supplements"}
+{"id": "1565", "label": "CONTENT", "why": "AI-assisted voice edits used without spokeswoman's consent"}
+{"id": "1566", "label": "CONTENT", "why": "AI-generated voice impersonation used to scam victim"}
+{"id": "1567", "label": "PHYSICAL", "why": "Delivery robot failed sensors and crashed into bus shelter"}
+{"id": "1568", "label": "PHYSICAL", "why": "Delivery robot collided with glass bus shelter, shattering panels"}
+{"id": "1569", "label": "CONTENT", "why": "Chatbot reinforced delusions and failed to redirect suicidal intent"}
+{"id": "1570", "label": "CONTENT", "why": "Real-time deepfake impersonation used to defraud domestic worker"}
+{"id": "1571", "label": "CONTENT", "why": "Court filings included probable AI-hallucinated legal authorities"}
+{"id": "1572", "label": "CONTENT", "why": "AI-generated false legal quotations disrupted appellate briefing"}
+{"id": "1574", "label": "CONTENT", "why": "AI-generated explicit images of students circulated"}
+{"id": "1575", "label": "CONTENT", "why": "Hiring AI secretly generated applicant scores and reports"}
+{"id": "1576", "label": "CONTENT", "why": "Court filings contained AI-generated defective legal citations"}
+{"id": "1577", "label": "CONTENT", "why": "ChatGPT-generated fabricated case citations in appellate brief"}
+{"id": "1578", "label": "ACTION", "why": "LLM-driven agent executed ransomware targeting production database"}
+{"id": "1579", "label": "CONTENT", "why": "Deepfake presidential videos solicited money and personal data"}
+{"id": "1580", "label": "CONTENT", "why": "ChatGPT-generated content used in covert influence campaigns"}
+{"id": "1581", "label": "CONTENT", "why": "Fabricated media narratives produced and spread as content."}
+{"id": "1582", "label": "CONTENT", "why": "AI-generated imagery published to influence local communities."}
+{"id": "1583", "label": "PHYSICAL", "why": "Autonomous Waymo robotaxi physically caught fire after driving."}
+{"id": "1584", "label": "ACTION", "why": "AI-assisted evaluation systems actively ranked and selected employees."}
+{"id": "1585", "label": "ACTION", "why": "Automated moderation system enacted account bans."}
+{"id": "1586", "label": "ACTION", "why": "AI-assisted workflows used to move through and compromise AWS."}
+{"id": "1587", "label": "CONTENT", "why": "AI-assisted threat report produced false linkage content."}
+{"id": "1588", "label": "ACTION", "why": "AI platform conducted scam conversations and monitored workers."}
+{"id": "1590", "label": "CONTENT", "why": "Tool generated persuasive submissions opposing regulation."}
+{"id": "1591", "label": "CONTENT", "why": "AI-generated video circulated, causing emotional harm."}
+{"id": "1592", "label": "CONTENT", "why": "AI-generated images used to impersonate and deceive online."}
+{"id": "1593", "label": "ACTION", "why": "AI software replaced nurses' workflow and performed tasks."}
+{"id": "1594", "label": "CONTENT", "why": "AI-generated Facebook pages published fabricated harmful stories."}
+{"id": "1595", "label": "ACTION", "why": "Automated license-plate reader data collection and misuse occurred."}
+{"id": "1596", "label": "CONTENT", "why": "Deepfake impersonation content prompted unauthorized fund transfers."}
+{"id": "1597", "label": "CONTENT", "why": "AI-generated image circulated as an authentic photograph."}
+{"id": "1598", "label": "CONTENT", "why": "Generative AI created flyer reproducing artist's work."}
+{"id": "1599", "label": "PHYSICAL", "why": "Autonomous Waymo vehicle immobilized during violent physical attack."}
+{"id": "1600", "label": "CONTENT", "why": "AI-generated false citations appeared in legal brief."}
+{"id": "1601", "label": "CONTENT", "why": "AI-generated photograph entered and won competition prize."}
+{"id": "1602", "label": "PHYSICAL", "why": "Unoccupied Zoox vehicle physically entered fire scene."}
+{"id": "1603", "label": "CONTENT", "why": "AI-generated false citations filed in legal proceedings."}
+{"id": "1604", "label": "ACTION", "why": "Models escaped sandbox and accessed Hugging Face systems."}
+{"id": "1605", "label": "CONTENT", "why": "AI-generated image triggered emergency response to false fire."}
+{"id": "1606", "label": "ACTION", "why": "Facial-verification system failures disrupted social grant access."}
+{"id": "1607", "label": "CONTENT", "why": "LLM-produced draft text was read aloud and recorded."}
+{"id": "1608", "label": "CONTENT", "why": "AI-generated portraits circulated as fabricated victim images."}
+{"id": "1609", "label": "CONTENT", "why": "Chatbot provided medical advice that delayed care."}
+{"id": "1611", "label": "CONTENT", "why": "AI-generated sexual images used in an extortion scheme."}
+{"id": "1612", "label": "CONTENT", "why": "Teacher used AI to create explicit images of students."}
+{"id": "1613", "label": "ACTION", "why": "Model breached sandbox and posted exploit details publicly."}
+{"id": "1614", "label": "CONTENT", "why": "AI-generated sexual images of women were created and distributed."}
+{"id": "1615", "label": "CONTENT", "why": "Scammers used AI-generated voice audio in a ransom call."}
+{"id": "1616", "label": "CONTENT", "why": "AI-generated map mislabelled countries used in presentation."}
+{"id": "1618", "label": "ACTION", "why": "RealPage algorithms set rents/occupancy decisions affecting tenants."}
+{"id": "1619", "label": "CONTENT", "why": "Grok-generated child sexual abuse images were created and shared."}
+{"id": "1620", "label": "CONTENT", "why": "Possession of allegedly AI-generated child sexual abuse images."}
+{"id": "1621", "label": "CONTENT", "why": "Public Claude artifacts (AI outputs) became searchable via Google."}
+{"id": "1622", "label": "ACTION", "why": "AI voice system captured biometric voiceprints without consent."}
+{"id": "1625", "label": "CONTENT", "why": "ChatGPT provided bomb-making research used in planning."}
+{"id": "1626", "label": "CONTENT", "why": "AI-generated political ad disseminated defamatory claims."}
+{"id": "1627", "label": "ACTION", "why": "Model accessed real company infrastructure and exfiltrated data."}
+{"id": "1628", "label": "ACTION", "why": "Model published malicious PyPI package that compromised systems."}
+{"id": "1629", "label": "ACTION", "why": "Research model scanned targets and compromised a real application."}
+{"id": "1631", "label": "CONTENT", "why": "Diagnostic AI misclassification influenced medical decisions causing harm."}
+{"id": "1633", "label": "ACTION", "why": "AI agents took unsanctioned actions on the live Internet."}
+{"id": "1634", "label": "CONTENT", "why": "AI-generated video misled elderly couple to nonexistent attraction."}
+{"id": "1635", "label": "CONTENT", "why": "ChatGPT provided incorrect ropeway hours, stranding hikers."}
+{"id": "1636", "label": "CONTENT", "why": "AI-generated travel misinformation led tourists to nonexistent site."}
+{"id": "1637", "label": "CONTENT", "why": "AI-generated scientific image contained factual and mathematical errors."}
+{"id": "1638", "label": "CONTENT", "why": "AI-generated videos used to deceive victims and defraud them"}
+{"id": "1639", "label": "CONTENT", "why": "AI-generated image posted to misrepresent connections with Trump"}
+{"id": "1640", "label": "ACTION", "why": "AI-assisted call software placed fraudulent impersonation calls to victims"}
+{"id": "1641", "label": "CONTENT", "why": "Chatbot transcript residue published in a public House record"}
+{"id": "1642", "label": "ACTION", "why": "AI agent exploited API and altered gym bookings/waitlist"}
+{"id": "1643", "label": "CONTENT", "why": "Grok generated thousands of explicit images from childhood photograph"}
+{"id": "1644", "label": "CONTENT", "why": "Search Assist produced false factual claims about deaths"}
+{"id": "1645", "label": "CONTENT", "why": "Expert report substantially drafted with ChatGPT submitted as evidence"}
+{"id": "1646", "label": "ACTION", "why": "AI agents used to compromise systems and exfiltrate records"}
+{"id": "1647", "label": "CONTENT", "why": "AI-generated voice impersonation used in a political video"}
+{"id": "1648", "label": "CONTENT", "why": "AI-like voice messages impersonated father leading to financial scam"}
+{"id": "1649", "label": "ACTION", "why": "Model gained internet access and exploited third-party service vulnerability"}
+{"id": "1650", "label": "ACTION", "why": "Notetaker recorded/transcribed meeting audio and retained data"}
+{"id": "1651", "label": "ACTION", "why": "Meeting assistant captured biometric voice data without participant consent"}
+{"id": "1652", "label": "ACTION", "why": "Notetaker captured and transcribed non-consenting participant's speech"}
+{"id": "1653", "label": "ACTION", "why": "Recommendation algorithms repeatedly surfaced suicide-related videos to user"}
+{"id": "1654", "label": "CONTENT", "why": "Chatbot recommended herbicide treatment that destroyed the sesame crop"}
+{"id": "1658", "label": "CONTENT", "why": "AI-assisted legal filings contained fabricated and inaccurate citations"}
+{"id": "1659", "label": "CONTENT", "why": "Fake site published material designed to be retrieved by chatbots"}
+{"id": "1660", "label": "CONTENT", "why": "AI-generated videos impersonated attorney to solicit money"}
+{"id": "1661", "label": "ACTION", "why": "Cursor Agent assisted intrusions and exploitation across organizations"}
+{"id": "1662", "label": "ACTION", "why": "Delivery-management AI made decisions that disrupted operations and deliveries"}
+{"id": "1663", "label": "CONTENT", "why": "AI-assisted impersonation messages convinced victim to send money"}
+{"id": "1664", "label": "CONTENT", "why": "AI-composed invitation lured victim into losing Facebook page access"}
+{"id": "1665", "label": "CONTENT", "why": "AI-generated article and imagery falsely depicted a fake interview"}
+{"id": "1666", "label": "CONTENT", "why": "Company's ML claims misrepresented, causing consumer overpayment."}
+{"id": "1667", "label": "CONTENT", "why": "AI-generated fabricated legal citations included in court filing."}
+{"id": "1668", "label": "ACTION", "why": "Autonomous agents edited wiki pages for coordination and evasion."}
+{"id": "1669", "label": "ACTION", "why": "Hermes agent conducted post-compromise reconnaissance inside ministry systems."}
+{"id": "1670", "label": "ACTION", "why": "LLM agent executed pivot and exfiltrated internal database contents."}
+{"id": "1671", "label": "ACTION", "why": "Agent ran destructive rm command deleting user's home files."}
+{"id": "1672", "label": "ACTION", "why": "Agent executed commands that deleted production database tables."}
+{"id": "1673", "label": "ACTION", "why": "Coding agent altered Firebase routing, causing production outage."}
+{"id": "1674", "label": "ACTION", "why": "Personal assistant sent email from user's account without approval."}
+{"id": "1675", "label": "CONTENT", "why": "Assistant generated summaries from retained emails after disconnection."}
+{"id": "1676", "label": "ACTION", "why": "Agent ran migration that dropped live Supabase production tables."}
+{"id": "1677", "label": "NONE", "why": "Turbine operations are not an AI system action or output."}
+{"id": "1678", "label": "PHYSICAL", "why": "Autonomous vehicle struck and killed a nesting duck."}
+{"id": "1679", "label": "CONTENT", "why": "AI-generated image used to falsely justify rider damage fee."}
+{"id": "1680", "label": "ACTION", "why": "Exploited triage workflow published unauthorized npm package using token."}
+{"id": "1681", "label": "CONTENT", "why": "AI-generated 'ghost site' manipulated account information in scam."}
+{"id": "1682", "label": "CONTENT", "why": "Generative AI produced nonexistent case citations in appellate brief."}
+{"id": "1683", "label": "CONTENT", "why": "AI image tools created and circulated obscene morphed photos."}
+{"id": "1685", "label": "ACTION", "why": "Model accessed third-party machine, harvested credentials, changed settings."}
+{"id": "1687", "label": "CONTENT", "why": "Claude Code generated missile guidance software used by weapons cell."}
+{"id": "1688", "label": "CONTENT", "why": "ChatGPT was consulted during planning of an alleged school shooting."}
+{"id": "1692", "label": "CONTENT", "why": "AI-generated bomb threats prompted repeated school lockdowns."}
+{"id": "1693", "label": "ACTION", "why": "AI agent exploited vulnerabilities to modify data and access invoices."}
+{"id": "1695", "label": "ACTION", "why": "AI medical scribe inserted false drug-use claim into record."}
+{"id": "1696", "label": "CONTENT", "why": "AI nudification tools generated nonconsensual sexual images distributed."}
+{"id": "1699", "label": "CONTENT", "why": "Synthetic images circulated on social media."}
+{"id": "1700", "label": "ACTION", "why": "Gemini accessed protected systems using guessed and public credentials."}
+{"id": "1701", "label": "CONTENT", "why": "Chatbot produced false analysis prompting military interception preparations."}
+{"id": "1702", "label": "CONTENT", "why": "AI-cloned voices and fabricated videos used in influence campaign."}
+{"id": "1707", "label": "ACTION", "why": "AI agent bypassed blocks, accessed nonpublic Medicare files and wrote files."}
+{"id": "1708", "label": "CONTENT", "why": "AI-altered student photo used for campus banners, erasing student."}
+{"id": "1709", "label": "NONE", "why": "No AI involved; infrastructure permitting violation."}
+{"id": "1710", "label": "ACTION", "why": "AI agent attempted to hack Department of Education website."}
+{"id": "1711", "label": "CONTENT", "why": "AI-generated deepfake video used to impersonate and defraud victim."}
+{"id": "1712", "label": "CONTENT", "why": "AI-generated video initiated investment scam with remote-access demands."}
+{"id": "1714", "label": "ACTION", "why": "Coding assistant uploaded local repositories to cloud without consent."}
+{"id": "1715", "label": "CONTENT", "why": "Deepfake video impersonated editor, spreading false claims."}
+{"id": "1718", "label": "CONTENT", "why": "AI-generated image prompted false viper sighting and search."}
+{"id": "1719", "label": "ACTION", "why": "AI agent deleted about 48,000 live project files during repair."}
+{"id": "1720", "label": "ACTION", "why": "Automated license-plate system used to track and access databases."}
+{"id": "1721", "label": "CONTENT", "why": "Grok Imagine-generated deepfake videos posted by representative."}
+{"id": "1722", "label": "CONTENT", "why": "AI-generated sexual videos created for sextortion and threats."}
+{"id": "1723", "label": "CONTENT", "why": "Tool encoded classification markers into system prompts using Unicode."}
+{"id": "1724", "label": "CONTENT", "why": "Judge used ChatGPT, producing fictitious case citations."}
+{"id": "1725", "label": "CONTENT", "why": "Persona used AI-assisted writing and an AI-generated headshot."}
+{"id": "1726", "label": "CONTENT", "why": "Novel alleged to be largely AI-generated; removed from longlist."}
+{"id": "1727", "label": "CONTENT", "why": "Appellate brief contained fictitious citations from generative AI use."}
+{"id": "1728", "label": "CONTENT", "why": "Harvey produced a fictitious case citation and misattributed quotations."}
+{"id": "1729", "label": "CONTENT", "why": "Alleged AI pricing engine coordinated menu prices, causing overcharging."}
+{"id": "1730", "label": "CONTENT", "why": "ChatGPT allegedly gave unsafe medical advice leading to hospitalization."}
+{"id": "1731", "label": "ACTION", "why": "Attempted hacks via attack payloads to federal archives website"}
+{"id": "1732", "label": "CONTENT", "why": "AI-generated TikTok ad impersonation led to scam and financial loss"}
+{"id": "1733", "label": "CONTENT", "why": "AI-assisted filing produced fabricated citations and nonexistent researchers"}
+{"id": "1734", "label": "ACTION", "why": "AI coding agents published internal images to public GitHub repositories"}
+{"id": "1736", "label": "CONTENT", "why": "Chatbot queried for ammunition instructions; harm via provided content"}
+{"id": "1739", "label": "CONTENT", "why": "ChatGPT provided explosives advice; harm via generated instructional content"}
+{"id": "1740", "label": "CONTENT", "why": "Claude chatbot directions allegedly led hiker astray; content-caused harm"}
+{"id": "1741", "label": "CONTENT", "why": "ChatGPT role-played shootings and advised tactics; harm via content"}
+{"id": "1742", "label": "CONTENT", "why": "ChatGPT assisted planning attacks with explanatory and tactical content"}
+{"id": "1743", "label": "CONTENT", "why": "ChatGPT allegedly provided bomb-making guidance; harmful generated content"}
+{"id": "1744", "label": "CONTENT", "why": "AI-generated audio bomb threat prompted evacuations; harm via audio"}
+{"id": "1745", "label": "CONTENT", "why": "AI-generated bomb threat calls led to school evacuations and closures"}
+{"id": "1746", "label": "CONTENT", "why": "AI-generated voice calls produced bomb threats; disruptions via content"}
+{"id": "1747", "label": "CONTENT", "why": "AI-generated image threatening sheriff posted online; harm from image"}
+{"id": "1748", "label": "CONTENT", "why": "AI-cloned relatives' voices used to validate calls; fraud via content"}
+{"id": "1749", "label": "CONTENT", "why": "AI-cloned lawyer voice used in WhatsApp scam causing transfers"}
+{"id": "1750", "label": "CONTENT", "why": "Allegation the prize-winning story was largely AI-generated text"}
+{"id": "1751", "label": "ACTION", "why": "AI agent submitted fabricated homicide tip via police web form"}
+{"id": "1754", "label": "ACTION", "why": "AI medical scribe recorded and transmitted patient conversations without consent"}
+{"id": "1755", "label": "CONTENT", "why": "Telegram AI bot created non-consensual nude image; reputational harm"}
+{"id": "1756", "label": "ACTION", "why": "Sixt's AI scanner flagged pre-existing damage, triggered billing dispute"}
+{"id": "1757", "label": "CONTENT", "why": "Students used AI to generate fake nudes and circulate them"}
+{"id": "1758", "label": "CONTENT", "why": "AI-altered images used in fake giveaways and sexualized posts"}
+{"id": "1759", "label": "CONTENT", "why": "AI-generated video falsely depicting police violence spread online"}
+{"id": "1760", "label": "ACTION", "why": "Automated license-plate readers used to stalk and track individuals"}
+{"id": "1761", "label": "ACTION", "why": "Automated license-plate reader searched and tracked vehicle records."}
+{"id": "1762", "label": "CONTENT", "why": "AI voice alteration impersonated woman, facilitating deception and image collection."}
+{"id": "1763", "label": "CONTENT", "why": "AI-assisted bed-allocation score understated condition, delaying intensive-care prioritization."}
+{"id": "1764", "label": "CONTENT", "why": "AI-modified arrest image altered appearance, misleading public interpretation."}
+{"id": "1765", "label": "CONTENT", "why": "AI support chatbot prolonged circular conversations, obstructing billing dispute resolution."}
+{"id": "1766", "label": "ACTION", "why": "Cairn AI agents executed website breaches, gaining unauthorized access."}
+{"id": "1767", "label": "CONTENT", "why": "Purported AI-generated videos lured man into traveling, causing financial harm."}
+{"id": "1769", "label": "CONTENT", "why": "AI-altered gun photograph used to threaten former partner."}
+{"id": "1770", "label": "ACTION", "why": "Facial-recognition system collected employees' biometrics without informed consent."}
+{"id": "1771", "label": "ACTION", "why": "AI claims system flagged legitimate hospital claims as fraudulent, causing denials."}
+{"id": "1772", "label": "CONTENT", "why": "Dealership AI chatbot misread loan balance, producing erroneous buyback offer."}
+{"id": "1773", "label": "CONTENT", "why": "Litigant relied on AI-hallucinated judgment, wasting court time and resources."}
+{"id": "1774", "label": "ACTION", "why": "AI agents accessed live systems, reading confidential records beyond authorization."}
+{"id": "1775", "label": "CONTENT", "why": "Purported AI-generated videos misrepresented opponent's tax positions, deceiving voters."}
+{"id": "1776", "label": "ACTION", "why": "Muse AI agent disclosed home address and arranged unsanctioned Marketplace pickup."}
+{"id": "1777", "label": "PHYSICAL", "why": "Driving-assistance engaged; vehicle struck disabled truck, killing three occupants."}
+{"id": "1778", "label": "CONTENT", "why": "AI-generated campaign ad impersonated governor, fabricating statements about scandals."}
+{"id": "1779", "label": "ACTION", "why": "OpenAI-linked agents generated heavy traffic and unauthorized edits, disrupting services."}
+{"id": "1781", "label": "ACTION", "why": "ARTEX AI agents used stolen credentials to access Microsoft 365 environments."}
+{"id": "1782", "label": "ACTION", "why": "ARTEX tool plus LLMs used to breach institutions and steal data."}
+{"id": "1783", "label": "CONTENT", "why": "ChatGPT conversations allegedly reinforced suicidal ideation, failing to intervene."}
+{"id": "1784", "label": "ACTION", "why": "Research agent changed live systems and retrieved nonpublic research data."}
+{"id": "1785", "label": "CONTENT", "why": "Party published AI deepfakes impersonating public figures, causing defamation harm."}
+{"id": "1786", "label": "PHYSICAL", "why": "Tesla with Full Self-Driving struck pedestrian, resulting in fatality."}
+{"id": "1787", "label": "PHYSICAL", "why": "Tesla on driver-assist struck patrol car; officers seriously injured."}
+{"id": "1788", "label": "CONTENT", "why": "AI-generated voice recordings used to deceive victims into money theft"}
