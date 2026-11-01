@@ -19,3 +19,15 @@ labelled ACTION by the recall model, with seed 20261101. The ids (`neither_sampl
 45cf1b5314e7c33d) were committed before any of them was read. All 200 will be read by hand; no early stop.
 Exact one-sided 95% hypergeometric bounds on agentic rows left in the 604: 0 found -> at most 7, 1 -> 12,
 2 -> 16, 3 -> 20. The bound goes in the same sentence as any new count. Sample size suggested by glitchfox.
+
+### Result (read 2026-11-01, 01:05Z, all 200, title + description)
+
+Frame used: an AI system itself took a step in the world (ran code, changed or deleted data, sent something to a third
+party, moved money, accessed a system). Not agentic: content delivered to whoever asked (also a bot answering in a
+public thread when tagged), content a person then published or acted on, a vendor's own deliberate mechanism,
+physical vehicles and robots (separate liability regime, outside this project).
+
+- Agentic: 1 of 200 (AIID 1687, Claude Code used by a weapons cell; intent `misuse`, outside the headline).
+- Headline-eligible (error or autonomous-action): 0 of 200.
+- Bounds for the 604 unpicked rows, exact one-sided 95%: agentic rows at most 12; headline-eligible rows at most 7.
+- Borderline rows read and coded NO, with reasons: 1072, 1495, 1587, 1723 (`neither_sample_read.jsonl`).
