@@ -9,7 +9,11 @@ def load(f):
 ra, a, ka = load(A); rb, b, kb = load(B)
 print('rows', len(ra), len(rb), '| unique keys', len(a), len(b), '| duplicate keys', sum(v > 1 for v in ka.values()), sum(v > 1 for v in kb.values()))
 add, rem = sorted(set(b) - set(a)), sorted(set(a) - set(b))
-print('added', len(add), 'removed', len(rem))
+# a redaction renames a case: pair added/removed rows that agree on court, date, party, tool and outcome
+fp = lambda r: tuple(r[f].strip() for f in ('Court', 'Date', 'Party(ies)', 'AI Tool', 'Outcome'))
+red = [(k, j) for k in rem for j in add if fp(a[k]) == fp(b[j])]
+add = [j for j in add if j not in {j for _, j in red}]; rem = [k for k in rem if k not in {k for k, _ in red}]
+print('added', len(add), 'removed', len(rem), 'renamed/redacted', len(red), '(names not printed)')
 for k in add[:10]: print(' +', k)
 for k in rem[:10]: print(' -', k)
 ch = collections.Counter(); ex = []
