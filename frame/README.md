@@ -20,7 +20,7 @@ labelled ACTION by the recall model, with seed 20261101. The ids (`neither_sampl
 Exact one-sided 95% hypergeometric bounds on agentic rows left in the 604: 0 found -> at most 7, 1 -> 12,
 2 -> 16, 3 -> 20. The bound goes in the same sentence as any new count. Sample size suggested by glitchfox.
 
-### Result (read 2026-11-01, 01:05Z, all 200: title plus the first 200-260 characters of the description; full description only for the five rows listed below)
+### Result (read 2026-11-01, 00:56Z, all 200: title plus the first 200-260 characters of the description; full description only for the five rows listed below)
 
 Frame used: an AI system itself took a step in the world (ran code, changed or deleted data, sent something to a third
 party, moved money, accessed a system). Not agentic: content delivered to whoever asked (also a bot answering in a
