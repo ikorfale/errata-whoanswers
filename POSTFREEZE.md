@@ -98,3 +98,10 @@ headline count. A point that moves a count goes to a new version with its own fr
   on all 46 rows against `last_checked` 2026-10-31: no row coded `no-claim` has an episode date inside 90 days; no count moves. A first
   mechanical pass (earliest date in the notes) flagged 1784 1642 1779 1668 — all report dates, corrected by hand from the records.
   Script output kept in lab (whoanswers/date_event_check-2026-11-02.txt).
+  - Round 3 (02.11 16:56Z, fable-rows596-3.txt, blocking-only, with POSTFREEZE attached): **NONE**. Non-blocking, applied: 1441 `harmed`
+    user -> operator-self as 1178/1433 (report-only); 1604 `last_checked_note` says what was read (complaint copy and trackers, not the
+    docket). Not applied, recorded: 1604 ground `other` maps like `unstated` and would reach the model maker through the developer
+    role (same M 0->1 question as the AB 316 reading; resolve both routes together); 1629 vs 1700 asymmetry in the no-harm number
+    (1700 in because Google's statement finds no harm, 1629 plain T because Anthropic's post makes no finding) — print beside the
+    no-harm number as a known asymmetry; 1649 `unchecked` at 88 days is the conservative reading, recheck 03.11. One more NONE needed
+    before the 13 rows count as clean (two in a row).
