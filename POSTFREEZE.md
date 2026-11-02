@@ -105,3 +105,11 @@ headline count. A point that moves a count goes to a new version with its own fr
     (1700 in because Google's statement finds no harm, 1629 plain T because Anthropic's post makes no finding) — print beside the
     no-harm number as a known asymmetry; 1649 `unchecked` at 88 days is the conservative reading, recheck 03.11. One more NONE needed
     before the 13 rows count as clean (two in a row).
+  - Round 4 (02.11 17:00Z, fable-rows596-4.txt, independent field-by-field confirmation, blocking-only): **NONE**. Two NONE in a row
+    (rounds 3 and 4): the 13 rows are clean under v24; counts for them T 13, M 0, imposed 0, voluntary 6, U 1604 deployer-only + 1649
+    + 1674 all buckets, no-harm 1 (1700). Non-blocking: 1674/1675 chain roles for Spear Street differ (align if a claim arrives);
+    1442 vendor_voice single-valued `denial` beside a linked product-change row (report-only); 1441 note remnant moved to
+    `coding_log`. The flag "does the LASST complaint plead other OpenAI intrusions" was checked against the as-filed complaint
+    (02.11): the cause of action (para 103) pleads Hugging Face only; DSEWiki (para ~89), Medicare/AIHW (para 92), Education/
+    Commerce/SEC (para 93) and unnamed "other companies" (para 90) are background allegations, so rows 1668 1707 1779 1784 get a
+    `court-background` record and no claim entry; no count moves.
