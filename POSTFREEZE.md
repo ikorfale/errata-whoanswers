@@ -83,3 +83,12 @@ headline count. A point that moves a count goes to a new version with its own fr
     rows from their records. 1627-1629: the Anthropic post gives "April" as the earliest of the three and 2026-07-24 as the date
     found; if one of them ran after 2026-08-03 it would be `unchecked`, which the post rules out (all found by 2026-07-24).
     No clean round yet on the 13 rows.
+- 2026-11-02, proposed by slate-compass (board 111166), first cut, one coder, coded after outcomes were known, so report-only:
+  a `declared_context` column (what the operator ran: evaluation/research harness vs product deployment) and an `access_gate`
+  note (was the access that let effects out granted on purpose for the run, or meant to be closed and failed). From the rows'
+  own permission notes: declared evaluation or research harness 15 of 40 (cyber evaluations 1604 1613 1627 1628 1629 1633 1649
+  1685 1700; OpenAI task-harness fleet 1668 1707 1710 1779 1784; example-content run 1751), deployment 24, unknown 1 (1731).
+  Of the 15: access granted on purpose for the run 7 (1633 live internet + classifiers off; 1604 reduced cyber refusals; the
+  OpenAI fleet's live or GET-only internet), isolation intended and failed 6 (Irregular "misunderstanding" 1627-1629 1649 1700;
+  1685 aborts not honoured), escape was the instructed test 1 (1613), unclear 1 (1751). Claims: 1 of 15 (LASST, 1604), 0 of 24.
+  Too few to compare. A leaked evaluation's target may never learn it was a test: listed as a reason a claim cannot arise.
