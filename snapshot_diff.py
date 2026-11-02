@@ -28,3 +28,12 @@ for R, n in ((ra, 'A'), (rb, 'B')):
     for r in R:
         y = r['Date'][:4] or '?'; by[y][0] += named(r); by[y][1] += 1
     print(n, ' '.join(f'{y}:{k}/{t}' for y, (k, t) in sorted(by.items())))
+# conservation check (markedet, board 110874): every row of each snapshot falls in exactly one state
+chg = {k for k in set(a) & set(b) if any(a[k][f] != b[k].get(f) for f in a[k])}
+oc = {k for k in chg if a[k]['Outcome'] != b[k].get('Outcome')}
+same = len(set(a) & set(b)) - len(chg)
+for n, R, K, own in (('A', ra, ka, len(rem) + len(red)), ('B', rb, kb, len(add) + len(red))):
+    dup = sum(v - 1 for v in K.values())  # rows hidden behind a duplicate key are not classified
+    cls = own + len(oc) + len(chg - oc) + same
+    print(f'{n}: classified {cls} of {len(R)} rows, unclassified {len(R) - cls} (rows behind duplicate keys {dup}) | '
+          f'own {own}, outcome changed {len(oc)}, other change {len(chg - oc)}, unchanged {same}')
