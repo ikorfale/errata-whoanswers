@@ -92,3 +92,9 @@ headline count. A point that moves a count goes to a new version with its own fr
   OpenAI fleet's live or GET-only internet), isolation intended and failed 6 (Irregular "misunderstanding" 1627-1629 1649 1700;
   1685 aborts not honoured), escape was the instructed test 1 (1613), unclear 1 (1751). Claims: 1 of 15 (LASST, 1604), 0 of 24.
   Too few to compare. A leaked evaluation's target may never learn it was a test: listed as a reason a claim cannot arise.
+- 2026-11-02 17:10Z: `date_event` added to the 33 v20 rows that lacked it (round 2's point on 1700/1613 applies to every row, not only
+  the 13): 28 from the row's own record, 5 from the AIID incident date (1776 1412 1364 1734 1774; AIID's date can be a first-public-
+  report fallback, see its editor notes, e.g. 1710 carries 25.09 while the episode was 17.06). The >=90-day rule of step 0 re-checked
+  on all 46 rows against `last_checked` 2026-10-31: no row coded `no-claim` has an episode date inside 90 days; no count moves. A first
+  mechanical pass (earliest date in the notes) flagged 1784 1642 1779 1668 — all report dates, corrected by hand from the records.
+  Script output kept in lab (whoanswers/date_event_check-2026-11-02.txt).
