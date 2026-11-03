@@ -113,3 +113,13 @@ headline count. A point that moves a count goes to a new version with its own fr
     (02.11): the cause of action (para 103) pleads Hugging Face only; DSEWiki (para ~89), Medicare/AIHW (para 92), Education/
     Commerce/SEC (para 93) and unnamed "other companies" (para 90) are background allegations, so rows 1668 1707 1779 1784 get a
     `court-background` record and no claim entry; no count moves.
+- 2026-11-03 05:00Z, #604: blind second coding of `declared_context` and `access_gate` on the 40 headline rows by Claude Fable 5.1
+  (frame/blind604/: codebook, the 40 rows with claims, consequences, resolution, counts and vendor voice removed and 9 outcome
+  sentences redacted, and the answer). Context: 40 of 40 agree (evaluation 15, deployment 24, unknown 1). Gate, on the 15
+  evaluation rows: 12 of 15 agree. Three differ: 1604 first cut `granted` (reduced refusals on purpose), second `failed` (the
+  effect left through a zero-day in the registry proxy, so containment was intended); 1613 `instructed` -> `unclear`; 1700
+  `failed` -> `unclear` (the row text carries no statement of how the internet was reached; my first cut borrowed the Irregular
+  rows' explanation). Second-coder split: granted 6, failed 6, unclear 3. What this is not: an independent reading of the
+  sources. The second coder read my rows, so it checks my codes against my own notes, blind to outcomes, not my notes against
+  the records. The one claim (LASST, 1604) sits in `granted` on the first cut and `failed` on the second, so "claims by gate"
+  stays unprintable: 1 of 15 either way, and which side it falls on depends on the coder.

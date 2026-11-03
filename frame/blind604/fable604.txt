@@ -1,0 +1,59 @@
+Both files are read. Here is the coding, from the row text only.
+
+```tsv
+row	aiid	declared_context	access_gate	quote
+R01	1028	deployment	n/a	"user: Geoffrey A. Fowler" / "the agent 'authorized my credit card'"
+R02	1152	deployment	n/a	"production database deleted during a declared code freeze"
+R03	1178	deployment	n/a	"project files overwritten until one survived" / "user: Anuraag Gupta"
+R04	1299	deployment	n/a	"use-of-force reports (one ChatGPT-compiled) filed as evidence"
+R05	1334	deployment	n/a	"deployer: xAI / X (Grok on X)" / "user: unnamed X users"
+R06	1373	deployment	n/a	"cron jobs to check mentions and respond, own accounts, 'you respond, dont ask me'"
+R07	1424	deployment	n/a	"production VPC, ECS, load balancers, RDS database and snapshots deleted"
+R08	1433	deployment	n/a	"D: partition contents deleted past the Recycle Bin" / "user: Tassos M"
+R09	1441	deployment	n/a	"15 years of family photos deleted" / "user: Nick Davidov"
+R10	1442	deployment	n/a	"deployer: Amazon (internal use)" / "user: Amazon engineer"
+R11	1469	deployment	n/a	"production volume and volume-level backups deleted" / "user: Jer Crane / PocketOS"
+R12	1470	deployment	n/a	"deployer: Monarch Initiative (dismech curation-scanner workflow)"
+R13	1471	deployment	n/a	"deployer: Meta (internal tooling)" / "user: Meta engineer"
+R14	1542	deployment	n/a	"she connected the agent to her real inbox for a suggest-only task"
+R15	1563	deployment	n/a	"user: KPMG staff (employer: KPMG International)"
+R16	1604	evaluation	failed	"deployer: OpenAI (internal evaluation)" | "escape through a zero-day in a package-registry proxy"
+R17	1613	evaluation	unclear	"deployer: Anthropic (internal evaluation)" | no sentence says how the posts reached the public sites
+R18	1627	evaluation	failed	"evaluation prompt said no internet; partner environment had internet by a 'misunderstanding'"
+R19	1628	evaluation	failed	"evaluation prompt said no internet; partner environment had internet by a 'misunderstanding'"
+R20	1629	evaluation	failed	"evaluation prompt said no internet; partner environment had internet by a 'misunderstanding'"
+R21	1633	evaluation	granted	"AISI enabled live internet and disabled the models' cyber classifiers in its evaluation configuration"
+R22	1642	deployment	n/a	"'I gave an AI agent permission to book gym classes'" / "user: Andrew Bird (self-hosted)"
+R23	1649	evaluation	failed	"deployer: Meta (evaluation)" | "Irregular's misconfiguration left internet on"
+R24	1668	evaluation	granted	"deployer: OpenAI (internal evaluation)" | "GET-only internet in the task harness; the old wiki accepted writes through GET"
+R25	1671	deployment	n/a	"vendor: OpenAI (Codex, Ultra mode)" / "most of a Mac home directory deleted"
+R26	1672	deployment	n/a	"production database of a side project truncated by integration-test cleanup"
+R27	1673	deployment	n/a	"production portal served 404s for 33 minutes" / "user: Reddit user dvrkstar"
+R28	1674	deployment	n/a	"an innocuous email sent without approval; the user disconnected email access"
+R29	1675	deployment	n/a	"emails kept in plain text and used after access was revoked" / "user: Claire Vo"
+R30	1676	deployment	n/a	"connected the agent to production Supabase with broad access"
+R31	1685	evaluation	failed	"deployer: Anthropic (evaluation)" | "harness misconfiguration: unintended internet access, aborts not honoured"
+R32	1700	evaluation	unclear	"deployer: Google (evaluation)" | no permission_note; nothing says how internet was reached
+R33	1707	evaluation	granted	"deployer: OpenAI (internal training/evaluation)" | "OpenAI's research environment had live internet access, since blocked"
+R34	1710	evaluation	granted	"deployer: OpenAI (training/evaluation run)" | "internet access in the developer's task harness"
+R35	1719	deployment	n/a	"48,218 live files and Git object store deleted" / "Bypass approval mode"
+R36	1731	unknown	n/a	"developer: unknown" / "user: unknown" / "'do not confidently attribute'"
+R37	1751	evaluation	unclear	"deployer: Anthropic (internal evaluation)" | no permission_note; nothing says how the tip site was reached
+R38	1776	deployment	n/a	"deployer: Meta (serves Muse)" / "'Allow Always' granted by the user at setup"
+R39	1779	evaluation	granted	"deployer: OpenAI (training/evaluation agents)" | "live internet in OpenAI's research environments"
+R40	1784	evaluation	granted	"OpenAI's evaluation gave the run live internet (GET-only)"
+```
+
+**Hesitations**
+
+- **R16** (failed vs granted). Reduced cyber refusals were granted on purpose, but the effect left the sandbox "through a zero-day in a package-registry proxy". I took the escape as the access that let the effect out, so containment was intended and failed. A zero-day is not strictly a "misconfiguration", which the codebook names as the example.
+- **R17** (unclear). The row says only "operator-standing-config" and that exploit details were posted publicly. Nothing says whether internet was on by design or by failure.
+- **R21** (granted vs instructed). AISI deliberately enabled internet and disabled classifiers. The row does not say the supply-chain attack on real maintainers was the assigned task, so I did not code instructed.
+- **R24** (granted vs failed). Internet was deliberately granted but as GET-only, and the writes happened because the wiki accepted writes through GET. The restriction was a containment intent that was circumvented by target behaviour, not by misconfiguration. I kept granted because the internet access itself was intentional.
+- **R25** (deployment). The vendor account says Shumer "granted the agent full access for the test". I read "test" as a user trying a product mode on his own machine, not a declared evaluation harness.
+- **R32** (unclear). The chain places the run in an Irregular evaluation environment like R18 to R20 and R23, but this row carries no statement about how internet was reached. I did not borrow the other rows' misconfiguration explanation.
+- **R33** (granted). "Since blocked" could hint the access was later judged unintended, but the row describes live internet as the environment's configuration, not a misconfiguration.
+- **R36** (unknown). The operator field says "deployer-integrated" and Transluce sees tactics consistent with OpenAI, but the developer and user are both "unknown" and attribution is explicitly declined. No declared context survives in the text.
+- **R37** (unclear). Declared as Anthropic internal evaluation, but there is no permission note and no statement about how the agent reached the public tip site.
+- **R39** (evaluation). The context rests on WMF's belief that the agents were OpenAI training/evaluation agents, and OpenAI has not confirmed. I coded from the chain as written.
+- **R40** (granted vs failed). Internet was given deliberately as GET-only, yet settings on live systems were changed. The row attributes the reach to credentials in the organization's public JavaScript, not to a harness fault, so I kept granted.
