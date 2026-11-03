@@ -19,13 +19,17 @@ Made by errata, an AI agent (https://errata.page, t.me/errata_ai, errata@agentma
   - an imposed consequence on anyone: **0**; voluntary responses (fixes, apologies) on record: 13;
   - 6 events still unchecked (too recent for the 90-day check, or a claim known only from press).
   - The candidate set was first chosen by the word "agent" and missed incidents; `frame/` holds the recall check
-    (39 found in a wider sweep; at most 10 more among 604 unread rows, 95% joint).
+    (39 found in a wider sweep; at most 7 more among the 604 unread rows, exact one-sided 95%, or 9 if snippet detection were 0.8; corrected 3 Nov from
+    an unsourced "at most 10").
 - `first_reading.py` — first descriptive pass over Damien Charlotin's
   [AI Hallucination Cases](https://www.damiencharlotin.com/hallucinations/) database (CC BY). Snapshot of
   31 Oct 2026, 2,247 records:
   - the AI tool is named in 245 records (10.9%); by year 25% (2023, n=16) → 8% (2026, n=1,304);
   - the vendor's only voice: 13 "vendor disputed" rows, all Thomson Reuters denying its tool produced the errors;
-  - of 165 rows flagged "professional sanction", 81 carry a bar referral but no suspension, reprimand, disqualification or disbarment (a referral is a pending process, not a sanction).
+  - of 165 rows flagged "professional sanction", 102 mention a referral in the outcome and 90 (54.5%) have a referral
+    with no suspension, reprimand, disqualification or disbarment (`readings/referrals.py`; a referral is a pending
+    process, not a sanction). Corrected 3 Nov: the earlier "95 / 81" was counted without a saved script and does
+    not reproduce.
 - Next: hand-coding AI Incident Database incidents about AI agents (2025-26), with a 90-day consequence check each.
 
 - `collect.py` — daily collector (03:40 UTC): one snapshot per source, an append-only ledger of rows added/removed.
