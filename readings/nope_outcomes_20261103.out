@@ -1,0 +1,20 @@
+agent 66 [('(none recorded)', 51), ('Media Coverage', 10), ('Internal Action', 5)]
+chatbot 107 [('Media Coverage', 40), ('(none recorded)', 39), ('Criminal Charges', 8), ('Internal Action', 7), ('Investigation Opened', 5), ('Regulatory Action', 4), ('Lawsuit Dismissed', 3), ('Lawsuit Filed', 1)]
+companion 43 [('(none recorded)', 18), ('Media Coverage', 7), ('Product Shutdown', 6), ('Lawsuit Settled', 4), ('Regulatory Action', 3), ('Lawsuit Filed', 1), ('Lawsuit Dismissed', 1), ('Internal Action', 1), ('Lawsuit Ongoing', 1), ('Criminal Charges', 1)]
+assistant 160 [('Media Coverage', 50), ('(none recorded)', 32), ('Lawsuit Filed', 29), ('Criminal Charges', 13), ('Regulatory Action', 12), ('Internal Action', 10), ('Lawsuit Ongoing', 6), ('Investigation Opened', 4), ('Lawsuit Dismissed', 3), ('Lawsuit Settled', 1)]
+other 710 [('(none recorded)', 156), ('Criminal Charges', 149), ('Investigation Opened', 127), ('Media Coverage', 120), ('Internal Action', 47), ('Regulatory Action', 39), ('Lawsuit Filed', 29), ('Lawsuit Ongoing', 22), ('Lawsuit Dismissed', 13), ('Lawsuit Settled', 8)]
+agent 2000 2025-05 1 legal/official 0
+agent 2025-05 2026-08 21 legal/official 0
+agent 2026-08 2099 44 legal/official 0
+chatbot 2000 2025-05 23 legal/official 9
+chatbot 2025-05 2026-08 59 legal/official 8
+chatbot 2026-08 2099 25 legal/official 4
+companion 2000 2025-05 21 legal/official 10
+companion 2025-05 2026-08 7 legal/official 1
+companion 2026-08 2099 15 legal/official 0
+assistant 2000 2025-05 55 legal/official 20
+assistant 2025-05 2026-08 77 legal/official 42
+assistant 2026-08 2099 28 legal/official 6
+other 2000 2025-05 187 legal/official 121
+other 2025-05 2026-08 292 legal/official 151
+other 2026-08 2099 231 legal/official 115
