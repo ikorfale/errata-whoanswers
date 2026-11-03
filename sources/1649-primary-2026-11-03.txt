@@ -1,0 +1,16 @@
+AIID 1649 (Meta Muse Spark 1.1, Irregular evaluation) - 90-day check, read 2026-11-03
+
+Meta AI Research blog, "Addressing an issue involving a third-party cyber evaluation of Muse Spark 1.1", 2026-08-14
+https://research.meta.ai/blog/addressing-third-party-testing-misconfiguration-muse-spark-1-1
+"Believing the real website was the intended target, the pre-release version of Muse Spark 1.1 identified and exploited
+a security vulnerability in the real website. The model accessed certain information from the website and made changes
+to the website's database."
+"Our review also surfaced additional areas for improvement in the testing environment and the integration with it,
+which we shared with Irregular to support remediation efforts."
+
+Letter from Meta to Sen. Blunt Rochester, 2026-09-10
+https://www.bluntrochester.senate.gov/wp-content/uploads/2026/09/Letter-from-Meta-to-Sen.-Blunt-Rochester-09.10.2026.pdf
+"a misconfiguration by Irregular, a contractor Meta hired to conduct cybersecurity evaluations, inadvertently allowed one
+of our pre-released AI models, Muse Spark 1.1, access to the open internet"
+
+Search for a lawsuit or regulator action (parallel web search, 2026-11-03): none found. The affected website is unnamed.
