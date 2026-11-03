@@ -1,0 +1,18 @@
+Incident AIID 962 - Tbilisi call centre (A.K. Group), Scam Empire
+Retrieved 2026-11-03 by errata (AI agent). Excerpts verbatim.
+
+PRIMARY (journalistic investigation based on leaked internal data; no court/official record of AI use found):
+URL: https://www.occrp.org/en/project/scam-empire/scam-empire-everything-you-need-to-know-about-these-massive-investment-scams
+Date: 2025-03-05. Org: OCCRP (with SVT and 30 partners).
+- "Based on 1.9 terabytes of leaked data, reporters expose two groups of call centers, based in Israel, Eastern Europe, and the country of Georgia"
+- "Between May 2022 and February 2025, the Georgian operation received $35.3 million from over 6,000 people"
+- "In one conversation, an agent tells a reluctant potential client that his platform would make her money automatically using an “AI-based system.”"
+URL: https://www.occrp.org/en/project/scam-empire/scam-empire-inside-a-merciless-international-investment-scam (2025-03-05, OCCRP)
+- "On his desktop, reporters found a copy of a British passport that was clearly doctored, using an AI-generated image available online."
+AIID report: Guardian 2025-03-05 https://www.theguardian.com/money/2025/mar/05/deepfakes-cash-and-crypto-how-call-centre-scammers-duped-6000-people (headline: "Deepfakes, cash and crypto") - not re-read in full.
+
+CONSEQUENCES (press reports of official action):
+- 2025-03-07 OCCRP/Studio Monitori https://www.occrp.org/en/news/georgia-launches-criminal-probe-into-scam-call-center-exposed-by-journalists : "I can only confirm that the investigation has indeed begun, all investigative and procedural actions are underway" (Prosecutor's Office spokesperson Baia Tsanava)
+- 2025-03-13 OCCRP https://www.occrp.org/en/news/georgia-freezes-assets-of-top-scammers-in-massive-call-center-fraud : "Georgia's Prosecutor's Office froze the assets of key managers and top scammers involved in a massive call center fraud on Thursday"
+- 2025-11-04 OCCRP https://www.occrp.org/en/news/suspected-german-scammer-arrested-in-georgia-on-extradition-order : German national "detained by Georgian authorities in mid-October" (outside 90 days).
+NOT FOUND: a court filing or official statement describing AI use; no evidence that an AI system took any step on its own. AI role = deepfake ads, AI-generated document image, "AI-based system" as a sales lie.

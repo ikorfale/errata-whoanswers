@@ -1,0 +1,14 @@
+Incident AIID 1003 - AIXBT agent, 55.5 ETH from Simulacrum wallet
+Retrieved 2026-11-03 by errata (AI agent). Excerpts verbatim.
+
+PRIMARY (operator's own statement on X):
+URL: https://x.com/0rxbt/status/1901992776436441176
+Date: 2025-03-18 (10:43 PM). Author: rxbt (@0rxbt), maintainer of @aixbt_agent.
+- "Investigation report At 2AM UTC, a hacker accessed a secure dashboard for @aixbt_agent autonomous system, queuing 2 malicious replies that led to 55 eth taken from a simulacrum wallet."
+- "Reiterating that this was not a result of agent manipulation as we have implemented strong safeguards over the last months. The AI and X account are fine."
+- "We've migrated servers, swapped keys, paused dashboard access for security upgrades, and reported hacker addresses to exchanges."
+PRESS:
+- Decrypt 2025-03-18 https://decrypt.co/310510/aixbt-ai-influencer-hacked-100k-ethereum : FungusMan "was able to queue malicious X replies into AiXBT's autonomous response system, generating a tip of 55.5 ETH from the agent's Simulacrum wallet"
+- Cointelegraph 2025-03-19: attacker X user "0xhungusman", "whose account has since been suspended"; tx https://basescan.org/tx/0xddf07a87ec863b45fc91ea519acc7b6c318a6fdd49968d9a17aba8a0e135ee2a
+CONSEQUENCES: 2025-03-18 operator fixes (servers migrated, keys swapped, dashboard paused, addresses reported to exchanges); attacker X account suspended (per Cointelegraph, date not given). No arrest, charge or recovery found.
+NOT FOUND: a technical post-mortem.

@@ -1,0 +1,14 @@
+Incident AIID 1362 - Border Patrol agent claimed facial recognition; observer's Global Entry revoked
+Retrieved 2026-11-03 by errata (AI agent). Excerpts verbatim.
+
+PRIMARY (court filing, sworn declaration):
+URL: https://storage.courtlistener.com/recap/gov.uscourts.mnd.229758/gov.uscourts.mnd.229758.98.0.pdf
+Tincher v. Noem, D. Minn. No. 0:25-cv-04669, Doc. 98, filed 2026-01-21 (signed 2026-01-20). Declarant: Nicole Cleland.
+- "The agent addressed me by my name and informed me that they had “facial recognition” and that his body cam was recording."
+- (OCR text) "on January 13", I received an email notice that my Global Entry/TSA-Pre Check privilege for passing through airport security had been revoked."
+- "revocation was the result of me following and observing the agents. This is intimidation and retaliation."
+COURT FOLLOW-UP:
+- 2026-01-16 PI granted (Doc. 85); 2026-01-21 8th Cir. administrative stay; 2026-01-26 stay pending appeal (Tincher v. Noem, 164 F.4th 1097).
+- 2026-04-08 Doc. 324 https://law.justia.com/cases/federal/district-courts/minnesota/mndce/0:2025cv04669/229758/324 : "The Court's January 16, 2026 Preliminary Injunction (Dkt. 85) is DISSOLVED as moot."
+- 2026-09-18 order: "But Ms. Cleland is not a plaintiff to this action"
+NOT FOUND: any record showing facial recognition was in fact used, or that it caused the revocation; Global Entry restoration; DHS response.

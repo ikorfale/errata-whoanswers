@@ -1,0 +1,10 @@
+Incident AIID 1358 - AI-altered images after the Alex Pretti shooting, Minneapolis
+Retrieved 2026-11-03 by errata (AI agent). Excerpts verbatim.
+
+PRIMARY: none (no platform or vendor statement found). Best records are fact-checks.
+- NYT 2026-01-25 https://www.nytimes.com/2026/01/25/us/minnesota-shooting-false-posts.html : "One image, for example, was edited to depict Mr. Pretti pointing a gun at an agent, though he was actually holding a phone. Another was altered with Gemini, Google's A.I. tool, supposedly to enhance and sharpen it to reveal key details about the scene."
+- PolitiFact 2026-01-27, Maria Briceño https://www.politifact.com/factchecks/2026/jan/27/tweets/Image-AI-Minneapolis-Alex-Pretti-Immigration : "PolitiFact uploaded the image to Gemini, Google's AI tool. It found the image contains the SynthID watermark for images created or edited by the tool."
+- PolitiFact: "the manipulated version may have stemmed from a user asking an AI tool to "enhance" a screenshot of the footage."
+- Snopes 2026-01-29 https://www.snopes.com/fact-check/alex-pretti-photo-ai-msnbc : "An MS NOW spokesperson said the network used the image without knowing someone had digitally altered it."
+CONSEQUENCES: fact-check labels (Full Fact rated "altered" under Meta scheme, 2026-01-30); MS NOW acknowledged using the image (Snopes 2026-01-29). No account action or legal step found.
+NOT FOUND: who made the images, the prompts used, any Google statement.

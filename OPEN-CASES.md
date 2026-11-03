@@ -31,3 +31,15 @@ Decide each when the first record that hits it is coded; note the decision in SC
 - `1152` is coded under v6 with non-scheme status text ("promised; delivery not independently confirmed") and old resolution labels; recode to v17 values, no count moves.
 - Evaluation incidents (`1751`, `1633`, `1784`, `1774`) put the developer or an evaluation body in the deployer role; nothing moves, but `operator` (user-chosen / deployer-integrated) has no fitting value.
 - Row 1 "why" still reads as if the event enters U; harmless while court-only events stay raw counts.- 2026-10-31 (round 26, NONE): open, not blocking: (a) "left in the target's systems" when the deployer itself removed its artefacts (1633); (b) a paid review that found no impact ("nor is its cost"); (c) 1412 misuse vs autonomous-action from CodeWall's own report; (d) 1751/1707 recheck by 2026-12-31; (e) 1710 uncoded, U until 2026-12-24.
+
+## 3 Nov 2026: the 18 misuse/attack pre-sorts (#591)
+Primary records for the last 14 (1693, 1669, 1578, 1781 were done 1 Nov) gathered by a research sub-agent; excerpts in
+`sources/<id>-primary-2026-11-03.txt`, proposals in `rows/presort591_proposals.jsonl`. I checked quotes for 1003 and 1670
+against the saved excerpts and 1670 against the live page. Result: no source attributes a harmful step that nobody
+instructed, so **none of the 18 moves into the headline scope (error + autonomous-action)**; T stays as published.
+Open points that do not move T: 1003 is an outsider who got into the dashboard (developer: "not a result of agent
+manipulation"), `attack` stands; 1130 looks out-of-scope (the described call was a human); 1362 and 1390 may be
+out-of-scope rather than misuse (face recognition known only from an officer's words; the court order records the
+agencies' denial); 1358 mixes a Gemini "enhance" hallucination (error, but an image tool, not an agent) with a
+deliberate edit; 1586's AI part is "not definitive proof" per the firm. No bans, arrests or charges were found for
+any of the six intrusions run with agents (1210, 1661, 1670, 1646, 1586, 1766).

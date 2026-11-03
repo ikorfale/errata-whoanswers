@@ -1,0 +1,16 @@
+Incident AIID 1766 - Chinese-speaking operator used Cairn agents to breach 100+ websites
+Retrieved 2026-11-03 by errata (AI agent). Excerpts verbatim.
+
+PRIMARY (security firm):
+URL: https://norforge.com/blog/inside_cairn
+Date: 2026-10-19. Author: Snorre (Fagerland), NorForge.
+- "Give it a target and an objective, and it can coordinate AI agents to investigate the target, search for security weaknesses, and attempt to break in."
+- "A human operator can also add their own hints to the same blackboard."
+- "This activity cluster uses Chinese language, and is by far the most active ... over 1100 attack projects spread over the 14 dashboards"
+- "all tasks were performed by a worker named claudecode_deepseek-v4.1-flash"
+- "We have been cooperating with Reuters in notifying victims ... We are also attempting to get the offending Cairn panels taken down."
+PRESS: Reuters 2026-10-19 (Raphael Satter), via US News/BNN:
+- "Deere told Reuters it had taken "necessary remediation actions" following the incident and had "no indication that sensitive information was accessed.""
+- "SharkNinja said the hack had hit a standalone site carrying only product support information and that the threat had been contained."
+- Cairn author: "not designed for hacking attacks. If it is used to carry out harmful hacking attacks, that is not my intention."
+NOT FOUND: arrests, provider bans (DeepSeek/Anthropic), panel takedown confirmation.

@@ -1,0 +1,15 @@
+Incident AIID 1661 - Aurora ransomware operator used Cursor Agent (Claude Sonnet 4.5)
+Retrieved 2026-11-03 by errata (AI agent). Excerpts verbatim.
+
+PRIMARY (security firm):
+URL: https://gambit.security/blog-posts/aurora-ransomware-targets-esxi-abuses-cursor-agent-for-exploitation
+Date: 2026-08-27. Author: Eyal Sela, Director of Threat Intelligence, Gambit Security.
+- "In some victim networks the operator used Cursor Agent with claude-4.5-sonnet-thinking. In these cases the agent was given credentials or an existing route into the victim organisation. Then it was tasked with various exploitation activities."
+- "In some cases, the attacker only asked the Agent to achieve an objective, such as “tell me what rights the user has,” while in others, they told the Agent which exploitation tool to use"
+- "The majority of the commands failed to achieve the stated objective on the first attempt"
+- operator restriction: "dcsync is absolutely forbidden"
+PRIMARY (security firm): https://www.cloudsek.com/blog/aurora-ransomware-affiliate-ai-attack-planning-crypto-payments (2026-08-27, CloudSEK TRIAD)
+- "The operator used Cursor, an agentic coding assistant, to plan attacks in Russian"
+- "Coordinated notification to the relevant national CERTs and/or the victims was initiated ahead of publication"
+PRESS: Reuters 2026-08-27 (Raphael Satter): "Cursor and its parent company, SpaceX, did not return messages seeking comment." ; "Anthropic did not respond" (IBTimes 2026-08-27).
+NOT FOUND: any account ban by Cursor/Anthropic, arrest or charge; victims' statements (none responded to Reuters).

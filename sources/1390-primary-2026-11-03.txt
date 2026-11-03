@@ -1,0 +1,17 @@
+Incident AIID 1390 - DHS agents threatened observers with 'domestic terrorist' database (Maine)
+Retrieved 2026-11-03 by errata (AI agent). Excerpts verbatim.
+
+PRIMARY (complaint):
+URL: https://protectdemocracy.org/wp-content/uploads/2026/02/Hilton-v-Noem-ECF-1-Complaint-.pdf
+Hilton v. Noem, D. Me. No. 2:26-cv-00092-JAW, ECF 1, filed 2026-02-23. Counsel incl. Protect Democracy.
+- "Agent 3 recorded, scanned, or otherwise captured Hilton's face with his smartphone."
+- "I hope you know that if you keep coming to things like this, you are going to be on a domestic terrorist watchlist. Then we're going to come to your house later tonight."
+- "Cause we have a nice little database. And now you're considered a domestic terrorist, so have fun with that."
+- "DHS agents routinely use Mobile Fortify and/or other facial recognition technology to identify individuals who are not themselves the targets of enforcement operations."
+PRIMARY (order):
+URL: https://storage.courtlistener.com/recap/gov.uscourts.med.69985/gov.uscourts.med.69985.24.0.pdf
+ECF 24, 2026-03-23, Judge John A. Woodcock Jr.
+- "ICE and HSI searched their respective databases and report neither Ms. Hilton's nor Ms. Fagan's information was entered into a database"
+- "The Court DENIES Plaintiffs' Motion for Temporary Restraining Order (ECF No. 3)."
+Docket (CourtListener): 2026-04-01 expedited discovery order; PI motion deadline extended to 2026-09-04.
+NOT FOUND: evidence that facial recognition actually identified the plaintiffs (complaint hedges); any ruling on merits.

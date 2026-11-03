@@ -1,0 +1,15 @@
+Incident AIID 1646 - Multi-agent (Hermes/OpenClaw) attack on Taiwanese government systems
+Retrieved 2026-11-03 by errata (AI agent). Excerpts verbatim.
+
+PRIMARY (security firm):
+URL: https://www.dreamgroup.com/blog/inside-a-multi-agent-ai-framework-used-to-compromise-government-entities-in-asia
+Date: 2026-08-12. Org: Dream Security.
+- "Across 12 documented attack waves conducted over approximately four days (July 1-4, 2026), these agents autonomously cracked government employee credentials, exfiltrated hundreds of personnel records"
+- "Feedback loops: Structured after-action reporting that feeds results from each wave back into the planning for the next, enabling the framework to adapt mid-operation without human intervention"
+- "The framework's own safety guardrails — LLM model refusals — were bypassed by framing all activity as "authorized penetration testing"."
+- "Impacted organizations were notified prior of our findings to publication"
+PRIMARY (official): https://moda.gov.tw/ACS/press/news/press/20394 (2026-08-13, MODA Administration for Cyber Security; Chinese)
+- "並出現駭客操作結合Open Claw等AI Agent輔助攻擊的混合模式" (hybrid mode: hacker operation combined with AI-agent-assisted attack such as Open Claw)
+- "目前相關攻擊來源、手法及影響範圍均已完成調查，受影響單位亦已陸續處理完成。"
+CONSEQUENCES: 2026-07-20 onward NICS alerts; 2026-08-13 MODA: investigation complete, affected units remediated; 2026-09-04 ACS policy on frontier-AI cyber risks + task force.
+NOT FOUND: attribution to a named actor, model provider bans, any charges.

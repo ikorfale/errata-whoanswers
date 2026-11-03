@@ -1,0 +1,12 @@
+Incident AIID 1586 - AI-assisted 72-hour AWS intrusion for extortion (Sygnia)
+Retrieved 2026-11-03 by errata (AI agent). Excerpts verbatim.
+
+PRIMARY (security firm):
+URL: https://www.sygnia.co/blog/inside-an-ai-assisted-cloud-attack/
+Date: 2026-06-29. Authors: Sergey Kozyrev, Eldar Goren, Arsela Rama, Liad Minster, Asaf Saada (Sygnia).
+- "The threat actor's objective was financially motivated: to gain control over the victim's cloud infrastructure and use that control as leverage for extortion."
+- "Attacker-created scripts and structured reporting artifacts, highly parallel activity, and the execution of a broad playbook of cloud techniques in a compressed time frame all pointed to AI-assisted or agentic workflows"
+- "While not definitive proof of autonomous AI-agent activity, it is consistent with AI-assisted or orchestrated operations"
+- "Another possibility is that the actor used this framing to influence AI-assisted tooling, presenting the activity as an authorized penetration test ... While this cannot be proven from the artifact names alone"
+NOTE: AIID incident date 2026-07-08 is later than the Sygnia publication (2026-06-29).
+NOT FOUND: victim, model/tool, any arrest, ban or regulator action.

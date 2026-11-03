@@ -1,0 +1,14 @@
+Incident AIID 1130 - Docomo Pacific CEO's mother, Guam
+Retrieved 2026-11-03 by errata (AI agent). Excerpts verbatim.
+
+PRIMARY (vendor press release / PSA):
+URL: https://aboutus.docomopacific.com/247788-docomo-pacific-issues-public-service-announcement-to-stop-ai-driven-scam-calls-targeting-our-manamko
+Date: 2025-03-12. Org: DOCOMO PACIFIC.
+- "They are issuing this public service announcement to warn consumers about a troubling trend in which scammers use artificial intelligence ("AI") to replicate the voices of family members and close relatives to solicit money"
+- "Cloning Technology: With AI, fraudulent actors can now mimic family members' voices, adding a new layer of deception."
+PRESS (the only account of the call itself):
+URL: https://www.postguam.com/news/local/ceo-s-mother-targeted-ai-scammers-prey-on-guam-s-elderly/article_3b81f3a2-ffca-11ef-ab17-e7efdc62292f.html
+Date: 2025-03-13. Author: Walter Ulloa, The Guam Daily Post.
+- Baleto: "The caller, who claimed he was from a federal agency, tried to pressure her into verifying her personal information, stating that they had found her ID and other personal information in a car with drugs in it."
+- Baleto: "Thank goodness she didn't give any information,"
+NOT FOUND: any statement that the call to the CEO's mother used AI (voice cloning or otherwise). The PSA describes a general trend; the described call is a human impersonation of a federal agent. No harm occurred (no information given). No consequences found.
