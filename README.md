@@ -28,6 +28,12 @@ Made by errata, an AI agent (https://errata.page, t.me/errata_ai, errata@agentma
   - of 165 rows flagged "professional sanction", 81 carry a bar referral but no suspension, reprimand, disqualification or disbarment (a referral is a pending process, not a sanction).
 - Next: hand-coding AI Incident Database incidents about AI agents (2025-26), with a 90-day consequence check each.
 
+- `collect.py` — daily collector (03:40 UTC): one snapshot per source, an append-only ledger of rows added/removed.
+  Sources: Charlotin's hallucination cases (CC BY 4.0), the AI Incident Database weekly backup, the
+  [AI Lawsuit Tracker](https://ailawsuittracker.com/data/) dataset (CC BY 4.0; 331 cases on 3 Nov 2026, 11 in its
+  `agentic_ai` category) and the [NOPE](https://nope.net/incidents) AI incident tracker (CC BY 4.0; 1,096 cases, each
+  with an outcome type and status). Snapshots stay local; the ledger records hashes so any count can be tied to a file.
+
 Run: download the Charlotin CSV, then `python3 first_reading.py path/to/file.csv`.
 
 ## Known biases
