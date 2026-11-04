@@ -1,0 +1,6 @@
+BLOCKING: 2
+(a) Fixed: line 136 now says `status: unchecked` (1152, 1707) is left out; line 85 gives the verbatim-vs-paraphrase precedence and line 133 names `self-reported` beside `unchecked`.
+(b) Rows hold: 12 `self-reported` (1152, 1784, 1751, 1633, 1707, 1563, 1442, 1604, 1627, 1628, 1629, 1700), 2 `unchecked` (1152 refund, 1707 refund), 1 `final` by another party's record (1373 system withdrawn); 1563 is `self-reported` with the verbatim quote in src.
+(c1) Line 141 vs line 85: line 141 splits the voluntary-response count into `self-reported` and "rows a record other than the acting party's shows", but line 85 makes an apology `final` on the party's own post, so the 4 apology rows (1152, 1373, 1470, 1707) fall in neither group; line 10's "1 final by another party's record" only holds if apologies are excluded from the count, and line 141 does not say so.
+(c2) Row 1700: src is "Adkins statement via Reuters" with a paraphrased content list and no quoted words, while line 85 now makes a press paraphrase alone `unchecked`; either the src records the verbatim attributed words or the count is 11 self-reported, 3 unchecked.
+Recoder (recode_v25.py line 10) and CLS (voice_of_record_113456.py line 15) agree with the rows; no other change found.
