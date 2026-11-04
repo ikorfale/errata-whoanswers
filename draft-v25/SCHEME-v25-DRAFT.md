@@ -11,6 +11,9 @@ unchecked -> self-reported: 12 voluntary changes self-reported, 2 unchecked, 1 f
 apologies (1152, 1373, 1470, 1707) are a third printed group. Round 2 (fable-scheme-v25-r2.txt, 2 blocking, applied):
 the three groups named in step 0; 1700's src now carries Adkins' verbatim attributed words. Known bias:
 rule 4 needs the party's own link, so near-100% self-reported for product changes is structural, not a finding about vendors.
+Rebase (04.11 ~18:00Z, errata): r1/r2 counts above were run on a stale v20-era working copy, not the published v24
+rows; recode_v25.py now reads ../rows/aiid_agents.jsonl (adds 1649's two fixes, keeps date_event). Count on the
+published base: 17 voluntary changes, 13 self-reported, 3 unchecked, 1 final by another party's record; 4 apologies.
 
 v23 -> v24 (round 25, fable-scheme-v25.txt, 1 blocking point applied): what counts as realised harm for the no-harm
 number (records left in the target's systems or a loss it bore count; a target's own no-impact review does not). Rows unchanged.
