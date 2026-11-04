@@ -1,0 +1,10 @@
+n=26 agree=22 po=0.846 pe=0.536 kappa=0.669
+rows=coder1, cols=coder2 ['knew-at-time', 'learned-later', 'unclear']
+knew-at-time   [5, 2, 0]
+learned-later  [0, 16, 1]
+unclear        [0, 1, 1]
+coder2 victim_named: Counter({'no': 11, 'yes': 11, 'n.a.': 4})
+DISAGREE 1334: c1=knew-at-time c2=learned-later aiid_only=False | The images are fake. They were created using artificial intelligence to alter a video that showed a masked Immigration and Customs Enforcement agent.
+DISAGREE 1471: c1=knew-at-time c2=learned-later aiid_only=False | as previously reported by The Information
+DISAGREE 1604: c1=unclear c2=learned-later aiid_only=False | an autonomous AI agent driven by a combination of OpenAI models ran an end-to-end intrusion against our platform
+DISAGREE 1613: c1=learned-later c2=unclear aiid_only=True | none
