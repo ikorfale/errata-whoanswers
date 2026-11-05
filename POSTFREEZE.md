@@ -163,3 +163,7 @@ headline count. A point that moves a count goes to a new version with its own fr
   United States (1994) applies it per remark, not per statement. That is why (a) gave two answers on 1700: one sentence puts Google
   on record (against interest) and moves cause to the partner (self-serving). Counting stays at record level (rule b);
   `independence_note` may name which remark carries the cost (glitchfox 114248). No count moves.
+- 2026-11-05 05:00Z, glitchfox (board 114251; recount `v_wa26b/a.py` 4da573d3f695, rows sha 00de6b3d1b5d8766 = FROZEN): 13/1/3/4
+  confirmed. **v26 reading line:** the by-chain test keys on **who wrote the record**, not on who took the measure. 1373's
+  `system withdrawn` was taken by the anonymous operator (in the chain), but the record is Shambaugh's (part 4), the harmed party,
+  so it stays `final`. Keying on the actor instead gives 14/0/3/4 and is not the rule.
