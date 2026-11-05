@@ -1,0 +1,27 @@
+rows both coded: 26 | only c1: [] | only c2: []
+channel: agree 19/26, kappa 0.667
+   c1 {'court': 1, 'press': 1, 'own-observation': 4, 'operator': 2, 'unclear': 7, 'researcher': 3, 'developer': 7, 'evaluator': 1} 
+   c2 {'court': 1, 'press': 1, 'own-observation': 8, 'researcher': 3, 'operator': 1, 'unclear': 5, 'developer': 7}
+lag bin: agree 18/26, kappa 0.491
+   c1 {'unknown': 17, '0-3': 4, '4-30': 1, '>30': 4} 
+   c2 {'>30': 7, '0-3': 4, 'unknown': 13, '4-30': 2}
+disclosed_by: agree 22/26
+victim_named: agree 23/26
+filer: agree 25/26
+loss_class: agree 23/26
+could_name_responsible_at_time: agree 21/26
+
+Disagreements on channel or lag bin:
+- aiid-1299-cbp-chatgpt-report-2025: c1 court/unknown/unknown | c2 court/2025-11-20/>30 | c2 quote: Judge Ellis fn.9 (Nov 20, 2025): 'an agent asked ChatGPT to compile a narrative for a report based off of a brief sentence... and several images'; bodycam clip 
+- aiid-1412-codewall-lilli-2026: c1 operator/unknown/unknown | c2 researcher/2026-03-01/0-3 | c2 quote: 'Within 2 hours, the agent had full read and write access to the entire production database'; '2026-03-01 - Responsible disclosure email sent to McKinsey's secu
+- aiid-1470-dismech-scanner-2026: c1 operator/unknown/unknown | c2 operator/2026-06-04/>30 | c2 quote: cmungall 2026-04-28: 'the agent deprived you of that learning opportunity'; sagehrke's own first statement 2026-06-04: 'An agent can take this on.' Agent opened
+- aiid-1471-meta-internal-forum-2026: c1 unclear/unknown/unknown | c2 own-observation/unknown/unknown | c2 quote: 'an AI agent that gave an employee inaccurate technical advice'; Meta detected its own SEV1 at the time (own-observation). Incident 'last week' of 2026-03-19, e
+- aiid-1563-kpmg-total-experience-2026: c1 researcher/unknown/unknown | c2 unclear/unknown/unknown | c2 quote: GPTZero 2026-06-12: 'only five accurately point to real sources... likely the result of an AI research tool'; report 'published' Oct 2025. The orgs told the FT 
+- aiid-1604-openai-huggingface-2026: c1 developer/2026-07-21/4-30 | c2 own-observation/2026-07-13/4-30 | c2 quote: 'an autonomous AI agent driven by a combination of OpenAI models ran an end-to-end intrusion against our platform'; ~17,600 actions 2026-07-09 02:28 UTC .. 2026
+- aiid-1613-mythospreview-sandbox-2026: c1 unclear/unknown/unknown | c2 own-observation/unknown/unknown | c2 quote: 'it posted details about its exploit to multiple hard-to-find, but technically public-facing, websites'; the researcher 'found out about this success by receivi
+- aiid-1668-openai-dsewiki-2026: c1 own-observation/2026-06/unknown | c2 own-observation/2026-06-02/4-30 | c2 quote: 'the agents make their first successful write to DSEwiki' 5/24; 'A human moderator noticed the agent spam posts on June 2nd, at 23:24 UTC.' Attribution to OpenA
+- aiid-1685-opus46ckpt-thirdparty-2026: c1 developer/unknown/unknown | c2 developer/2026-09-09/>30 | c2 quote: 'a fourth incident, from January 2026, involving an early version of Claude Opus 4.6... We have notified all affected parties' (post dated 2026-09-09). Event mo
+- aiid-1700-gemini-irregular-2026: c1 evaluator/unknown/unknown | c2 developer/unknown/unknown | c2 quote: 'Gemini, escaped its testing environment in May and hacked into three companies'; 'affected entities were contacted as part of the investigation' but no date gi
+- aiid-1751-haiku45-phillytip-2026: c1 developer/2026-10-07/>30 | c2 developer/2026-10-08/unknown | c2 quote: 'We shared this finding with the department on October 8'; PPD 'self-disclosed today via their press release' (Oct 9). Submission date not stated, so event date
+- aiid-1776-meta-muse-marketplace-2026: c1 own-observation/2026-09-26/0-3 | c2 own-observation/2026-09/unknown | c2 quote: 'Muse had struck a deal on its own and shared Robb's home address... It even sent an automated Yep, I'm here! message from his account when the buyer arrived.' 
+- aiid-1779-openai-wikimedia-2026: c1 unclear/unknown/unknown | c2 own-observation/2026-10-05/>30 | c2 quote: 'we have discovered some activity by these rogue OpenAI agents'; 'may have contributed to a partial outage on WDQS in May.' WMF ran its own investigation; event
