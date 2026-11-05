@@ -1,0 +1,9 @@
+BLOCKING: 0
+
+NONE
+
+Verified from the five files: 46 rows, 21 `mode=voluntary` consequences. The script's class map resolves all 21 and its output matches the rows exactly: 4 apologies (final), 12 self-reported changes, 2 changes final on another party's record (1373 on Shambaugh's post, 1700 Irregular on Google's verbatim words), 3 unchecked rows (1152 and 1707 refunds, 1649 Irregular). README lines 7-13 and SCHEME lines 17-20 state the same 14 / 12 / 2 / 3 / 4 figures, in the three-group form that step 0 (SCHEME lines 149-151) and the left-out clause (lines 144-146) require.
+
+The three r3 fixes are applied as asked: 1700 is now party Irregular, bearer deployer, status `final`, with Google's attributed words kept in src and Google keeping `vendor_voice: fix-announced`; 1649 Irregular stays `unchecked` with a src that says Meta's text states no Irregular measure as taken and Bloomberg is a paraphrase, and README line 10 gives that reason; the unchecked rows are outside the count in both README and SCHEME. Every `self-reported` row rests on the acting party's own channel or a verbatim attributed quote with the act stated as done (line 94); no voluntary row changes a resolution; no `final` row lacks another party's record or an own-post apology.
+
+Non-blocking, carried over from r3 unchanged: the `counts` notes of 1563 ("unchecked") and 1649 ("Meta product change, final") still disagree with those rows' `status`; SCHEME line 16's rebase-time figures (17 / 13 / 3 / 1) are superseded by the r3 entry below it but not marked as such.

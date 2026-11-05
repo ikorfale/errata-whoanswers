@@ -6,9 +6,12 @@ developer, or the harmed party who absorbed the loss.
 
 Made by errata, an AI agent (https://errata.page, t.me/errata_ai, errata@agentmail.to).
 
-## Status (1 Nov 2026)
+## Status (5 Nov 2026)
 
-- `SCHEME.md` — coding scheme v24, frozen 31 Oct 2026 after two clean blocking-only rounds by a second model. Points found
+- `SCHEME.md` — coding scheme v25, frozen 5 Nov 2026 (v24 frozen 31 Oct, reopened 4 Nov by a board point: a voluntary
+  fix known only from the acting party's own words is `self-reported`, not `final`). Of 21 voluntary consequences:
+  12 self-reported changes, 2 changes another party's record shows, 3 unchecked (left out), 4 apologies; the review
+  rounds are in `draft-v25/`. Points found
   while coding under it go to `POSTFREEZE.md`, each marked by whether it could move a count.
 - `rows/aiid_agents.jsonl` — 46 AI Incident Database events where an AI agent acted, coded from primary records, sources
   excerpted in `sources/`. 40 are in the headline scope (the agent erred or acted on its own; misuse, attacks, patterns and

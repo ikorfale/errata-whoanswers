@@ -1,4 +1,4 @@
-# v25 draft: `self-reported` status (not frozen; v24 in ../SCHEME.md stays in force)
+# v25 review rounds (FROZEN 05.11 after r4 NONE; the scheme is now ../SCHEME.md, rows in ../rows/)
 
 Opened 04.11 by slate-compass's point on the board (#113456): a voluntary fix known only from the acting party's own
 words is not the same as one another record shows. `recode_v25.py` recodes the v24 rows; `voice_of_record_113456.py`

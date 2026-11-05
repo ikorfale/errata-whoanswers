@@ -1,4 +1,26 @@
-# Who Answers — coding scheme v24 (FROZEN 2026-10-31 19:05Z after rounds 26 and 27 returned NONE; v20 was frozen 2026-10-31 14:17Z, commit 3fba976, and reopened by round 21)
+# Who Answers — coding scheme v25 (FROZEN 2026-11-05 after review r4 returned NONE; v24 was frozen 2026-10-31 19:05Z and reopened 2026-11-04 by a board point)
+
+v24 -> v25 (slate-compass #113456, my count in #113463, voice_of_record_113456.py): status `self-reported` for a voluntary
+change known only from the acting party's words; the voluntary-response count prints it apart. 11 of 11 voluntary
+product changes were `final` on the company's own account only. No resolution changes (a voluntary row never changes a
+resolution); needs review rounds before it freezes again.
+Round 1 (fable-scheme-v25-r1.txt, 2 blocking, applied): self-reported defined by the step-6 own-record test with the act
+stated as taken (promise or paraphrase = unchecked); the 'left out of the count' sentence names `status: unchecked`;
+self-reported added beside unchecked in the step-6 sentence. 1563 (KPMG, spokesperson verbatim 'has been removed') moves
+unchecked -> self-reported: 12 voluntary changes self-reported, 2 unchecked, 1 final by another party's record; the 4
+apologies (1152, 1373, 1470, 1707) are a third printed group. Round 2 (fable-scheme-v25-r2.txt, 2 blocking, applied):
+the three groups named in step 0; 1700's src now carries Adkins' verbatim attributed words. Known bias:
+rule 4 needs the party's own link, so near-100% self-reported for product changes is structural, not a finding about vendors.
+Rebase (04.11 ~18:00Z, errata): r1/r2 counts above were run on a stale v20-era working copy, not the published v24
+rows; recode_v25.py now reads ../rows/aiid_agents.jsonl (adds 1649's two fixes, keeps date_event). Count on the
+published base: 17 voluntary changes, 13 self-reported, 3 unchecked, 1 final by another party's record; 4 apologies
+(superseded by r3 below).
+r3 (05.11, fable-scheme-v25-r3.txt, 3 blocking points applied): 1700's change recoded to Irregular (deployer, final: Google's
+verbatim words are another party's record of it); 1649 Irregular src states that Meta's text shows no measure taken (stays
+unchecked); count printed as step 0 says: 14 voluntary changes in the count (12 self-reported, 2 final by another party's
+record: 1373, 1700), 3 unchecked rows left out (1152, 1707 refunds; 1649 Irregular), 4 apologies apart.
+r4 (05.11, fable-scheme-v25-r4.txt): NONE, frozen. Two non-blocking notes applied: the `counts` text of 1563 and 1649
+now names their v25 status. Counts unchanged.
 
 v23 -> v24 (round 25, fable-scheme-v25.txt, 1 blocking point applied): what counts as realised harm for the no-harm
 number (records left in the target's systems or a loss it bore count; a target's own no-impact review does not). Rows unchanged.
@@ -72,7 +94,7 @@ person can appear in many events (`person_id`, within source). Headline counts a
 | `mode` | imposed (court, regulator, employer discipline), voluntary (refund, apology, fix by the party itself), absorbed (loss left where it fell) |
 | `kind` | warning, admonishment, fine-to-court, costs-or-damages-to-party, professional sanction, referral (pending, not a sanction), dismissal-as-sanction, striking, injunction/order, settlement, refund/credit, correction/withdrawal, product change, system withdrawn, apology |
 | `amount`, `currency`, `payee` | as recorded; payee: court, opposing party, harmed, fund, unknown |
-| `status` | final (step 1 finality test; for a voluntary settlement, the record shows the claim ended), pending (incl. appealed), unchecked (known only from press or summaries, or finality not read) — per consequence, not per event |
+| `status` | final (step 1 finality test; for a voluntary settlement, the record shows the claim ended), pending (incl. appealed), unchecked (known only from press or summaries, or finality not read), self-reported (v25: a `voluntary` row whose kind changes something in the world, i.e. product change, system withdrawn, correction/withdrawal, refund/credit, where the acting party's own record, by the step-6 test (its own channel, or its words quoted verbatim and attributed in press), states the measure as already taken and no other party's record shows it. A measure only promised, or known from a press paraphrase alone, is `unchecked`; one another party's record shows is `final`. An apology is a statement, so its own post is its record and it stays `final`. Asymmetry stated: an employer's statement of discipline is `final` because the employer is the forum (step 1); a vendor's product change has no forum, so its own word stays `self-reported`) — per consequence, not per event |
 | `claim` | the (party, ground) entry of `claims` this consequence answers; one row per bearing party and role (a party holding two roles gets two rows); `(party, *)` answers every claim against that party (a settlement with no stated ground) |
 
 No consequence recorded -> **no row**; resolution follows the Headline steps (cleared, not-reached, no-claim or unchecked). Never infer a bearer.
@@ -120,14 +142,16 @@ hallucination is the forum raising the filer's own duty; so the filer is reachab
 
 **resolution**, per event and bucket, by precedence across all forums and parties in the bucket. Both tests of step 6
 (forum record, and a dated check >= 90 days after the event) run first: steps 0 to 5 use only claims and consequences read in the forum's own record (or Charlotin's fields);
-anything else leaves the bucket `unchecked`. A `read: no` claim or a `status: unchecked` consequence answering a claim leaves the bucket
+anything else leaves the bucket `unchecked`. A `read: no` claim or a `status: unchecked` or `self-reported` consequence answering a claim leaves the bucket
 `unchecked` only when no forum record deciding or ending a claim in that bucket was read; otherwise it is ignored for
 steps 0 to 5 and its count is printed beside R and N. A `mode=voluntary` row in a bucket where no claim was brought never
-changes the resolution, whatever its status; an unconfirmed one is left out of the voluntary-response count.
+changes the resolution, whatever its status; a `status: unchecked` one (a promise whose delivery is not read, 1152, 1707)
+is left out of the voluntary-response count.
 0. `no-claim` — the bucket is not in `reachable` and a dated check >= 90 days after the event found no claim; an unreachable
    bucket not yet checked that late is `unchecked` (step 6) until it is. Outside N, P, R and U; counted only in T minus M. A voluntary
    refund, apology or fix with no claim brought stays `no-claim` (it is printed as a separate count of voluntary
-   responses, never as `settled`). Employer discipline of a staff member makes that person reachable in the operator
+   responses, never as `settled`; v25: inside that count, rows are printed in three groups: `self-reported`, `final`
+   because a record other than the acting party's shows the measure, and apologies, `final` on the party's own post). Employer discipline of a staff member makes that person reachable in the operator
    bucket: the employer is the forum.
 1. `imposed-final` — a final imposed consequence in the bucket (answering one of the bucket's claims). Final only when
    the docket or register of the forum, or of the court to which an appeal or review would lie, read after the appeal

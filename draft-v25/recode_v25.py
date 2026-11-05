@@ -30,6 +30,11 @@ with open('aiid_agents_v25rows.jsonl', 'w') as out:
                 c['src'] = SRC_1649_IRR; print(r['event_id'], 'Irregular src reworded (r3)')
             if cls(r['event_id'], c) == 'self-only' and c['status'] != 'self-reported':
                 print(r['event_id'], c['party'], c['kind'], c['status'], '-> self-reported'); c['status'] = 'self-reported'; n += 1
+        # r4 non-blocking: the counts note must name the status the row now carries
+        if r['event_id'].startswith('aiid-1563'):
+            r['counts'] = r['counts'].replace('(withdrawal by the employer, unchecked)', '(withdrawal by the employer, self-reported, v25)')
+        if r['event_id'].startswith('aiid-1649'):
+            r['counts'] = r['counts'].replace('(Meta product change, final)', '(Meta product change, self-reported, v25; Irregular unchecked)')
         r['scheme'] = 'v25'
         out.write(json.dumps(r, ensure_ascii=False) + '\n')
 print('changed', n)
