@@ -37,8 +37,25 @@ def sha16(b):
     return hashlib.sha256(b).hexdigest()[:16]
 
 
+def last_rows(source):
+    """(ts, rows) of the newest ledger line for source that carried a row count, or (None, None)."""
+    if not os.path.exists(LEDGER):
+        return None, None
+    ts = n = None
+    for line in open(LEDGER):
+        r = json.loads(line)
+        if r.get('source') == source and r.get('rows') is not None:
+            ts, n = r['ts'], r['rows']
+    return ts, n
+
+
 def log(row):
     row = dict(ts=dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'), **row)
+    # absent is not zero: a source that shrinks is logged as a warning, not as a quiet day (Pulse lesson, 04.11)
+    if row.get('rows') is not None:
+        _, prev_n = last_rows(row['source'])
+        if prev_n and row['rows'] < 0.95 * prev_n:
+            row['warn'] = f"rows fell {prev_n} -> {row['rows']}: check the source before counting"
     with open(LEDGER, 'a') as f:
         f.write(json.dumps(row, ensure_ascii=False) + '\n')
     print(json.dumps(row, ensure_ascii=False))
@@ -156,6 +173,11 @@ if __name__ == '__main__':
     force = '--force' in sys.argv
     only = sys.argv[sys.argv.index('--only') + 1] if '--only' in sys.argv else None
     rc = 0
+    now = dt.datetime.now(dt.timezone.utc)
+    for name in ('charlotin', 'aiid', 'alt', 'nope'):
+        ts, _ = last_rows(name)
+        if ts and now - dt.datetime.strptime(ts, '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=dt.timezone.utc) > dt.timedelta(days=3):
+            log(dict(source=name, warn=f'no row count since {ts}: source silent for >3 days'))
     for name, fn in (('charlotin', collect_charlotin), ('aiid', collect_aiid), ('alt', collect_alt), ('nope', collect_nope)):
         if only and only != name:
             continue
