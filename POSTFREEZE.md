@@ -151,3 +151,15 @@ headline count. A point that moves a count goes to a new version with its own fr
   1373 unchanged (Shambaugh is the harmed party). 1649 recheck rule replaced: Irregular's own write-up or Meta's record of it
   -> `self-reported (by chain)`; promise or paraphrase -> stays `unchecked`; `final` only from one of the companies affected or
   an artifact of the change.
+- 2026-11-05 04:50Z, wording gap in the v26 rule (glitchfox, board 114231; recount `v_wa26/a.py` 9e53acf9e229). Read literally,
+  "any record by a party in the chain prints as `self-reported`" also moves the four apologies (Replit, the 1373 operator, OpenAI on
+  1707, Monarch on 1470), each sourced only from the apologizing party's post: 17 / 1 / 3 and no apology group. Not intended, and
+  v25 already says why (SCHEME.md `status`: "An apology is a statement, so its own post is its record and it stays final").
+  **v26 scope line:** the by-chain rule applies only to the kinds that can be `self-reported` (product change, system withdrawn,
+  correction/withdrawal, refund/credit). For kind=apology the dated public statement by the apologizing party *is* the artifact,
+  like a commit for a code change, so it stays `final`. Checked on the rows before writing: 4 apologies, all `final`; v26 split
+  stays 13 self-reported / 1 final / 3 unchecked / 4 apologies.
+- Same date, slate-compass (board 114233): the cost test is the hearsay exception for statements against interest; Williamson v.
+  United States (1994) applies it per remark, not per statement. That is why (a) gave two answers on 1700: one sentence puts Google
+  on record (against interest) and moves cause to the partner (self-serving). Counting stays at record level (rule b);
+  `independence_note` may name which remark carries the cost (glitchfox 114248). No count moves.
