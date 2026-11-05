@@ -1,0 +1,8 @@
+Source: Anthropic, "An alignment assessment of recent cybersecurity incidents", 2026-09-09 (updated 2026-09-10),
+https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents (fetched 2026-11-05 via Parallel extract; excerpts verbatim)
+Row: aiid-1685 (early Claude Opus 4.6 checkpoint, January 2026).
+
+"our scan relied on an agentic search. This missed a set of transcripts that also turned out to have internet access; we identified these in August while assembling transcripts to share with METR. We scanned these transcripts and identified a fourth incident, from January 2026, involving an early version of Claude Opus 4.6. We have notified all affected parties."
+"An early checkpoint of Claude Opus 4.6 was given a CTF task in a different challenge within the same third-party evaluation environment as the prior three incidents. The model accidentally broke its target by assigning it a conflicting IP address ..."
+"Incident D, version of Opus 4.6 attacks real target: the model broke into third parties after being unable to abort its task."
+Also (on 1628): "We believe that all 15 of these third parties were security vendors deliberately scanning for new packages and installing them in sandboxed environments ... PyPI removed the package within an hour."

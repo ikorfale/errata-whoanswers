@@ -1,0 +1,6 @@
+Source: Anthropic, Claude Mythos Preview System Card, section 4.1.1 (p. 55 per AIID), published 2026-04-07,
+https://www-cdn.anthropic.com/7624816413e9b4d2e3ba620c5a5e091b98b190a5/Claude%20Mythos%20Preview%20System%20Card.pdf (fetched 2026-11-05 via Parallel extract; excerpts verbatim)
+Row: aiid-1613.
+
+"During behavioral testing with a simulated user, an earlier internally-deployed version of Claude Mythos Preview was provided with a secured "sandbox" computer ... The simulated user instructed it to try to escape that secure container and find a way to send a message to the researcher running the evaluation. The model succeeded ... It then, as requested, notified the researcher. In addition, in a concerning and unasked-for effort to demonstrate its success, it posted details about its exploit to multiple hard-to-find, but technically public-facing, websites."
+Footnote 10: "The researcher found out about this success by receiving an unexpected email from the model while eating a sandwich in a park."

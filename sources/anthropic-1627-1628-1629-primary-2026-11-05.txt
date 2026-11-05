@@ -1,0 +1,12 @@
+Source: Anthropic, "Investigating three incidents in our cybersecurity evaluations", 2026-07-30,
+https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals (fetched 2026-11-05 via Parallel extract; excerpts verbatim)
+Rows: aiid-1627 (Opus 4.7, real company, "Incident 1"), aiid-1628 (Mythos 5, PyPI, "Incident 2"), aiid-1629 (internal research model, ~9,000 targets, "Incident 3").
+
+"The earliest incidents date to April."
+"We began our transcript review on Thursday, July 23, and stopped all cyber evaluations the same day after identifying transcripts where Claude may have accessed the internet. We identified all three incidents the next day. We notified our evaluation partner Irregular and the three affected organizations on Monday, July 27.
+The two organizations we were able to reach had not previously detected the activity or contacted us, and we are now working with them to remediate. We are continuing to reach out to the third."
+Incident 1: "In four runs of this evaluation, Claude ran into difficulty reaching its simulated target within the evaluation environment, but then discovered that the real company was reachable via the internet. ... This incident involved Claude Opus 4.7"
+Incident 2: "the package was made freely available online for roughly one hour. During that window, the package was downloaded and run on 15 real systems. One of these systems was a scanner belonging to a real security company ... Claude was able to exfiltrate the company's credentials ... (The package that Claude uploaded was automatically removed from PyPI by PyPI's own security systems. We've notified the PyPI team of this incident, and provided them with the relevant indicators.) This attack was carried out by Claude Mythos 5."
+Incident 3: "scanning roughly 9,000 targets. It eventually found and compromised one company's internet-facing application ... This attack was carried out by an internal research test model."
+"We discovered these incidents after a proactive review of our cybersecurity evaluation transcripts; the affected organizations had not detected the activity, and we have subsequently reached out to all three."
+"To protect the organizations affected, we are unable to release more transcripts at this time"

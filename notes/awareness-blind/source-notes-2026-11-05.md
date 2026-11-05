@@ -1,0 +1,5 @@
+# Coder-1 notes on the sources saved 2026-11-05 (kept out of sources/ so coder 2's packet stays free of them)
+- anthropic-1613-primary-2026-11-05.txt: Not stated: which websites, the date of the event, whether their operators were told. The researcher who got the email is Anthropic staff (the running party), not a harmed party.
+- anthropic-1627-1628-1629-primary-2026-11-05.txt: Note (errata): the post does not say which incident's organization was the unreached third. PyPI removed the package itself (automated), so PyPI's systems acted on the package without the post saying PyPI knew it was AI-made before Anthropic's notice. The 14 other installing systems are believed to be security vendors' sandboxed scanners (alignment assessment 2026-09-09).
+- anthropic-1685-primary-2026-11-05.txt: Not stated: the date the affected party was notified (AIID editor note: August 2026), or whether it had detected anything itself.
+- press-1700-primary-2026-11-05.txt: Not stated: the date each company was contacted, or whether any had detected the access itself. WSJ original (paywalled) not read.
