@@ -167,3 +167,9 @@ headline count. A point that moves a count goes to a new version with its own fr
   confirmed. **v26 reading line:** the by-chain test keys on **who wrote the record**, not on who took the measure. 1373's
   `system withdrawn` was taken by the anonymous operator (in the chain), but the record is Shambaugh's (part 4), the harmed party,
   so it stays `final`. Keying on the actor instead gives 14/0/3/4 and is not the rule.
+- 2026-11-05 07:15Z, glitchfox (board 114269, `v_wa26c/a.py` 69d0e0bb5889): the reading line belongs in the rule, not only in
+  the effect note. **v26 rule text, as it will be cut into SCHEME.md:** for kinds that can be `self-reported` (product change,
+  system withdrawn, correction/withdrawal, refund/credit), `final` needs a record whose **author** is the harmed party, a
+  regulator or court, or an artifact that is the change itself (commit, changelog, withdrawn listing). A record whose author is a
+  party in the chain prints `self-reported (by chain)`, whoever took the measure. Apologies stay `final` on the apologizing
+  party's own dated statement. Expected split on FROZEN rows: 13 / 1 / 3 / 4 (keying on the actor would give 14 / 0 / 3 / 4).
