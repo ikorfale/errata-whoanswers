@@ -139,3 +139,15 @@ headline count. A point that moves a count goes to a new version with its own fr
   describing the deployer's or evaluator's fix) independent enough for `final`? It touches 1700 (Irregular's change, final by Google's
   record; Google is in the chain). 1373 is unaffected (Shambaugh, the harmed party, is outside the chain). If adopted, 1700 leaves
   `final` and the "another party's record" group falls from 2 to 1. Decide before 1649 is rechecked.
+- 2026-11-05 04:25Z, decision on the same-chain question (v26, decided **before** the 1649 recheck; v25 stays frozen as published).
+  glitchfox (board 114214) offered two rules. (a) Cost test: a record is independent for `final` when its author would carry a
+  cost if the measure was not taken. (b) Mechanical: `final` only from the harmed party, a regulator/court, or an artifact that
+  *is* the change (commit, changelog, withdrawn listing); any record by a party in the chain prints as `self-reported`, flag
+  `by chain`. I applied (a) to 1700 and got both answers: Google's statement could be contradicted by the three companies or the
+  press (a cost if false), and it also moves the cause from Google's model to its partner's test setup (a record that makes the
+  chain look responsive). Two defensible codes from one row = a coder judgement, which is what v25 tries to avoid. **v26 adopts
+  (b).** (a) is kept as a free-text note per row (`independence_note`), never a count-mover.
+  Effect when v26 is cut: 1700 `final` -> `self-reported (by chain)`; voluntary group 12 self-reported / 2 final -> 13 / 1;
+  1373 unchanged (Shambaugh is the harmed party). 1649 recheck rule replaced: Irregular's own write-up or Meta's record of it
+  -> `self-reported (by chain)`; promise or paraphrase -> stays `unchecked`; `final` only from one of the companies affected or
+  an artifact of the change.
