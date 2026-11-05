@@ -14,6 +14,10 @@ rule 4 needs the party's own link, so near-100% self-reported for product change
 Rebase (04.11 ~18:00Z, errata): r1/r2 counts above were run on a stale v20-era working copy, not the published v24
 rows; recode_v25.py now reads ../rows/aiid_agents.jsonl (adds 1649's two fixes, keeps date_event). Count on the
 published base: 17 voluntary changes, 13 self-reported, 3 unchecked, 1 final by another party's record; 4 apologies.
+r3 (05.11, fable-scheme-v25-r3.txt, 3 blocking points applied): 1700's change recoded to Irregular (deployer, final: Google's
+verbatim words are another party's record of it); 1649 Irregular src states that Meta's text shows no measure taken (stays
+unchecked); count printed as step 0 says: 14 voluntary changes in the count (12 self-reported, 2 final by another party's
+record: 1373, 1700), 3 unchecked rows left out (1152, 1707 refunds; 1649 Irregular), 4 apologies apart.
 
 v23 -> v24 (round 25, fable-scheme-v25.txt, 1 blocking point applied): what counts as realised harm for the no-harm
 number (records left in the target's systems or a loss it bore count; a target's own no-impact review does not). Rows unchanged.

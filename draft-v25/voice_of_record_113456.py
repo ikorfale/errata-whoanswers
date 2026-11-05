@@ -16,9 +16,10 @@ CLS = {  # (event_id prefix, kind) -> class
  ('aiid-1707', 'apology'): 'speech-act', ('aiid-1707', 'product change'): 'self-only', ('aiid-1707', 'refund/credit'): 'unchecked',
  ('aiid-1470', 'apology'): 'speech-act', ('aiid-1563', 'correction/withdrawal'): 'self-only', ('aiid-1442', 'product change'): 'self-only',
  ('aiid-1604', 'product change'): 'self-only', ('aiid-1627', 'product change'): 'self-only', ('aiid-1628', 'product change'): 'self-only',
- ('aiid-1629', 'product change'): 'self-only', ('aiid-1700', 'product change'): 'self-only',
+ ('aiid-1629', 'product change'): 'self-only',
+ ('aiid-1700', 'product change'): 'independent',  # r3: Irregular's change, shown by Google's verbatim words
  ('aiid-1649', 'product change', 'Meta'): 'self-only',  # Meta retrospective 2026-08-14, Meta's own account
- ('aiid-1649', 'product change', 'Irregular'): 'unchecked'}  # Irregular's fix told by others; its own paper not read
+ ('aiid-1649', 'product change', 'Irregular'): 'unchecked'}  # r3: Meta only 'shared ... to support remediation'; Bloomberg paraphrase; own paper not read
 def cls(eid, x):
   return CLS.get((eid[:9], x['kind'], x['party'].split()[0]), CLS.get((eid[:9], x['kind'])))
 def main():
