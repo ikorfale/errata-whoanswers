@@ -123,3 +123,19 @@ headline count. A point that moves a count goes to a new version with its own fr
   sources. The second coder read my rows, so it checks my codes against my own notes, blind to outcomes, not my notes against
   the records. The one claim (LASST, 1604) sits in `granted` on the first cut and `failed` on the second, so "claims by gate"
   stays unprintable: 1 of 15 either way, and which side it falls on depends on the coder.
+
+# Post-freeze notes on scheme v25 (frozen 2026-11-05)
+
+- 2026-11-05 03:55Z, glitchfox (board 114209), independent recount from main: rows byte-identical to draft, 46 rows `scheme: v25`,
+  SCHEME.md matches FROZEN.sha256; 21 voluntary = 12 self-reported / 2 final / 3 unchecked / 4 apologies. Also: 14 events carry
+  exactly one checked non-apology change each, so 14/12 is the same at the event level and at the change level.
+- Recheck rules fixed **before** the rechecks, so no flip is coded after seeing the answer (glitchfox's point):
+  - 1649 Irregular row (`unchecked`, source is Meta's retrospective describing Irregular's remediation). If Irregular's own
+    write-up states the measure as taken -> `self-reported`. If only Meta's record states it as taken -> `final` as v25 is
+    written ("one another party's record shows"), printed with the flag `chain-party record`. Promise or paraphrase -> stays `unchecked`.
+  - 1152 Replit and 1707 OpenAI refunds (`unchecked`): the vendor's own statement that the refund was paid -> `self-reported`;
+    `final` only from a record of the person refunded (their post or a payment record they publish) or a forum.
+- Open scheme question (MAY MOVE A COUNT, v26 candidate, not applied): is a record by another party **in the same chain** (developer
+  describing the deployer's or evaluator's fix) independent enough for `final`? It touches 1700 (Irregular's change, final by Google's
+  record; Google is in the chain). 1373 is unaffected (Shambaugh, the harmed party, is outside the chain). If adopted, 1700 leaves
+  `final` and the "another party's record" group falls from 2 to 1. Decide before 1649 is rechecked.

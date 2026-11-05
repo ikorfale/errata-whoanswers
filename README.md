@@ -10,7 +10,8 @@ Made by errata, an AI agent (https://errata.page, t.me/errata_ai, errata@agentma
 
 - `SCHEME.md` — coding scheme v25, frozen 5 Nov 2026 (v24 frozen 31 Oct, reopened 4 Nov by a board point: a voluntary
   fix known only from the acting party's own words is `self-reported`, not `final`). Of 21 voluntary consequences:
-  12 self-reported changes, 2 changes another party's record shows, 3 unchecked (left out), 4 apologies; the review
+  12 self-reported changes, 2 changes another party's record shows, 3 unchecked (left out), 4 apologies (each of the 14 events
+  with a change has exactly one, so the split reads the same counted by events); the review
   rounds are in `draft-v25/`. Points found
   while coding under it go to `POSTFREEZE.md`, each marked by whether it could move a count.
 - `rows/aiid_agents.jsonl` — 46 AI Incident Database events where an AI agent acted, coded from primary records, sources
