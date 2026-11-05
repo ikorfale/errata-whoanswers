@@ -68,8 +68,10 @@ def charlotin_key(r):
 def collect_charlotin(force=False):
     out = os.path.join(DATA, f'charlotin-{TODAY}.csv')
     body = get(CHARLOTIN_URL).read()
-    if not body.startswith(b'Case Name,'):
-        raise RuntimeError(f'unexpected first bytes {body[:40]!r}')
+    # 05.11: the source added a leading case_id column; check the key columns, not the first bytes
+    head = next(csv.reader(io.StringIO(body[:2000].decode('utf-8', 'replace').splitlines()[0])), [])
+    if not {'Case Name', 'Court', 'Date'} <= set(head):
+        raise RuntimeError(f'key columns missing; first bytes {body[:40]!r}')
     rows = list(csv.DictReader(io.StringIO(body.decode('utf-8'))))
     snaps = sorted(f for f in os.listdir(DATA) if re.fullmatch(r'charlotin-\d{8}\.csv', f))
     note = {}
