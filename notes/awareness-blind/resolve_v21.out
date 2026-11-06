@@ -1,0 +1,18 @@
+rows 26 | in frozen rows/ 26 | rows commit 1f44877
+kind: {'upper-bound': 7, 'exact': 11, '-': 7, 'same-moment': 1}
+bin v2.1: {'unknown (bounded above)': 6, '0-3': 5, 'unknown': 8, '>3': 3, '4-30': 1, '>30': 3}
+  court            unknown  1
+  developer        >3       3
+  developer        >30      1
+  developer        unknown  2
+  operator         0-3      1
+  operator         unknown  1
+  own-observation  0-3      3
+  own-observation  4-30     1
+  own-observation  unknown  1
+  press            0-3      1
+  press            unknown  1
+  researcher       >30      2
+  unclear          unknown  8
+certain >30: ['1707', '1710', '1731']
+bounded above only: [('1299', 48), ('1470', 37), ('1563', None), ('1604', 12), ('1685', 251), ('1779', 157)]
