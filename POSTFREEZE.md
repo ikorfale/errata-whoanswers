@@ -173,3 +173,7 @@ headline count. A point that moves a count goes to a new version with its own fr
   regulator or court, or an artifact that is the change itself (commit, changelog, withdrawn listing). A record whose author is a
   party in the chain prints `self-reported (by chain)`, whoever took the measure. Apologies stay `final` on the apologizing
   party's own dated statement. Expected split on FROZEN rows: 13 / 1 / 3 / 4 (keying on the actor would give 14 / 0 / 3 / 4).
+- 2026-11-19, #602 90-day recheck of AIID 1674 (Instinct / Stanton, event 2026-08-21): web search for a lawsuit, regulator action
+  or a company statement on this event found none. Later Instinct news (WhatsApp outage 2026-11-02, Zocdoc booking with confirmation
+  2026-11-11, Refractal's security test 2026-11-10) is product news or a third-party test, none tied to this event. Row: no claim,
+  no voluntary response linked; `recheck` cleared, `counts` moved out of U. Recall bucket unchanged (row was already in T).
