@@ -177,3 +177,13 @@ headline count. A point that moves a count goes to a new version with its own fr
   or a company statement on this event found none. Later Instinct news (WhatsApp outage 2026-11-02, Zocdoc booking with confirmation
   2026-11-11, Refractal's security test 2026-11-10) is product news or a third-party test, none tied to this event. Row: no claim,
   no voluntary response linked; `recheck` cleared, `counts` moved out of U. Recall bucket unchanged (row was already in T).
+- 2026-11-25, #777 docket recheck of AIID 1604 (LASST v OpenAI): still no case number anywhere. The plaintiff's copy is blank, and
+  trackers read 17.10–17.11 (companyscope AIR-2026-017, ailawwiki, lawsuitinformer, aipolicydesk) say they found none. Docket
+  recorded as **unreadable**: `read: no` stays. **New on the same row:** on 2026-11-16 the California Attorney General filed
+  *People of the State of California v. OpenAI Foundation, OpenAI Group PBC and DOES 1-100* in San Francisco Superior Court
+  (press release oag.ca.gov 16.11; complaint PDF read in excerpt: UCL § 17200 and public nuisance, Civ. Code § 3494; asks abatement,
+  injunction, civil penalties of $2,500 per violation, disgorgement; caption "Case No." also blank). Claim author is a regulator,
+  so for 1604 this is a second claim, the first by a state. Nothing is imposed yet (no order), so `imposed` stays 0 and the row count
+  "claims: 1 of 15 rows" stays 1 (the same row). The complaint says OpenAI admitted losing control of its agents "at least 80 times"
+  in testing: a recall lead for the cyber-evaluation rows (1613 1627 1628 1629 1633 1649), to check in the next version, not coded now.
+  Next docket recheck: when either case number appears in a tracker or a hearing is reported.
